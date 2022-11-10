@@ -1,0 +1,10 @@
+{
+      ////////////////////////////////////////////////////// Mega Menu
+  "mega-menu#home__menu": {
+    "title": "Home Mega Menu",
+    "props": {
+      "blockClass": "home__menu",
+      "openOnly": "horizontal"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  ////////////////////////////////////////////////////// Minicart
+  "minicart.v2#header__desktop": {
+    "title": "Header Minicart",
+    "children": ["minicart-base-content"],
+    "props": {
+      "blockClass": "header__desktop",
+      "MinicartIcon": "icon-cart",
+      "variation": "link",
+      "linkVariationUrl": "/cart"
+    }
+  },
+  "icon-cart": {
+    "title": "Icon Cart",
+    "props": {
+      "id": "hpa-cart",
+      "size": 20
+    }
+  }
+}

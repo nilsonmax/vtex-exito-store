@@ -1,0 +1,14 @@
+{
+  ////////////////////////////////////////////////////// Login
+  "login": {
+    "title": "Header Login",
+    "props": {
+      "showPasswordVerificationIntoTooltip": true,
+      "passwordPlaceholder": "Contraseña",
+      "emailAndPasswordTitle": "Log in",
+      "optionsTitle": "Accede con",
+      "emailPlaceholder": "Email",
+      "showIconProfile": true
+    }
+  }
+}

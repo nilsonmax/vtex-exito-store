@@ -1,0 +1,20 @@
+{
+  /////////////////////////////////////////////////////////////// Home Top
+ "flex-layout.row#home__top": {
+    "title": "Home Top gif",
+    "props": {
+      "marginBottom": 3,
+      "marginTop": 5
+    },
+    "children": ["image#home__top--gif"]
+  },
+  "image#home__top--gif": {
+    "props": {
+      "blockClass": "home__top--gif",
+      "src": "assets/img/image-section-one-top.gif",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}

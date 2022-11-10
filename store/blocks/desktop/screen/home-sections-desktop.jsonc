@@ -11,16 +11,9 @@
       "blockClass": "home__sections"
     }
   },
-  /////////////////////////////////////////////////////////////// Home Top
-  "flex-layout.row#home__top": {
-    "props": {
-      "marginBottom": 3,
-      "marginTop": 5
-    },
-    "children": ["image#home__top--gif"]
-  },
   /////////////////////////////////////////////////////////////// Home Section One
   "flex-layout.row#home__section--one": {
+    "title": "Home Section One Slider y una Imagen",
     "children": [
       "flex-layout.col#section__one--col-one",
       "flex-layout.col#section__one--col-two"
@@ -32,6 +25,7 @@
   },
   /////////////////////////////////////////////////////////////// Home Section One Col One
   "flex-layout.col#section__one--col-one": {
+    "title": "Home Section col one Slider",
     "children": ["slider-layout#home__slider--children"],
     "props": {
       "horizontalAlign": "center",
@@ -42,6 +36,7 @@
   },
   /////////////////////////////////////////////////////////////// Home Section One Col Two
   "flex-layout.col#section__one--col-two": {
+    "title": "Home Section col two image",
     "children": ["image#col__two--image"],
     "props": {
       "horizontalAlign": "center",

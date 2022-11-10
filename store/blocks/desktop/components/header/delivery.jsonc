@@ -1,0 +1,39 @@
+{
+  ////////////////////////////////////////////////////// delivery
+  "flex-layout.row#header__desktop": {
+    "title": "Header container delivery addres",
+    "children": [
+      "image#link__stores",
+      "rich-text#receive__order",
+      "icon#nav-caret--right"
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  },
+  "image#link__stores": {
+    "title": "Icon Location",
+    "props": {
+      "blockClass": "header__desktop",
+      "src": "assets/icons/iconobuscar.png",
+      "maxHeight": 28,
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#receive__order": {
+    "title": "Text ¿Cómo quieres recibir tu pedido?",
+    "props": {
+      "blockClass": "receive__order",
+      "text": "¿Cómo quieres recibir tu pedido?"
+    }
+  },
+  "icon#nav-caret--right": {
+    "title": "Icon Caret right",
+    "props": {
+      "id": "nav-caret--right",
+      "size": 9
+    }
+  }
+}

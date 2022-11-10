@@ -1,0 +1,12 @@
+{
+  ////////////////////////////////////////////////////// Logo
+  "logo#header__desktop": {
+    "title": "Header Logo",
+    "props": {
+      "blockClass": "header__desktop",
+      "url": "assets/img/logo-exito.svg",
+      "width": 80,
+      "href": "/"
+    }
+  }
+}

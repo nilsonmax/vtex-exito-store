@@ -1,0 +1,10 @@
+{
+  ////////////////////////////////////////////////////// Searchbar
+  "search-bar#header__desktop": {
+    "title": "Header Searchbar",
+    "props": {
+      "blockClass": "header__desktop",
+      "placeholder": "Buscar en exito.com"
+    }
+  }
+}
