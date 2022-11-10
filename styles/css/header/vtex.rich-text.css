@@ -1,0 +1,16 @@
+.paragraph--receive__order {
+    margin: 0 5px;
+    color: rgba(0, 0, 0);
+    font-size: 14px;
+    padding-left: 3px;
+    font-weight: 500;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: -.2px;
+    font-family: Poppins, Helvetica, sans-serif !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0);
+}

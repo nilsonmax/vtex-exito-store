@@ -1,0 +1,26 @@
+.openIconContainer--header__desktop--minicart {
+    padding: 0;
+    height: 36px;
+}
+
+.minicartWrapperContainer--header__desktop {
+    margin-left: 25px;
+    height: 36px;
+    width: 36px;
+}
+
+.minicartWrapperContainer--header__desktop :global(.vtex-button) {
+    width: 36px;
+    height: 36px;
+    border: 0;
+}
+
+.minicartWrapperContainer--header__desktop :global(.vtex-button):hover {
+    background: var(--white-color);
+    width: 36px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease;
+}

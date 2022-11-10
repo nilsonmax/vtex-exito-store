@@ -1,0 +1,125 @@
+{
+  "header-layout.desktop": {
+    "title": "Header",
+    "children": ["notification.bar", "header-row#header__desktop"]
+  },
+  "header-row#header__desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "mega-menu#home__menu",
+      "mega-menu-trigger-btn",
+      "logo#header__desktop",
+      "flex-layout.row#header__desktop",
+      "search-bar#header__desktop",
+      "header-spacer",
+      "login",
+      "minicart.v2#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__desktop",
+      "sticky": true
+    }
+  },
+
+  ////////////////////////////////////////////////////// Mega Menu
+  "mega-menu#home__menu": {
+    "title": "Home Mega Menu",
+    "props": {
+      "blockClass": "home__menu",
+      "openOnly": "horizontal"
+    }
+  },
+  ////////////////////////////////////////////////////// Logo
+  "logo#header__desktop": {
+    "title": "Header Logo",
+    "props": {
+      "blockClass": "header__desktop",
+      "url": "assets/img/logo-exito.svg",
+      "width": 80,
+      "href": "/"
+    }
+  },
+  ////////////////////////////////////////////////////// Texto Domicilio
+  "flex-layout.row#header__desktop": {
+    "title": "Header container delivery addres",
+    "children": [
+      // "image#link__stores",
+      "icon#location",
+      "rich-text#receive__order",
+      "icon#nav-caret--right"
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  },
+  // "image#link__stores": {
+  //   "title": "Icon Location",
+  //   "props": {
+  //     "blockClass": "header__desktop",
+  //     "src": "assets/icons/iconobuscar.png",
+  //     "maxHeight": 28,
+  //     "link": {
+  //       "url": "/"
+  //     }
+  //   }
+  // },
+  "icon#location": {
+    "title": "Icon Location",
+    "props": {
+      "id": "hpa-location-marker",
+      "size": 12
+    }
+  },
+  "rich-text#receive__order": {
+    "title": "Text ¿Cómo quieres recibir tu pedido?",
+    "props": {
+      "blockClass": "receive__order",
+      "text": "¿Cómo quieres recibir tu pedido?"
+    }
+  },
+  "icon#nav-caret--right": {
+    "title": "Icon Caret right",
+    "props": {
+      "id": "nav-caret--right",
+      "size": 9
+    }
+  },
+  ////////////////////////////////////////////////////// Searchbar
+  "search-bar#header__desktop": {
+    "title": "Header Searchbar",
+    "props": {
+      "blockClass": "header__desktop",
+      "placeholder": "Buscar en exito.com"
+    }
+  },
+  ////////////////////////////////////////////////////// Login
+  "login": {
+    "title": "Header Login",
+    "props": {
+      "showPasswordVerificationIntoTooltip": true,
+      "passwordPlaceholder": "Contraseña",
+      "emailAndPasswordTitle": "Log in",
+      "optionsTitle": "Accede con",
+      "emailPlaceholder": "Email",
+      "showIconProfile": true
+    }
+  },
+  ////////////////////////////////////////////////////// Minicart
+  "minicart.v2#header__desktop": {
+    "title": "Header Minicart",
+    "children": ["minicart-base-content"],
+    "props": {
+      "blockClass": "header__desktop",
+      "MinicartIcon": "icon-cart",
+      "variation": "link",
+      "linkVariationUrl": "/cart"
+    }
+  },
+  "icon-cart": {
+    "title": "Icon Cart",
+    "props": {
+      "id": "hpa-cart",
+      "size": 20
+    }
+  }
+}

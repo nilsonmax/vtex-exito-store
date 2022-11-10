@@ -1,0 +1,9 @@
+{
+ ////////////////////////////////////////////////////// Notificacion
+"notification.bar": {
+  "props": {
+    "content": "🎁 ¡No hay navidad como la nuestra! 🔔",
+    "blockClass": "notification"
+  }
+}
+}

@@ -1,0 +1,16 @@
+{
+  "responsive-layout.desktop#home__info--desktop":{
+    "title": "Component desktop",
+    "children":[
+      "flex-layout.row#home__sections#desktop"
+    ],
+    "props":{
+      "blockClass": "home__responsive"
+    }
+  },
+  "rich-text#home__info--desktop":{
+    "props":{
+      "text": "# Resolucion de Escritorio"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "flex-layout.row#home__sections#desktop": {
+    "children": ["flex-layout.col#home__sections#desktop"]
+  },
+  "flex-layout.col#home__sections#desktop": {
+    "children": [
+      "flex-layout.row#home__top",
+      "flex-layout.row#home__section--one"
+    ],
+    "props": {
+      "blockClass": "home__sections"
+    }
+  },
+  /////////////////////////////////////////////////////////////// Home Top
+  "flex-layout.row#home__top": {
+    "props": {
+      "marginBottom": 3,
+      "marginTop": 5
+    },
+    "children": ["image#home__top--gif"]
+  },
+  /////////////////////////////////////////////////////////////// Home Section One
+  "flex-layout.row#home__section--one": {
+    "children": [
+      "flex-layout.col#section__one--col-one",
+      "flex-layout.col#section__one--col-two"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__section--one"
+    }
+  },
+  /////////////////////////////////////////////////////////////// Home Section One Col One
+  "flex-layout.col#section__one--col-one": {
+    "children": ["slider-layout#home__slider--children"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "section__one--col-one",
+      "width": "70%",
+      "marginRight": 2
+    }
+  },
+  /////////////////////////////////////////////////////////////// Home Section One Col Two
+  "flex-layout.col#section__one--col-two": {
+    "children": ["image#col__two--image"],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%",
+      "marginLeft": 2
+    }
+  },
+  "image#col__two--image": {
+    "props": {
+      "src": "assets/img/image-section-one.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}
