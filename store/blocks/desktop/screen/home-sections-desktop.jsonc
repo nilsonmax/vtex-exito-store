@@ -5,51 +5,12 @@
   "flex-layout.col#home__sections#desktop": {
     "children": [
       "flex-layout.row#home__top",
-      "flex-layout.row#home__section--one"
+      "flex-layout.row#home__section--one-desktop",
+      "flex-layout.col#seccion__conoce--col-one-desktop",
+      "list-context.image-list#home__seccion--moda-y-accesorios-desktop"
     ],
     "props": {
       "blockClass": "home__sections"
-    }
-  },
-  /////////////////////////////////////////////////////////////// Home Section One
-  "flex-layout.row#home__section--one": {
-    "title": "Home Section One Slider y una Imagen",
-    "children": [
-      "flex-layout.col#section__one--col-one",
-      "flex-layout.col#section__one--col-two"
-    ],
-    "props": {
-      "fullWidth": true,
-      "blockClass": "home__section--one"
-    }
-  },
-  /////////////////////////////////////////////////////////////// Home Section One Col One
-  "flex-layout.col#section__one--col-one": {
-    "title": "Home Section col one Slider",
-    "children": ["slider-layout#home__slider--children"],
-    "props": {
-      "horizontalAlign": "center",
-      "blockClass": "section__one--col-one",
-      "width": "70%",
-      "marginRight": 2
-    }
-  },
-  /////////////////////////////////////////////////////////////// Home Section One Col Two
-  "flex-layout.col#section__one--col-two": {
-    "title": "Home Section col two image",
-    "children": ["image#col__two--image"],
-    "props": {
-      "horizontalAlign": "center",
-      "width": "30%",
-      "marginLeft": 2
-    }
-  },
-  "image#col__two--image": {
-    "props": {
-      "src": "assets/img/image-section-one.webp",
-      "link": {
-        "url": "/construccion"
-      }
     }
   }
 }

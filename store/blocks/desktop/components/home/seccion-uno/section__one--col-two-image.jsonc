@@ -1,0 +1,20 @@
+{
+  /////////////////////////////////////////////////////////////// Home Section One Col Two
+  "flex-layout.col#section__one--col-two-desktop": {
+    "title": "Home Section col two image",
+    "children": ["image#col__two--image"],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%",
+      "marginLeft": 2
+    }
+  },
+  "image#col__two--image": {
+    "props": {
+      "src": "assets/img/image-section-one.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}

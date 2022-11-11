@@ -1,0 +1,49 @@
+{
+  //////////////////////////////////////////////////////////// Conoce
+  "flex-layout.col#seccion__conoce--col-one-desktop": {
+    "title": "Home Seccion col conoce imagenes",
+    "children": [
+      "image#col__conoce__uno--image",
+      "image#col__conoce__dos--image",
+      "image#col__conoce__tres--image",
+      "image#col__conoce__cuatro--image"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%",
+      "marginLeft": 2
+    }
+  },
+  "image#col__conoce__uno--image": {
+    "props": {
+      "src": "assets/img/home-seccion-conoce-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  },
+  "image#col__conoce__dos--image": {
+    "props": {
+      "src": "assets/img/home-seccion-conoce-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  },
+  "image#col__conoce__tres--image": {
+    "props": {
+      "src": "assets/img/home-seccion-conoce-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  },
+  "image#col__conoce__cuatro--image": {
+    "props": {
+      "src": "assets/img/home-seccion-conoce-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}

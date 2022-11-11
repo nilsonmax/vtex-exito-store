@@ -1,5 +1,16 @@
 {
-  "slider-layout#home__slider--children": {
+ /////////////////////////////////////////////////////////////// Home Section One Col One
+ "flex-layout.col#section__one--col-one-desktop": {
+    "title": "Home Section col one Slider",
+    "children": ["slider-layout#home__slider--children-desktop"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "section__one--col-one",
+      "width": "70%",
+      "marginRight": 2
+    }
+  },
+  "slider-layout#home__slider--children-desktop": {
     "title": "Slider con hijos declarados",
     "children": [
       "image#home__slider--one",

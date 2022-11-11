@@ -1,0 +1,107 @@
+{
+  ////////////////////////////////////////////////////////// moda-y-accesorios
+  "list-context.image-list#home__seccion--moda-y-accesorios-desktop": {
+    "title": "moda-y-accesorios",
+    "children": ["slider-layout#home__seccion--moda-y-accesorios-desktop-list"],
+    "props": {
+      "preload": true,
+      "height": 250,
+      "images": [
+        {
+          "image": "assets/img/tennis.svg",
+          "description": "Slide 1",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/clugano.svg",
+          "description": "Slide 2",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/leonisa.svg",
+          "description": "Slide 3",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/nike.svg",
+          "description": "Slide 4",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/arkitect.svg",
+          "description": "Slide 5",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/atypical.svg",
+          "description": "Slide 6",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/leo.svg",
+          "description": "Slide 7",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/levis.svg",
+          "description": "Slide 7",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/toto.svg",
+          "description": "Slide 7",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/velez.svg",
+          "description": "Slide 7",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/mp.svg",
+          "description": "Slide 7",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home__seccion--moda-y-accesorios-desktop-list": {
+    "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": false,
+        "showPaginationDots": "always",
+        "fullWidth": false,
+        "navigationStep":"itemsPerPage",
+        "stopOnHover":true
+            // "showNavigationArrows": false
+      }
+
+  }
+}
