@@ -1,17 +1,20 @@
 {
-  "flex-layout.row#home__sections#desktop": {
-    "children": ["flex-layout.col#home__sections#desktop"]
+  "flex-layout.row#home__sections#mobile": {
+    "children": ["flex-layout.col#home__sections#mobile"]
   },
-  "flex-layout.col#home__sections#desktop": {
+  "flex-layout.col#home__sections#mobile": {
     "children": [
       "flex-layout.row#home__top",
       "flex-layout.row#home__section--one-desktop",
       "flex-layout.row#seccion__conoce--col-one-desktop",
-      "flex-layout.row#seccion__anuncios--desktop",
       "list-context.image-list#home__seccion--moda-y-accesorios-desktop"
     ],
     "props": {
       "blockClass": "home__sections"
     }
+  },
+  "flex-layout.row#home__section--one-mobile":{
+    "title": "Home mobile section",
+    "children": ["rich-text#home__info--mobile"]
   }
 }

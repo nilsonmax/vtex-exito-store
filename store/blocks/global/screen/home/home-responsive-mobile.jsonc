@@ -1,0 +1,16 @@
+{
+  "responsive-layout.phone#home__info--mobile":{
+    "title": "Component mobile",
+    "children":[
+      "flex-layout.row#home__sections#mobile"
+    ],
+    "props":{
+      "blockClass": "home__responsive"
+    }
+  },
+  "rich-text#home__info--mobile":{
+    "props":{
+      "text": "# Resolucion de Mobile"
+    }
+  }
+}

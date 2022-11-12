@@ -1,7 +1,15 @@
 .flexRowContent--home__section--one,
+.flexRowContent--home__section--images,
 .flexRowContent--home__categories {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.flexRowContent--home__section--anuncio-images{
+  margin: 0 auto;
+  max-width: 1280px;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 
 .flexCol--section__one-image {
