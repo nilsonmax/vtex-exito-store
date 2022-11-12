@@ -95,10 +95,10 @@
           "tablet": 2,
           "phone": 1
         },
-        "infinite": false,
-        "showPaginationDots": "always",
+        "infinite": true,
+        // "showPaginationDots": "always",
         "fullWidth": false,
-        "navigationStep":"itemsPerPage",
+        "navigationStep":1,
         "stopOnHover":true
             // "showNavigationArrows": false
       }

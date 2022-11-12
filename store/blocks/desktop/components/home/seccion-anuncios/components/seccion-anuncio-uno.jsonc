@@ -1,0 +1,21 @@
+{
+  //////////////////////////////////////////////////////////// Seccion Anuncios
+  "flex-layout.row#seccion__anuncios--row-uno-desktop": {
+    "title": "Home Seccion col anuncio uno",
+    "children": [
+      "image#row__anuncios__uno--row-one-image"
+     ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "marginLeft": 2
+    }
+  },
+  "image#row__anuncios__uno--row-one-image": {
+    "props": {
+      "src": "assets/img/seccion-anuncio-uno.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}

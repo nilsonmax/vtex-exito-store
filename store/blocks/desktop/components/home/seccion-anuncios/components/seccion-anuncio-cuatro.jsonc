@@ -1,0 +1,58 @@
+{
+    "flex-layout.row#seccion__anuncios--row-cuatro-desktop": {
+      "title": "Home Seccion col anuncios imagenes",
+      "children": [
+        "flex-layout.row#seccion__anuncios--row-cuatro-desktop-uno",
+        "flex-layout.row#seccion__anuncios--row-cuatro-desktop-dos"
+      ],
+      "props": {
+        "blockClass": "home__section--anuncio-images",
+        "horizontalAlign": "center"
+      }
+    },
+    "flex-layout.row#seccion__anuncios--row-cuatro-desktop-uno": {
+        "title": "Home Seccion col anuncios imagenes",
+        "children": [
+          "image#row__anuncios__tres--uno-row-cuatro-image",
+          "image#row__anuncios__tres--dos-row-cuatro-image"
+        ],
+        "props": {
+          "blockClass": "home__section--anuncio-images",
+          "width":"grow"
+        }
+      },
+    "image#row__anuncios__tres--uno-row-cuatro-image": {
+      "props": {
+        "src": "assets/img/seccion-anuncio-cuatro-1.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    },
+    "image#row__anuncios__tres--dos-row-cuatro-image": {
+        "props": {
+            "src": "assets/img/seccion-anuncio-cuatro-2.webp",
+            "link": {
+                "url": "/construccion"
+            }
+        }
+    },
+    "flex-layout.row#seccion__anuncios--row-cuatro-desktop-dos": {
+        "title": "Home Seccion col anuncios imagenes",
+        "children": [
+          "image#row__anuncios__tres--tres-row-cuatro-image"
+        ],
+        "props": {
+          "blockClass": "home__section--anuncio-images",
+          "width": "grow"
+        }
+      },
+    "image#row__anuncios__tres--tres-row-cuatro-image": {
+      "props": {
+        "src": "assets/img/seccion-anuncio-cuatro-3.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    }
+  }

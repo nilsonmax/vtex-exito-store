@@ -1,33 +1,13 @@
- /* .imageElementLink--home__top--gif{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-} */
  .imageElementLink{
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-/* .imageElementLink--header__desktop { */
-    /* position: absolute; */
-     /* margin: 0 auto;
-    display: flex;
-    justify-content: center; */
-    /* padding: 0; */
-/* } */
-
 .imageElement--home__top--gif {
     border-radius: 10px;
     margin-bottom: 10px;
  }
-
- /* .imageElement--header__desktop {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    padding: 0;
- } */
 
 .logoContainer{
     top:0;
