@@ -9,6 +9,28 @@
     margin-bottom: 10px;
  }
 
+.imageElementLink--home__tecnologia--image {
+    max-width: 1280px;
+    margin: 0;
+    padding: 0;
+ }
+
+.imageElement--home__tecnologia--image-1 {
+    width: 728px;
+ }
+
+.imageElement--home__tecnologia--image-2 {
+    width: 350px;
+ }
+
+.imageElement--home__tecnologia--image-2-1 {
+    width: 303px;
+  }
+
+.imageElement--home__tecnologia--image-2-2 {
+    width: 631px;
+ }
+
 .logoContainer{
     top:0;
     width: 10px;

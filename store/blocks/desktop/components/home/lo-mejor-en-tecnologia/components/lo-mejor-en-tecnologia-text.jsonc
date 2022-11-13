@@ -1,8 +1,30 @@
 {
-    "rich-text#lo-mejor-en-tecnologia--text":{
-        "title": " Text lo mejor en tecnologia",
-        "props": {
-            "text": "lo mejor en tecnologia"
-        }
+  "flex-layout.col#lo-mejor-en-tecnologia--text__uno": {
+    "title": " Text lo mejor en tecnologia",
+    "children": ["rich-text#lo-mejor-en-tecnologia--text__uno"],
+    "props": {
+        "blockClass": "home__section--lo-mejor-en-tecnologia--text"
+      }
+  },
+  "rich-text#lo-mejor-en-tecnologia--text__uno": {
+    "title": " Text lo mejor en tecnologia",
+    "props": {
+      "blockClass": "home__section--lo-mejor-en-tecnologia--text",
+      "text": "Lo mejor en tecnologia"
     }
+  },
+  "flex-layout.col#lo-mejor-en-tecnologia--text__dos": {
+    "title": " Link VER TODO",
+    "children": ["link#lo-mejor-en-tecnologia--text__dos"],
+    "props": {
+        "blockClass": "home__section--lo-mejor-en-tecnologia--text__ver-todo"
+      }
+  },
+  "link#lo-mejor-en-tecnologia--text__dos": {
+    "props": {
+      "href": "/construccion",
+      "label": "¡VER TODO!",
+      "blockClass": "home__section--lo-mejor-en-tecnologia--text__ver-todo"
+    }
+  }
 }

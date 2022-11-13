@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#seccion__lo-mejor-en-tecnologia-uno--row-desktop": {
+      "title": "Home Seccion col lo-mejor-en-tecnologia-uno imagenes",
+      "children": [
+        "flex-layout.row#seccion__lo-mejor-en-tecnologia-uno--row-desktop-uno",
+        "flex-layout.row#seccion__lo-mejor-en-tecnologia-uno--row-desktop-dos"
+      ],
+      "props": {
+        "blockClass": "home__section--tecnologia-images",
+        "horizontalAlign": "center"
+      }
+    },
+    "flex-layout.row#seccion__lo-mejor-en-tecnologia-uno--row-desktop-uno": {
+        "title": "Home Seccion col lo-mejor-en-tecnologia-uno imagenes",
+        "children": [
+          "image#row__lo-mejor-en-tecnologia-uno__tres--uno-row-image"
+        ],
+        "props": {
+          "blockClass": "home__section--tecnologia-images",
+          "width":"grow"
+        }
+      },
+    "image#row__lo-mejor-en-tecnologia-uno__tres--uno-row-image": {
+      "props": {
+        "blockClass":"home__tecnologia--image-1",
+        "src": "assets/img/seccion-tecnologia-uno-1.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    },
+    "flex-layout.row#seccion__lo-mejor-en-tecnologia-uno--row-desktop-dos": {
+        "title": "Home Seccion col lo-mejor-en-tecnologia-uno imagenes",
+        "children": [
+          "image#row__lo-mejor-en-tecnologia-uno__tres--dos-row-image",
+          "image#row__lo-mejor-en-tecnologia-uno__tres--tres-row-image"
+        ],
+        "props": {
+          "blockClass": "home__section--tecnologia-images",
+          "width": "grow"
+        }
+      },
+    "image#row__lo-mejor-en-tecnologia-uno__tres--dos-row-image": {
+      "props": {
+        "blockClass":"home__tecnologia--image-2",
+        "src": "assets/img/seccion-tecnologia-uno-2.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    },
+    "image#row__lo-mejor-en-tecnologia-uno__tres--tres-row-image": {
+      "props": {
+        "blockClass":"home__tecnologia--image-2",
+        "src": "assets/img/seccion-tecnologia-uno-3.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    }
+  }
