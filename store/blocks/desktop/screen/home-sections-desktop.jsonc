@@ -1,11 +1,17 @@
 {
   "flex-layout.row#home__sections#desktop": {
-    "children": ["flex-layout.col#home__sections#desktop"]
+    "children": ["flex-layout.col#home__sections-menu#desktop"]
+  },
+  "flex-layout.col#home__sections-menu#desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#home__sections#desktop"
+    ]
   },
   "flex-layout.col#home__sections#desktop": {
     "children": [
       // "tab-layout#home",
-      "vtex.menu@2.x:menu#websites",
+      // "vtex.menu@2.x:menu#websites",
       "flex-layout.row#home__top",
       "flex-layout.row#home__section--one-desktop",
       "flex-layout.row#seccion__conoce--col-one-desktop",
@@ -18,20 +24,20 @@
     }
   },
   "vtex.menu@2.x:menu#websites": {
-    "children": [
-      "menu-item#inicio",
-      "menu-item#mercado",
-      "menu-item#moda"
-    ]
+    "children": ["menu-item#inicio", "menu-item#mercado", "menu-item#moda"],
+    "props": {
+      "blockClass": "menu-tabs"
+    }
   },
   "menu-item#inicio": {
     "props": {
       "id": "menu-item-inicio",
       "type": "custom",
       "highlight": false,
+      "onMountBehavior": "open",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "https://nilsonmax--itgloberspartnercl.myvtex.com",
         "noFollow": false,
         "tagTitle": "Inicio",
         "text": "Inicio"
@@ -51,9 +57,10 @@
       "id": "menu-item-mercado",
       "type": "custom",
       "highlight": false,
+      "onMountBehavior": "closed",
       "itemProps": {
         "type": "internal",
-        "href": "/construccion",
+        "href": "/construccion-mercado",
         "noFollow": false,
         "tagTitle": "mercado",
         "text": "Mercado"
@@ -73,9 +80,10 @@
       "id": "menu-item-moda",
       "type": "custom",
       "highlight": false,
+      "onMountBehavior": "closed",
       "itemProps": {
         "type": "internal",
-        "href": "/construccion",
+        "href": "/construccion-moda",
         "noFollow": false,
         "tagTitle": "moda",
         "text": "Moda"
