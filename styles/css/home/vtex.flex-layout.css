@@ -1,5 +1,7 @@
 .flexRowContent--home__section--one,
+.flexRowContent--home__section,
 .flexRowContent--home__section--images,
+.flexRowContent--flexRowContent--home__section--tecnologia,
 .flexRowContent--home__categories {
   max-width: 1280px;
   margin: 0 auto;
@@ -12,7 +14,20 @@
   margin-bottom: 10px;
 }
 
+.flexRowContent--home__section--tecnologia-images{
+  margin: 0 auto;
+  max-width: 1280px;
+  /* margin-top:10px; */
+  margin-bottom: 10px;
+}
+
 .flexCol--section__one-image {
   margin: 0;
   margin-left: 2px;
+}
+
+.flexColChild--home__section--lo-mejor-en-tecnologia--text__ver-todo {
+  display:flex;
+  justify-content:end;
+  align-items: center;
 }
