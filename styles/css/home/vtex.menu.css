@@ -1,6 +1,6 @@
 .styledLink {
   color: #fff;
-  font-family: Poppins,Helvetica,sans-serif!important;
+  font-family: Poppins, Helvetica, sans-serif !important;
   font-size: 12px;
   text-decoration: none;
   /* margin: 15px; */
@@ -8,29 +8,30 @@
 }
 
 .styledLinkContainer,
-.styledLinkContent{
-    display: flex;
-    align-items: center;
-    width: 144px;
-    /* margin-top: 5px; */
-    justify-content: center;
-    /* flex-direction: column; */
-     height: 42px;
-
-
+.styledLinkContent {
+  display: flex;
+  align-items: center;
+  width: 144px;
+  /* margin-top: 5px; */
+  justify-content: center;
+  /* flex-direction: column; */
+  height: 42px;
 }
-.menuContainer{
-    /* display: flex; */
-    width: 144px;
-    margin-top: 5px;
-margin-left: 0;
-    /* justify-content: end; */
-    /* flex-direction: column; */
-     height: 42px;
+.menuContainer {
+  /* display: flex; */
+  width: 144px;
+  margin-top: 5px;
+  margin-left: 0;
+  /* justify-content: end; */
+  /* flex-direction: column; */
+  height: 42px;
 }
-.menuContainerNav{
-margin-left: 0;
- /* height: 42px; */
+.menuContainerNav--menu-tabs {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  /* margin-bottom: 50px; */
+  /* height: 42px; */
 }
 
 .menuItem--isOpen {
