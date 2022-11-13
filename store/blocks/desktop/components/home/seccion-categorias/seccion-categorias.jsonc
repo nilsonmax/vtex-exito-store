@@ -1,0 +1,359 @@
+{
+    "flex-layout.row#home__categories": {
+        "props": {
+          "blockClass": "home__categories"
+        },
+        "children": [
+          "flex-layout.col#categories__container"
+        ]
+      },
+      "flex-layout.col#categories__container": {
+        "children": [
+          "rich-text#categories__container--title",
+          "flex-layout.row#categories__container"
+        ]
+      },
+      "rich-text#categories__container--title": {
+        "props": {
+          "text": "#### Compra por categorías",
+          "blockClass": "categories__container--title"
+        }
+      },
+      "flex-layout.row#categories__container": {
+        "children": [
+          "flex-layout.col#categories__container--list"
+        ]
+      },
+      "flex-layout.col#categories__container--list": {
+        "children": [
+          "flex-layout.row#container__list--one",
+          "flex-layout.row#container__list--two"
+        ]
+      },
+      "flex-layout.row#container__list--one": {
+        "props": {
+          "blockClass": "container__list--one"
+        },
+        "children": [
+          "flex-layout.col#list__one--item-1",
+          "flex-layout.col#list__one--item-2",
+          "flex-layout.col#list__one--item-3",
+          "flex-layout.col#list__one--item-4",
+          "flex-layout.col#list__one--item-5",
+          "flex-layout.col#list__one--item-6"
+        ]
+      },
+      "flex-layout.col#list__one--item-1": {
+        "props": {
+          "blockClass": "list__one--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__1--image",
+          "rich-text#item__1--title"
+        ]
+      },
+      "image#item__1--image": {
+        "props": {
+          "src": "assets/img/category-item-1.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__1--title": {
+        "props": {
+          "text": "Mercaweek"
+        }
+      },
+      "flex-layout.col#list__one--item-2": {
+        "props": {
+          "blockClass": "list__one--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__2--image",
+          "rich-text#item__2--title"
+        ]
+      },
+      "image#item__2--image": {
+        "props": {
+          "src": "assets/img/category-item-2.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__2--title": {
+        "props": {
+          "text": "Mercado"
+        }
+      },
+      "flex-layout.col#list__one--item-3": {
+        "props": {
+          "blockClass": "list__one--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__3--image",
+          "rich-text#item__3--title"
+        ]
+      },
+      "image#item__3--image": {
+        "props": {
+          "src": "assets/img/category-item-3.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__3--title": {
+        "props": {
+          "text": "Moda"
+        }
+      },
+      "flex-layout.col#list__one--item-4": {
+        "props": {
+          "blockClass": "list__one--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__4--image",
+          "rich-text#item__4--title"
+        ]
+      },
+      "image#item__4--image": {
+        "props": {
+          "src": "assets/img/category-item-4.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__4--title": {
+        "props": {
+          "text": "Celulares"
+        }
+      },
+      "flex-layout.col#list__one--item-5": {
+        "props": {
+          "blockClass": "list__one--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__5--image",
+          "rich-text#item__5--title"
+        ]
+      },
+      "image#item__5--image": {
+        "props": {
+          "src": "assets/img/category-item-5.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__5--title": {
+        "props": {
+          "text": "Televisores"
+        }
+      },
+      "flex-layout.col#list__one--item-6": {
+        "props": {
+          "blockClass": "list__one--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__6--image",
+          "rich-text#item__6--title"
+        ]
+      },
+      "image#item__6--image": {
+        "props": {
+          "src": "assets/img/category-item-6.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__6--title": {
+        "props": {
+          "text": "Computadores"
+        }
+      },
+      "flex-layout.row#container__list--two": {
+        "props": {
+          "blockClass": "container__list--two"
+        },
+        "children": [
+          "flex-layout.col#list__two--item-7",
+          "flex-layout.col#list__two--item-8",
+          "flex-layout.col#list__two--item-9",
+          "flex-layout.col#list__two--item-10",
+          "flex-layout.col#list__two--item-11",
+          "flex-layout.col#list__two--item-12"
+        ]
+      },
+      "flex-layout.col#list__two--item-7": {
+        "props": {
+          "blockClass": "list__two--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-7"
+        },
+        "children": [
+          "image#item__7--image",
+          "rich-text#item__7--title"
+        ]
+      },
+      "image#item__7--image": {
+        "props": {
+          "src": "assets/img/category-item-7.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__7--title": {
+        "props": {
+          "text": "Colchones"
+        }
+      },
+      "flex-layout.col#list__two--item-8": {
+        "props": {
+          "blockClass": "list__two--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__8--image",
+          "rich-text#item__8--title"
+        ]
+      },
+      "image#item__8--image": {
+        "props": {
+          "src": "assets/img/category-item-8.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__8--title": {
+        "props": {
+          "text": "Electrodomésticos"
+        }
+      },
+      "flex-layout.col#list__two--item-9": {
+        "props": {
+          "blockClass": "list__two--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__9--image",
+          "rich-text#item__9--title"
+        ]
+      },
+      "image#item__9--image": {
+        "props": {
+          "src": "assets/img/category-item-9.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__9--title": {
+        "props": {
+          "text": "Mundo cocina"
+        }
+      },
+      "flex-layout.col#list__two--item-10": {
+        "props": {
+          "blockClass": "list__two--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__10--image",
+          "rich-text#item__10--title"
+        ]
+      },
+      "image#item__10--image": {
+        "props": {
+          "src": "assets/img/category-item-10.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__10--title": {
+        "props": {
+          "text": "Deportes"
+        }
+      },
+      "flex-layout.col#list__two--item-11": {
+        "props": {
+          "blockClass": "list__two--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__11--image",
+          "rich-text#item__11--title"
+        ]
+      },
+      "image#item__11--image": {
+        "props": {
+          "src": "assets/img/category-item-11.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      },
+      "rich-text#item__11--title": {
+        "props": {
+          "text": "Bebés"
+        }
+      },
+      "flex-layout.col#list__two--item-12": {
+        "props": {
+          "blockClass": "list__two--item",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "t-heading-1"
+        },
+        "children": [
+          "image#item__12--image",
+          "rich-text#item__12--title"
+        ]
+      },
+      "rich-text#item__12--title": {
+        "props": {
+          "text": "Juguetería"
+        }
+      },
+      "image#item__12--image": {
+        "props": {
+          "src": "assets/img/category-item-12.webp",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      }
+}
