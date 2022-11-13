@@ -2,6 +2,7 @@
 .flexRowContent--home__section,
 .flexRowContent--home__section--images,
 .flexRowContent--flexRowContent--home__section--tecnologia,
+.flexRowContent--home__seccion--categorias,
 .flexRowContent--home__categories {
   max-width: 1280px;
   margin: 0 auto;
@@ -30,4 +31,12 @@
   display:flex;
   justify-content:end;
   align-items: center;
+}
+
+.flexColChild--list__one--item,
+.flexColChild--list__two--item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }

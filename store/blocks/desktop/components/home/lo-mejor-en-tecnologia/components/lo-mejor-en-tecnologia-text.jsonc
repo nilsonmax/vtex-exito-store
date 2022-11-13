@@ -10,7 +10,7 @@
     "title": " Text lo mejor en tecnologia",
     "props": {
       "blockClass": "home__section--lo-mejor-en-tecnologia--text",
-      "text": "Lo mejor en tecnologia"
+      "text": "##### Lo mejor en tecnologia"
     }
   },
   "flex-layout.col#lo-mejor-en-tecnologia--text__dos": {
