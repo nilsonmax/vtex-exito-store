@@ -6,4 +6,10 @@
     "blockClass": "notification"
   }
 }
+// "link#entra-ya": {
+//   "props": {
+//     "href": "/login?returnUrl={queryString.returnUrl}",
+//     "label": "Sign in"
+//   }
+// }
 }

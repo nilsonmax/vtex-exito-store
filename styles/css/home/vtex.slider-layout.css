@@ -2,6 +2,7 @@
     transform: translateY(-8px);
 }
 
+.sliderLeftArrow--home__slider--celumania,
 .sliderLeftArrow--home__slider,
 .sliderLeftArrow {
     /* z-index: 1; */
@@ -16,6 +17,7 @@
     margin-left: 20px;
  }
 
+
  .sliderLeftArrow:hover {
     z-index: 1;
     cursor: pointer;
@@ -29,6 +31,7 @@
     margin-left: 20px;
  }
 
+ .sliderRightArrow--home__slider--celumania,
 .sliderRightArrow--home__slider,
 .sliderRightArrow {
     /* z-index: 1; */
@@ -73,6 +76,10 @@
     margin-bottom: 50px;
 }
 
+/* .slideChildrenContainer--home__slider--celumania{
+    background-color: rgb(139,135,135);
+    height: 400px;
+} */
 .bullet__item--title {
     color: var(--primary-text-color);
     text-align: center;

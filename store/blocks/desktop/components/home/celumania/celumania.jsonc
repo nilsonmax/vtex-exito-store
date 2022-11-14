@@ -1,0 +1,35 @@
+{
+    "product-summary.shelf#slider": {
+      "children": [
+        "product-summary-image",
+        "product-summary-name",
+        "product-summary-price",
+        // "product-summary-buy-button"
+        "add-to-cart-button"
+      ],
+      "props":{
+        "height":"200px",
+        "blockClass":"home__slider--celumania-images"
+      }
+    },
+    "list-context.product-list#slider": {
+      "blocks": ["product-summary.shelf#slider"],
+      "children": ["slider-layout#demo-products"],
+      "props":{
+        "height":"200px",
+        "blockClass":"home__slider--celumania-images"
+      }
+    },
+    "slider-layout#demo-products":{
+      "title": "Slider con hijos declarados",
+      "props":{
+      "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 1
+      },
+      "infinite": false,
+      "blockClass": "home__slider--celumania"
+      }
+    }
+  }
