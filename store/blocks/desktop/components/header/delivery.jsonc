@@ -4,7 +4,7 @@
     "title": "Header container delivery addres",
     "children": [
       "image#link__stores",
-      "rich-text#receive__order",
+      "modal-trigger#delivery__modal--children",
       "icon#nav-caret--right"
     ],
     "props": {
@@ -34,6 +34,27 @@
     "props": {
       "id": "nav-caret--right",
       "size": 9
+    }
+  },
+  "modal-trigger#delivery__modal--children": {
+    "children": [
+      "rich-text#receive__order",
+      "modal-layout#delivery__modal--layout"
+    ]
+  },
+  "modal-layout#delivery__modal--layout": {
+    "children": ["modal-header#delivery__modal--layout","rich-text#content"]
+  },
+  "rich-text#content": {
+    "props": {
+      "text": "Seleciona la ciudad y almacen para recoger tu pedido.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "modal-header#delivery__modal--layout": {
+    "props": {
+      "showClosedButton": true
     }
   }
 }
