@@ -16,8 +16,8 @@
       "blocks": ["product-summary.shelf#slider"],
       "children": ["slider-layout#demo-products"],
       "props":{
-        "height":"200px",
-        "blockClass":"home__slider--celumania-images"
+        "height":"200px"
+        // "blockClass":"home__slider--celumania-images"
       }
     },
     "slider-layout#demo-products":{

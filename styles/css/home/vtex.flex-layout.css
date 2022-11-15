@@ -27,6 +27,7 @@
   margin-left: 2px;
 }
 
+.flexColChild--home__section--las-mejores-ofertas--text__ver-todo,
 .flexColChild--home__section--lo-mejor-en-tecnologia--text__ver-todo {
   display:flex;
   justify-content:end;

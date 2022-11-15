@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#las-mejores-ofertas": {
+    "title": "las-mejores-ofertas",
+    "children": [
+      "flex-layout.col#las-mejores-ofertas--text__uno",
+      "flex-layout.col#las-mejores-ofertas--text__dos"
+    ],
+    "props": {
+      "blockClass": "flexRowContent--home__section--tecnologia"
+    }
+  }
+}

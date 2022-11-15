@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#seccion__las-mejores-ofertas-dos--row-desktop": {
+      "title": "Home Seccion col las-mejores-ofertas-dos imagenes",
+      "children": [
+        "flex-layout.row#seccion__las-mejores-ofertas-dos--row-desktop-uno"
+      ],
+      "props": {
+        "blockClass": "home__section--tecnologia-images",
+        "horizontalAlign": "center"
+      }
+    },
+    "flex-layout.row#seccion__las-mejores-ofertas-dos--row-desktop-uno": {
+        "title": "Home Seccion col las-mejores-ofertas-dos imagenes",
+        "children": [
+          "image#row__las-mejores-ofertas-dos--uno-row-image",
+          "image#row__las-mejores-ofertas-dos--dos-row-image",
+          "image#row__las-mejores-ofertas-dos--tres-row-image",
+          "image#row__las-mejores-ofertas-dos--cuatro-row-image"
+        ],
+        "props": {
+          "blockClass": "home__section--tecnologia-images",
+          "width":"grow"
+        }
+      },
+    "image#row__las-mejores-ofertas-dos--uno-row-image": {
+      "props": {
+        "blockClass":"home__tecnologia--image-2-1",
+        "src": "assets/img/las-mejores-ofertas-de-mercado-dos-1.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    },
+    "image#row__las-mejores-ofertas-dos--dos-row-image": {
+      "props": {
+        "blockClass":"home__tecnologia--image-2-1",
+        "src": "assets/img/las-mejores-ofertas-de-mercado-dos-2.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    },
+    "image#row__las-mejores-ofertas-dos--tres-row-image": {
+      "props": {
+        "blockClass":"home__tecnologia--image-2-1",
+        "src": "assets/img/las-mejores-ofertas-de-mercado-dos-3.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    },
+    "image#row__las-mejores-ofertas-dos--cuatro-row-image": {
+      "props": {
+        "blockClass":"home__tecnologia--image-2-2",
+        "src": "assets/img/las-mejores-ofertas-de-mercado-dos-4.webp",
+        "link": {
+          "url": "/construccion"
+        }
+      }
+    }
+  }
