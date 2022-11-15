@@ -54,6 +54,7 @@
   },
   "modal-header#delivery__modal--layout": {
     "props": {
+      "label":"¿Cómo quieres recibir tu pedido?",
       "showClosedButton": true
     }
   }

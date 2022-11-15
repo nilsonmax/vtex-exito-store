@@ -19,6 +19,7 @@
       "flex-layout.row#seccion__anuncios--desktop",
       "flex-layout.row#lo-mejor-en-tecnologia-desktop",
       "list-context.product-list#slider",
+      "flex-layout.row#las-mejores-ofertas-desktop",
       "list-context.image-list#home__seccion--moda-y-accesorios-desktop"
     ],
     "props": {
