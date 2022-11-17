@@ -1,51 +1,64 @@
- .imageElementLink{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+.imageElementLink {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .imageElement--home__top--gif {
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-top: 40px;
- }
-
-.imageElementLink--home__tecnologia--image {
-    max-width: 1280px;
-    margin: 0;
-    padding: 0;
- }
-
-.imageElement--home__tecnologia--image-1 {
-    width: 728px;
- }
-
-.imageElement--home__tecnologia--image-2 {
-    width: 350px;
- }
-
-.imageElement--home__tecnologia--image-2-1 {
-    width: 303px;
-  }
-
-.imageElement--home__tecnologia--image-2-2 {
-    width: 631px;
- }
-
-.logoContainer{
-    top:0;
-    width: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
-.notificationBarContainer{
-    display: flex;
-    background-color: rgb(54, 168, 107);
-    /* border-top-left-radius: 10px;
+.imageElementLink--home__tecnologia--image {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+}
+
+.imageElement--home__tecnologia--image-1 {
+  width: 728px;
+}
+
+.imageElement--home__tecnologia--image-2 {
+  width: 350px;
+}
+
+.imageElement--home__tecnologia--image-2-1 {
+  width: 303px;
+}
+
+.imageElement--home__tecnologia--image-2-2 {
+  width: 631px;
+}
+.imageElement--home__moda-y-accesorios--image-2-1 {
+  width: 560px;
+}
+.imageElement--home__moda-y-accesorios--image-2-2 {
+  width: 336px;
+  margin-left: 15px;
+}
+
+.imageElement--home__moda-y-accesorios--image-2-3 {
+  width: 336px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.logoContainer {
+  top: 0;
+  width: 10px;
+}
+
+.notificationBarContainer {
+  display: flex;
+  background-color: rgb(54, 168, 107);
+  /* border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
-    font-weight: 900;
-    color: rgb(255, 222, 55);
-    height: 35px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px 10px 0 0;
+  font-weight: 900;
+  color: rgb(255, 222, 55);
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
 }

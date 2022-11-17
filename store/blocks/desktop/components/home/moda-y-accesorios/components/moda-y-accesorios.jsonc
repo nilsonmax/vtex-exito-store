@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#moda-y-accesorios": {
+    "title": "todo para tu hogar",
+    "children": [
+      "flex-layout.col#moda-y-accesorios--text__uno",
+      "flex-layout.col#moda-y-accesorios--text__dos"
+    ],
+    "props": {
+      "blockClass": "flexRowContent--home__section--tecnologia"
+    }
+  }
+}

@@ -7,7 +7,8 @@
     "children": [
       "flex-layout.row#todo-para-tu-hogar",
       "flex-layout.row#todo-para-tu-hogar--row-uno-desktop",
-      "flex-layout.row#todo-para-tu-hogar--row-dos-desktop"
+      "flex-layout.row#todo-para-tu-hogar--row-dos-desktop",
+      "list-context.image-list#home__seccion--todo-para-tu-hogar-desktop"
     ],
     "props": {
       "blockClass": "home__section--images",

@@ -20,13 +20,13 @@
       "list-context.product-list#slider",
       "flex-layout.row#las-mejores-ofertas-desktop",
       "flex-layout.row#electrodomesticos-para-tu-hogar--desktop",
-      "list-context.image-list#home__seccion--moda-y-accesorios-desktop",
+      "flex-layout.row#moda-y-accesorios--desktop",
       "flex-layout.row#todo-para-tu-hogar--desktop",
       "flex-layout.row#todo-para-tu-familia--desktop"
       // "search-result-layout.customQuery#home" // clases
-    ],
-    "props": {
-      "blockClass": "home__sections"
-    }
+    ]
+    // "props": {
+    //   "blockClass": "home__sections"
+    // }
   }
 }

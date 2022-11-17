@@ -1,0 +1,30 @@
+{
+  "flex-layout.col#moda-y-accesorios--text__uno": {
+    "title": " Text moda y accesorios",
+    "children": ["rich-text#moda-y-accesorios--text__uno"],
+    "props": {
+        "blockClass": "home__section--moda-y-accesorios--text"
+      }
+  },
+  "rich-text#moda-y-accesorios--text__uno": {
+    "title": " Text moda y accesorios",
+    "props": {
+      "blockClass": "home__section--moda-y-accesorios--text",
+      "text": "##### Moda y accesorios"
+    }
+  },
+  "flex-layout.col#moda-y-accesorios--text__dos": {
+    "title": " Link VER TODO",
+    "children": ["link#moda-y-accesorios--text__dos"],
+    "props": {
+        "blockClass": "home__section--moda-y-accesorios--text__ver-todo"
+      }
+  },
+  "link#moda-y-accesorios--text__dos": {
+    "props": {
+      "href": "/construccion",
+      "label": "¡VER TODO!",
+      "blockClass": "home__section--moda-y-accesorios--text__ver-todo"
+    }
+  }
+}

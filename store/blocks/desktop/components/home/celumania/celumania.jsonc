@@ -29,6 +29,12 @@
           "phone": 1
       },
       "infinite": false,
+      // "infinite": true,
+      "showPaginationDots": false,
+      // "fullWidth": false,
+      "navigationStep":1,
+      "stopOnHover":true,
+          // "showNavigationArrows": false
       "blockClass": "home__slider--celumania"
       }
     }
