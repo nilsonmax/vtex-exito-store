@@ -15,12 +15,14 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0);
 } */
 .paragraph--home__section--electrodomesticos-para-tu-hogar--text,
+.paragraph--home__section--todo-para-tu-hogar--text,
 .paragraph--home__section--lo-mejor-en-tecnologia--text{
 font-size: 24;
 color: rgb(119, 119, 119);
 }
 
 .container--home__section--electrodomesticos-para-tu-hogar--text,
+.container--home__section--todo-para-tu-hogar--text,
 .container--home__section--lo-mejor-en-tecnologia--text{
  margin-top: 0;
 }

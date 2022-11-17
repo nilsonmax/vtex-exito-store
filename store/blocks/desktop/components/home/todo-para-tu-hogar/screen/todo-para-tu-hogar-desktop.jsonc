@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#todo-para-tu-hogar--desktop": {
+    "children": ["flex-layout.col#todo-para-tu-hogar--desktop"]
+  },
+  "flex-layout.col#todo-para-tu-hogar--desktop": {
+    "title": "Home Seccion anuncios imagenes",
+    "children": [
+      "flex-layout.row#todo-para-tu-hogar",
+      "flex-layout.row#todo-para-tu-hogar--row-uno-desktop",
+      "flex-layout.row#todo-para-tu-hogar--row-dos-desktop"
+      // "flex-layout.row#todo-para-tu-hogar--row-tres-desktop",
+      // "flex-layout.row#todo-para-tu-hogar--row-cuatro-desktop",
+      // "flex-layout.row#todo-para-tu-hogar--row-cinco-desktop",
+      // "flex-layout.row#todo-para-tu-hogar--row-seis-desktop"
+    ],
+    "props": {
+      "blockClass": "home__section--images",
+      "marginLeft": 2
+    }
+  }
+}

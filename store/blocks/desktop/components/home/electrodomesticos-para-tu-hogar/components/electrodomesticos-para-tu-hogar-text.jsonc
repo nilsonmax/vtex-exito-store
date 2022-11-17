@@ -7,10 +7,10 @@
       }
   },
   "rich-text#electrodomesticos-para-tu-hogar--text__uno": {
-    "title": " Text electrodomesticos-para-tu-hogar en el mercado",
+    "title": " Text electrodomesticos para tu hogar",
     "props": {
       "blockClass": "home__section--electrodomesticos-para-tu-hogar--text",
-      "text": "##### Electrodomesticos para tu hogar en el mercado"
+      "text": "##### Electrodomesticos para tu hogar"
     }
   },
   "flex-layout.col#electrodomesticos-para-tu-hogar--text__dos": {
