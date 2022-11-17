@@ -1,7 +1,7 @@
 {
-  //////////////////////////////////////////////////////////// Seccion Anuncios
+  //////////////////////////////////////////////////////////// Seccion electrodomesticos para tu hogar
   "flex-layout.row#electrodomesticos-para-tu-hogar--row-uno-desktop": {
-    "title": "Home Seccion col anuncio uno",
+    "title": "Home Seccion col electrodomesticos para tu hogar uno",
     "children": [
       "image#electrodomesticos-para-tu-hogar-imagen-uno--row-uno-image"
      ],

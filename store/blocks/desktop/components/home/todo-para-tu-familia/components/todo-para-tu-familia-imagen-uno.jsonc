@@ -1,0 +1,21 @@
+{
+  //////////////////////////////////////////////////////////// Seccion todo para tu familia
+  "flex-layout.row#todo-para-tu-familia--row-uno-desktop": {
+    "title": "Home Seccion col todo para tu familia uno",
+    "children": [
+      "image#todo-para-tu-familia-imagen-uno--row-uno-image"
+     ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "marginLeft": 2
+    }
+  },
+  "image#todo-para-tu-familia-imagen-uno--row-uno-image": {
+    "props": {
+      "src": "assets/img/todo-para-tu-familia-uno.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}

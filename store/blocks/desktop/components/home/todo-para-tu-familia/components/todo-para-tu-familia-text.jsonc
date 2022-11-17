@@ -1,0 +1,30 @@
+{
+  "flex-layout.col#todo-para-tu-familia--text__uno": {
+    "title": " Text todo para tu familia",
+    "children": ["rich-text#todo-para-tu-familia--text__uno"],
+    "props": {
+        "blockClass": "home__section--todo-para-tu-familia--text"
+      }
+  },
+  "rich-text#todo-para-tu-familia--text__uno": {
+    "title": " Text todo para tu familia",
+    "props": {
+      "blockClass": "home__section--todo-para-tu-familia--text",
+      "text": "##### Todo para tu familia"
+    }
+  },
+  "flex-layout.col#todo-para-tu-familia--text__dos": {
+    "title": " Link VER TODO",
+    "children": ["link#todo-para-tu-familia--text__dos"],
+    "props": {
+        "blockClass": "home__section--todo-para-tu-familia--text__ver-todo"
+      }
+  },
+  "link#todo-para-tu-familia--text__dos": {
+    "props": {
+      "href": "/construccion",
+      "label": "¡VER TODO!",
+      "blockClass": "home__section--todo-para-tu-familia--text__ver-todo"
+    }
+  }
+}

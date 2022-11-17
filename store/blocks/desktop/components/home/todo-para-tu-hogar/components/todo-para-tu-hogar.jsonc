@@ -1,6 +1,6 @@
 {
   "flex-layout.row#todo-para-tu-hogar": {
-    "title": "todo-para-tu-hogar",
+    "title": "todo para tu hogar",
     "children": [
       "flex-layout.col#todo-para-tu-hogar--text__uno",
       "flex-layout.col#todo-para-tu-hogar--text__dos"

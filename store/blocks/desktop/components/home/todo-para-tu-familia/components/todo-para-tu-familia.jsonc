@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#todo-para-tu-familia": {
+    "title": "todo para tu familia",
+    "children": [
+      "flex-layout.col#todo-para-tu-familia--text__uno",
+      "flex-layout.col#todo-para-tu-familia--text__dos"
+    ],
+    "props": {
+      "blockClass": "flexRowContent--home__section--tecnologia"
+    }
+  }
+}
