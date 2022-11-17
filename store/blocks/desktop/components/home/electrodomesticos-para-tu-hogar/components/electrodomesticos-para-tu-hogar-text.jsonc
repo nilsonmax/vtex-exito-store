@@ -1,0 +1,30 @@
+{
+  "flex-layout.col#electrodomesticos-para-tu-hogar--text__uno": {
+    "title": " Text Electrodomesticos para tu hogar",
+    "children": ["rich-text#electrodomesticos-para-tu-hogar--text__uno"],
+    "props": {
+        "blockClass": "home__section--electrodomesticos-para-tu-hogar--text"
+      }
+  },
+  "rich-text#electrodomesticos-para-tu-hogar--text__uno": {
+    "title": " Text electrodomesticos-para-tu-hogar en el mercado",
+    "props": {
+      "blockClass": "home__section--electrodomesticos-para-tu-hogar--text",
+      "text": "##### Electrodomesticos para tu hogar en el mercado"
+    }
+  },
+  "flex-layout.col#electrodomesticos-para-tu-hogar--text__dos": {
+    "title": " Link VER TODO",
+    "children": ["link#electrodomesticos-para-tu-hogar--text__dos"],
+    "props": {
+        "blockClass": "home__section--electrodomesticos-para-tu-hogar--text__ver-todo"
+      }
+  },
+  "link#electrodomesticos-para-tu-hogar--text__dos": {
+    "props": {
+      "href": "/construccion",
+      "label": "¡VER TODO!",
+      "blockClass": "home__section--electrodomesticos-para-tu-hogar--text__ver-todo"
+    }
+  }
+}

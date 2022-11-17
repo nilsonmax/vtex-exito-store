@@ -1,0 +1,21 @@
+{
+  //////////////////////////////////////////////////////////// Seccion Anuncios
+  "flex-layout.row#electrodomesticos-para-tu-hogar--row-uno-desktop": {
+    "title": "Home Seccion col anuncio uno",
+    "children": [
+      "image#electrodomesticos-para-tu-hogar-imagen-uno--row-uno-image"
+     ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "marginLeft": 2
+    }
+  },
+  "image#electrodomesticos-para-tu-hogar-imagen-uno--row-uno-image": {
+    "props": {
+      "src": "assets/img/electrodomesticos-para-tu-hogar-uno.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}
