@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#todo-para-tu-familia--desktop": {
+    "children": ["flex-layout.col#todo-para-tu-familia--desktop"]
+  },
+  "flex-layout.col#todo-para-tu-familia--desktop": {
+    "title": "Home Seccion todo para tu familia imagenes",
+    "children": [
+      "flex-layout.row#todo-para-tu-familia",
+      "flex-layout.row#todo-para-tu-familia--row-uno-desktop",
+      "flex-layout.row#todo-para-tu-familia--row-dos-desktop"
+    ],
+    "props": {
+      "blockClass": "home__section--images",
+      "marginLeft": 2
+    }
+  }
+}

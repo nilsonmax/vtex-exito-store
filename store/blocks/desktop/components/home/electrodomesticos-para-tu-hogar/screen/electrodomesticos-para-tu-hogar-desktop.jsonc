@@ -3,15 +3,11 @@
     "children": ["flex-layout.col#electrodomesticos-para-tu-hogar--desktop"]
   },
   "flex-layout.col#electrodomesticos-para-tu-hogar--desktop": {
-    "title": "Home Seccion anuncios imagenes",
+    "title": "Home Seccion electrodomesticos para tu hogar imagenes",
     "children": [
       "flex-layout.row#electrodomesticos-para-tu-hogar",
       "flex-layout.row#electrodomesticos-para-tu-hogar--row-uno-desktop",
       "flex-layout.row#electrodomesticos-para-tu-hogar--row-dos-desktop"
-      // "flex-layout.row#electrodomesticos-para-tu-hogar--row-tres-desktop",
-      // "flex-layout.row#electrodomesticos-para-tu-hogar--row-cuatro-desktop",
-      // "flex-layout.row#electrodomesticos-para-tu-hogar--row-cinco-desktop",
-      // "flex-layout.row#electrodomesticos-para-tu-hogar--row-seis-desktop"
     ],
     "props": {
       "blockClass": "home__section--images",
