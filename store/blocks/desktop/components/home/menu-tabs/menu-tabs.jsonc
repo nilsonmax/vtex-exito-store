@@ -1,0 +1,77 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": ["menu-item#inicio", "menu-item#mercado", "menu-item#moda"],
+    "props": {
+      "blockClass": "menu-tabs"
+    }
+  },
+  "menu-item#inicio": {
+    "props": {
+      "id": "menu-item-inicio",
+      "type": "custom",
+      "highlight": false,
+      "onMountBehavior": "open",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://nilsonmax--itgloberspartnercl.myvtex.com",
+        "noFollow": false,
+        "tagTitle": "Inicio",
+        "text": "Inicio"
+      },
+      "iconProps": {
+        "id": "nav-home",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#mercado": {
+    "props": {
+      "id": "menu-item-mercado",
+      "type": "custom",
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion-mercado",
+        "noFollow": false,
+        "tagTitle": "mercado",
+        "text": "Mercado"
+      },
+      "iconProps": {
+        "id": "mpa-store",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#moda": {
+    "props": {
+      "id": "menu-item-moda",
+      "type": "custom",
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion-moda",
+        "noFollow": false,
+        "tagTitle": "moda",
+        "text": "Moda"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  }
+}

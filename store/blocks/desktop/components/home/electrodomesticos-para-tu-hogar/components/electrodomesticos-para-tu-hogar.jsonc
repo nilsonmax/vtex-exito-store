@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#electrodomesticos-para-tu-hogar": {
+    "title": "electrodomesticos-para-tu-hogar",
+    "children": [
+      "flex-layout.col#electrodomesticos-para-tu-hogar--text__uno",
+      "flex-layout.col#electrodomesticos-para-tu-hogar--text__dos"
+    ],
+    "props": {
+      "blockClass": "flexRowContent--home__section--tecnologia"
+    }
+  }
+}

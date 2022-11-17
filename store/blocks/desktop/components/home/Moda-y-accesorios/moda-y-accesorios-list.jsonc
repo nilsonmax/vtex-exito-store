@@ -87,7 +87,6 @@
       ]
     }
   },
-
   "slider-layout#home__seccion--moda-y-accesorios-desktop-list": {
     "props": {
         "itemsPerPage": {

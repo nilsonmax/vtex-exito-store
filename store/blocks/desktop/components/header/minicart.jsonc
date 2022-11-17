@@ -6,8 +6,24 @@
     "props": {
       "blockClass": "header__desktop",
       "MinicartIcon": "icon-cart",
-      "variation": "link",
-      "linkVariationUrl": "/cart"
+      "variation": "popup",
+      // "variation": "link",
+      // "linkVariationUrl": "/cart",
+      "itemCounMode": "total",
+      "quantityDisplay": "always"
+    }
+  },
+  ////////////////////////////////////////////////////// Minicart
+  "minicart.v2": {
+    "title": "Header Minicart",
+    "children": ["minicart-base-content"],
+    "props": {
+      // "blockClass": "header__desktop",
+      "MinicartIcon": "icon-cart",
+      "variation": "popup",
+      // "linkVariationUrl": "/cart",
+      "itemCounMode": "total",
+      "quantityDisplay": "always"
     }
   },
   "icon-cart": {
@@ -15,6 +31,44 @@
     "props": {
       "id": "hpa-cart",
       "size": 20
+    }
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart__footer"]
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#minicart__empty"]
+  },
+  "flex-layout.row#minicart__empty": {
+    "children": [
+      "icon-cart#minicart__empty--icon",
+      "rich-text#minicart__empty--text"
+    ]
+  },
+  "rich-text#minicart__empty--text": {
+    "props": {
+      "text": "En exito.com tenemos más de 100 mil productos para que elijas los que más te gustan.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "icon-cart#minicart__empty--icon": {
+    "props": { "size": 100 }
+  },
+  "flex-layout.row#minicart__footer": {
+    "children": [
+      "minicart-summary",
+      "rich-text#promo",
+      "minicart-checkout-button"
+    ]
+  },
+  "rich-text#promo": {
+    "props": {
+      "text": "Aprovecha en descuento  dia sin IVA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+      // "font": "t-heading-1"
     }
   }
 }

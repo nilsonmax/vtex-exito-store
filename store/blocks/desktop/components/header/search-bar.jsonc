@@ -2,9 +2,14 @@
   ////////////////////////////////////////////////////// Searchbar
   "search-bar#header__desktop": {
     "title": "Header Searchbar",
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "blockClass": "header__desktop",
-      "placeholder": "Buscar en exito.com"
+      "placeholder": "Buscar en exito.com",
+      "openAutocompleteOnFocus": true
     }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
   }
 }
