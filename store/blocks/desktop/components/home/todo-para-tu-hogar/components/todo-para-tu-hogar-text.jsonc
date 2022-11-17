@@ -1,0 +1,30 @@
+{
+  "flex-layout.col#todo-para-tu-hogar--text__uno": {
+    "title": " Text todo para tu hogar",
+    "children": ["rich-text#todo-para-tu-hogar--text__uno"],
+    "props": {
+        "blockClass": "home__section--todo-para-tu-hogar--text"
+      }
+  },
+  "rich-text#todo-para-tu-hogar--text__uno": {
+    "title": " Text todo para tu hogar",
+    "props": {
+      "blockClass": "home__section--todo-para-tu-hogar--text",
+      "text": "##### Todo para tu hogar"
+    }
+  },
+  "flex-layout.col#todo-para-tu-hogar--text__dos": {
+    "title": " Link VER TODO",
+    "children": ["link#todo-para-tu-hogar--text__dos"],
+    "props": {
+        "blockClass": "home__section--todo-para-tu-hogar--text__ver-todo"
+      }
+  },
+  "link#todo-para-tu-hogar--text__dos": {
+    "props": {
+      "href": "/construccion",
+      "label": "¡VER TODO!",
+      "blockClass": "home__section--todo-para-tu-hogar--text__ver-todo"
+    }
+  }
+}
