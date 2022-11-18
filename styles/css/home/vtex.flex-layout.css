@@ -15,10 +15,15 @@
   margin-bottom: 10px;
 }
 
+.flexRowContent--home__section--moda-y-accesorios-images{
+  margin: 0 auto;
+  max-width: 1280px;
+  margin-bottom: 10px;
+}
+
 .flexRowContent--home__section--tecnologia-images{
   margin: 0 auto;
   max-width: 1280px;
-  /* margin-top:10px; */
   margin-bottom: 10px;
 }
 
@@ -28,6 +33,7 @@
 }
 
 .flexColChild--home__section--las-mejores-ofertas--text__ver-todo,
+.flexColChild--home__section--moda-y-accesorios--text__ver-todo,
 .flexColChild--home__section--todo-para-tu-hogar--text__ver-todo,
 .flexColChild--home__section--todo-para-tu-familia--text__ver-todo,
 .flexColChild--home__section--electrodomesticos-para-tu-hogar--text__ver-todo,

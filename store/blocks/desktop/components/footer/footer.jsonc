@@ -4,13 +4,19 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      // "flex-layout.row#footer"
+      "rich-text#footer__desktop"
     ]
   },
   "footer-layout.mobile": { 
     "children": [
       "flex-layout.row#footer"
     ]
+  },
+  "rich-text#footer__desktop":{
+    "props": {
+      "text": "footer desktop"
+    }
   },
   "flex-layout.row#footer": { 
     "children": [

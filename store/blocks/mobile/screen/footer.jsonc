@@ -1,0 +1,10 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__mobile--section-one",
+      "flex-layout.row#footer__mobile--section-two",
+      "flex-layout.row#footer__mobile--section-three",
+      "flex-layout.row#footer__mobile--section-fourth"
+    ]
+  }
+}

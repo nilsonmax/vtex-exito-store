@@ -4,6 +4,7 @@
     "title": "moda-y-accesorios",
     "children": ["slider-layout#home__seccion--moda-y-accesorios-desktop-list"],
     "props": {
+      "blockClass":"home__seccion--moda-y-accesorios",
       "preload": true,
       "height": 250,
       "images": [
@@ -89,6 +90,7 @@
   },
   "slider-layout#home__seccion--moda-y-accesorios-desktop-list": {
     "props": {
+      "blockClass":"home__seccion--moda-y-accesorios",
         "itemsPerPage": {
           "desktop": 5,
           "tablet": 2,

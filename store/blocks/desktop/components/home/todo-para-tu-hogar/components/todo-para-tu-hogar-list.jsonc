@@ -1,0 +1,80 @@
+{
+  ////////////////////////////////////////////////////////// todo-para-tu-hogar
+  "list-context.image-list#home__seccion--todo-para-tu-hogar-desktop": {
+    "title": "todo-para-tu-hogar",
+    "children": ["slider-layout#home__seccion--todo-para-tu-hogar-desktop-list"],
+    "props": {
+      "blockClass":"home__seccion--todo-para-tu-hogar",
+      "preload": true,
+      "height": 250,
+      "images": [
+        {
+          "image": "assets/img/paraiso.webp",
+          "description": "Slide 1",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/rta-muebles.webp",
+          "description": "Slide 2",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/muebles-facil-armado.webp",
+          "description": "Slide 3",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/fantasia.webp",
+          "description": "Slide 4",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/inval.webp",
+          "description": "Slide 5",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/spring.webp",
+          "description": "Slide 6",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/confort-vital.webp",
+          "description": "Slide 7",
+          "link": {
+            "url": "/construccion"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#home__seccion--todo-para-tu-hogar-desktop-list": {
+    "props": {
+      "blockClass":"home__seccion--todo-para-tu-hogar",
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        // "showPaginationDots": "always",
+        "fullWidth": false,
+        "navigationStep":1,
+        "stopOnHover":true
+            // "showNavigationArrows": false
+      }
+
+  }
+}

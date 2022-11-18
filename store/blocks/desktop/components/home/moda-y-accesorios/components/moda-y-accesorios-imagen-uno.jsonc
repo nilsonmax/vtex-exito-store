@@ -1,0 +1,107 @@
+{
+  "flex-layout.row#moda-y-accesorios--row-uno-desktop": {
+    "title": "Home Seccion col todo para tu hogar imagenes",
+    "children": [
+      "flex-layout.row#seccion__moda-y-accesorios-uno--row-desktop-uno"
+    ],
+    "props": {
+      "blockClass": "home__section--moda-y-accesorios-images",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#seccion__moda-y-accesorios-uno--row-desktop-uno": {
+    "title": "Home Seccion col todo para tu hogar imagenes",
+    "children": [
+      "flex-layout.col#seccion__moda-y-accesorios-uno--col-desktop-uno",
+      "flex-layout.col#seccion__moda-y-accesorios-uno-dos--col-desktop-uno"
+    ],
+    "props": {
+      "blockClass": "home__section--moda-y-accesorios-images",
+      "width": "grow"
+    }
+  },
+  //////////////////////////////// primera columna /////////////////////////
+  "flex-layout.col#seccion__moda-y-accesorios-uno--col-desktop-uno": {
+    "children": ["image#row__moda-y-accesorios-uno--uno-row-image"],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "image#row__moda-y-accesorios-uno--uno-row-image": {
+    "props": {
+      "blockClass":"home__moda-y-accesorios--image-2-1",
+      "src": "assets/img/moda-y-accesorios-uno-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  },
+  //////////////////////////////// segunda columna /////////////////////////
+  "flex-layout.col#seccion__moda-y-accesorios-uno-dos--col-desktop-uno": {
+    "children": [
+      "flex-layout.row#seccion__moda-y-accesorios-uno-dos-1--row-desktop-uno",
+      "flex-layout.row#seccion__moda-y-accesorios-uno-dos-2--row-desktop-uno"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  ///////////////////////// segunda columna primera fila ////////////////////
+  "flex-layout.row#seccion__moda-y-accesorios-uno-dos-1--row-desktop-uno": {
+    "title": "Home Seccion col todo para tu hogar imagenes",
+    "children": [
+      "image#row__moda-y-accesorios-uno--dos-row-image",
+      "image#row__moda-y-accesorios-uno--tres-row-image"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "image#row__moda-y-accesorios-uno--dos-row-image": {
+    "props": {
+      "blockClass":"home__moda-y-accesorios--image-2-2",
+      "src": "assets/img/moda-y-accesorios-uno-2-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  },
+  "image#row__moda-y-accesorios-uno--tres-row-image": {
+    "props": {
+      "blockClass":"home__moda-y-accesorios--image-2-2",
+      "src": "assets/img/moda-y-accesorios-uno-2-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  },
+   ///////////////////////// segunda columna segunda fila ////////////////////
+  "flex-layout.row#seccion__moda-y-accesorios-uno-dos-2--row-desktop-uno": {
+    "title": "Home Seccion col todo para tu hogar imagenes",
+    "children": [
+      "image#row__moda-y-accesorios-uno--cuatro-row-image",
+      "image#row__moda-y-accesorios-uno--cinco-row-image"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+   "image#row__moda-y-accesorios-uno--cuatro-row-image": {
+    "props": {
+      "blockClass":"home__moda-y-accesorios--image-2-3",
+      "src": "assets/img/moda-y-accesorios-uno-2-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  },
+  "image#row__moda-y-accesorios-uno--cinco-row-image": {
+    "props": {
+      "blockClass":"home__moda-y-accesorios--image-2-3",
+      "src": "assets/img/moda-y-accesorios-uno-2-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}
