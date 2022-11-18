@@ -1,0 +1,139 @@
+{
+  /////////////////////////////////////////////////////// Footer sección 2 - Contiene líneas de atención, newsletter y código qr app
+  "flex-layout.row#footer__mobile--section-two": {
+    "title": "Footer Section 2",
+    "children": [
+      "flex-layout.col#footer__mobile--section-two"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section-two"
+    }
+  },
+  "flex-layout.col#footer__mobile--section-two": {
+    "title": "Container Sections",
+    "children": [
+      "flex-layout.row#contactos__mobile",
+      "flex-layout.row#newsletter__mobile",
+      "flex-layout.row#qr__networks-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section-two"
+    }
+  },
+  "flex-layout.row#contactos__mobile": {
+    "title": "Section Contactos",
+    "children": [
+      "flex-layout.col#contactanos__contactos-mobile"
+    ]
+  },
+  "flex-layout.col#contactanos__contactos-mobile": {
+    "title": "Container Contáctanos - Cotainer",
+    "children": [
+      "flex-layout.row#contactanos__mobile",
+      "flex-layout.row#contactos__content-mobile"
+    ],
+    "props": {
+      "blockClass": "contactanos__contactos-mobile"
+    }
+  },
+  "flex-layout.row#contactanos__mobile": {
+    "title": "Column Contactanos",
+    "children": [
+      "rich-text#contactanos"
+    ],
+    "props": {
+      "blockClass": "contactanos__mobile"
+    }
+  },
+  "flex-layout.row#contactos__content-mobile": {
+    "title": "Row Contactos content",
+    "children": [
+      "flex-layout.col#contactos__content-mobile"
+    ],
+    "props": {
+      "blockClass": "contactos__content-mobile"
+    }
+  },
+  "flex-layout.col#contactos__content-mobile": {
+    "title": "Container Contactos content",
+    "children": [
+      "flex-layout.row#ventas__telefonicas",
+      "flex-layout.row#ventas__whatsapp",
+      "flex-layout.row#servicio__whatsapp",
+      "flex-layout.row#linea__nacional",
+      "flex-layout.row#medellin",
+      "flex-layout.row#resto__ciudades"
+    ],
+    "props": {
+      "blockClass": "contactos__content-mobile"
+    }
+  },
+  "flex-layout.row#newsletter__mobile": {
+    "title": "Section Newsletter",
+    "children": [
+      "flex-layout.col#newsletter__mobile"
+    ],
+    "props": {
+      "blockClass": "newsletter__mobile"
+    }
+  },
+  "flex-layout.col#newsletter__mobile": {
+    "title": "Container Newsletter",
+    "children": [
+      "flex-layout.row#suscribete",
+      "flex-layout.row#newsletter__container"
+    ],
+    "props": {
+      "blockClass": "newsletter__mobile"
+    }
+  },
+  "flex-layout.row#qr__networks-mobile": {
+    "children": [
+      "flex-layout.col#qr__networks-mobile"
+    ]
+  },
+  "flex-layout.col#qr__networks-mobile": {
+    "children": [
+      "flex-layout.row#qr__mobile",
+      "flex-layout.row#networks__mobile"
+    ]
+  },
+  "flex-layout.row#qr__mobile": {
+    "children": [
+      "flex-layout.col#qr__mobile"
+    ]
+  },
+  "flex-layout.col#qr__mobile": {
+    "children": [
+      "rich-text#descargar",
+      "flex-layout.row#app__container"
+    ]
+  },
+  "flex-layout.row#app__container": {
+    "children": [
+      "rich-text#app__mobile",
+      "image#exclamation"
+    ],
+    "props": {
+      "blockClass": "app__container"
+    }
+  },
+  "rich-text#app__mobile": {
+    "title": "Text app",
+    "props": {
+      "blockClass": "app__mobile",
+      "text": "app"
+    }
+  },
+  "flex-layout.row#networks__mobile": {
+    "children": [
+      "flex-layout.col#networks__mobile"
+    ]
+  },
+  "flex-layout.col#networks__mobile": {
+    "children": [
+      "rich-text#siguenos__en",
+      "social-networks#networks__icons"
+    ]
+  }
+}

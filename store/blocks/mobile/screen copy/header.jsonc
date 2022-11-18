@@ -1,0 +1,92 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "header-row#header__mobile--first",
+      "header-row#header__mobile--second",
+      "header-row#header__mobile--third"
+    ]
+  },
+  /////////////////////////////////////////////////////// Primera línea Header - Contiene menu, logo, login y minicart
+  "header-row#header__mobile--first": {
+    "children": [
+      "drawer#header__mobile--menu",
+      "logo#header__desktop",
+      "header-spacer",
+      "login",
+      "minicart.v2#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--first"
+    }
+  },
+  "drawer#header__mobile--menu": {                // Drawer para que mega-menu pueda funcionar
+    "children": [
+      "mega-menu#mobile"
+    ],
+    "blocks": [
+      "drawer-header#my-drawer"
+    ]
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "blockClass": "mega-menu__mobile",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": [
+      "flex-layout.row#drawer-header"
+    ]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": [
+      "drawer-close-button"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": [
+      "mega-menu-go-back-btn"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+  /////////////////////////////////////////////////////// Segunda línea Header - Contiene searchbar
+  "header-row#header__mobile--second": {
+    "children": [
+      "search-bar#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--second"
+    }
+  },
+  /////////////////////////////////////////////////////// Tercera línea Header - Contiene searchbar
+  "header-row#header__mobile--third": {
+    "children": [
+      "flex-layout.row#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--third"
+    }
+  }
+}

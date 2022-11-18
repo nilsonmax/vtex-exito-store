@@ -1,0 +1,261 @@
+{
+  /////////////////////////////////////////////////////// Footer sección 3 - Contiene disclosure
+  "flex-layout.row#footer__mobile--section-three": {
+    "title": "Footer Section 3",
+    "children": [
+      "flex-layout.col#footer__mobile--section-three"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section-three"
+    }
+  },
+  "flex-layout.col#footer__mobile--section-three": {
+    "title": "Column Disclosure layout",
+    "children": [
+      "disclosure-layout#disclosure__mobile"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section-three"
+    }
+  },
+  /////////////////////////////////////////////////////// Footer sección 1 - Disclosure (Literal en sólo un disclosure)
+  "disclosure-layout#disclosure__mobile": {
+    "title": "Container Disclosure layout",
+    "children": [
+      "disclosure-trigger#centro__ayuda-mobile",
+      "disclosure-content#centro__ayuda-mobile",
+      "disclosure-trigger#exito__com-mobile",
+      "disclosure-content#exito__com-mobile",
+      "disclosure-trigger#nuestra__compania-mobile",
+      "disclosure-content#nuestra__compania-mobile",
+      "disclosure-trigger#comunidad-mobile",
+      "disclosure-content#comunidad-mobile",
+      "disclosure-trigger#informacion__legal-mobile",
+      "disclosure-content#informacion__legal-mobile"
+    ],
+    "props": {
+      "blockClass": "disclosure__mobile"
+    }
+  },
+  ////////////////////////////////////////////////////// Centro de ayuda
+  "disclosure-trigger#centro__ayuda-mobile": {
+    "title": "Trigger Centro de ayuda",
+    "children": [
+      "flex-layout.row#centro__ayuda-mobile"
+    ],
+    "props": {
+      "blockClass": "centro__ayuda-mobile"
+    }
+  },
+  "flex-layout.row#centro__ayuda-mobile": {
+    "title": "Row Centro de ayuda",
+    "children": [
+      "rich-text#trigger__centro--ayuda",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "centro__ayuda-mobile"
+    }
+  },
+
+  "disclosure-content#centro__ayuda-mobile": {
+    "title": "Content Centro de ayuda",
+    "children": [
+      "flex-layout.col#centro__ayuda-mobile"
+    ],
+    "props": {
+      "blockClass": "centro__ayuda-mobile"
+    }
+  },
+  "flex-layout.col#centro__ayuda-mobile": {
+    "title": "Content Centro de ayuda",
+    "children": [
+      "rich-text#preguntas__frequentes",
+      "rich-text#politica__cambios",
+      "rich-text#politica__garantias",
+      "rich-text#contacto",
+      "rich-text#cambio__producto",
+      "rich-text#almacenes",
+      "rich-text#escribenos",
+      "rich-text#mi__pedido",
+      "rich-text#actualizar__datos"
+    ],
+    "props": {
+      "blockClass": "centro__ayuda-mobile"
+    }
+  },
+  ////////////////////////////////////////////////////// exito.com
+  "disclosure-trigger#exito__com-mobile": {
+    "title": "Trigger exito.com",
+    "children": [
+      "flex-layout.row#exito__com-mobile"
+    ],
+    "props": {
+      "blockClass": "exito__com-mobile"
+    }
+  },
+  "flex-layout.row#exito__com-mobile": {
+    "title": "Row exito.com",
+    "children": [
+      "rich-text#trigger__exito--com",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "exito__com-mobile"
+    }
+  },
+
+  "disclosure-content#exito__com-mobile": {
+    "title": "Content exito.com",
+    "children": [
+      "flex-layout.col#exito__com-mobile"
+    ],
+    "props": {
+      "blockClass": "exito__com-mobile"
+    }
+  },
+  "flex-layout.col#exito__com-mobile": {
+    "title": "Content exito.com",
+    "children": [
+      "rich-text#compra__recoge",
+      "rich-text#domicilio__telefonico",
+      "rich-text#garantia__extendida",
+      "rich-text#vende__en",
+      "rich-text#pauta",
+      "rich-text#afiliados__clickam",
+      "rich-text#revista__virtual"
+    ],
+    "props": {
+      "blockClass": "exito__com-mobile"
+    }
+  },
+  ////////////////////////////////////////////////////// Nuestra compañía
+  "disclosure-trigger#nuestra__compania-mobile": {
+    "title": "Trigger Nuestra compañía",
+    "children": [
+      "flex-layout.row#nuestra__compania-mobile"
+    ],
+    "props": {
+      "blockClass": "nuestra__compania-mobile"
+    }
+  },
+  "flex-layout.row#nuestra__compania-mobile": {
+    "title": "Row Nuestra compañía",
+    "children": [
+      "rich-text#trigger__nuestra--compania",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "nuestra__compania-mobile"
+    }
+  },
+
+  "disclosure-content#nuestra__compania-mobile": {
+    "title": "Content Nuestra compañía",
+    "children": [
+      "flex-layout.col#nuestra__compania-mobile"
+    ],
+    "props": {
+      "blockClass": "nuestra__compania-mobile"
+    }
+  },
+  "flex-layout.col#nuestra__compania-mobile": {
+    "title": "Content Nuestra compañía",
+    "children": [
+      "rich-text#grupo__exito",
+      "rich-text#fundacion__exito",
+      "rich-text#donar__goticas",
+      "rich-text#inversionistas",
+      "rich-text#ventas__empresariales",
+      "rich-text#oportunidad__empleo"
+    ],
+    "props": {
+      "blockClass": "nuestra__compania-mobile"
+    }
+  },
+  ////////////////////////////////////////////////////// Comunidad
+  "disclosure-trigger#comunidad-mobile": {
+    "title": "Trigger Comunidad",
+    "children": [
+      "flex-layout.row#comunidad-mobile"
+    ],
+    "props": {
+      "blockClass": "comunidad-mobile"
+    }
+  },"flex-layout.row#comunidad-mobile": {
+    "title": "Row Comunidad",
+    "children": [
+      "rich-text#trigger__comunidad",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "comunidad-mobile"
+    }
+  },
+
+  "disclosure-content#comunidad-mobile": {
+    "title": "Content Comunidad",
+    "children": [
+      "flex-layout.col#comunidad-mobile"
+    ],
+    "props": {
+      "blockClass": "comunidad-mobile"
+    }
+  },
+  "flex-layout.col#comunidad-mobile": {
+    "title": "Content Comunidad",
+    "children": [
+      "rich-text#vivevinos",
+      "rich-text#exploradores__exito"
+    ],
+    "props": {
+      "blockClass": "comunidad-mobile"
+    }
+  },
+  ////////////////////////////////////////////////////// Información legal
+  "disclosure-trigger#informacion__legal-mobile": {
+    "title": "Trigger Información legal",
+    "children": [
+      "flex-layout.row#informacion__legal-mobile"
+    ],
+    "props": {
+      "blockClass": "informacion__legal-mobile"
+    }
+  },
+  "flex-layout.row#informacion__legal-mobile": {
+    "title": "Row Información legal",
+    "children": [
+      "rich-text#trigger__informacion--legal",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "informacion__legal-mobile"
+    }
+  },
+
+  "disclosure-content#informacion__legal-mobile": {
+    "title": "Content Información legal",
+    "children": [
+      "flex-layout.col#informacion__legal-mobile"
+    ],
+    "props": {
+      "blockClass": "informacion__legal-mobile"
+    }
+  },
+  "flex-layout.col#informacion__legal-mobile": {
+    "title": "Content Información legal",
+    "children": [
+      "rich-text#dia__legal",
+      "rich-text#terminos__condiciones",
+      "rich-text#terminos__marketplace",
+      "rich-text#politica__privacidad",
+      "rich-text#autorizacion__datos",
+      "rich-text#SIC",
+      "rich-text#derecho__retracto",
+      "rich-text#solicitud__reversion"
+    ],
+    "props": {
+      "blockClass": "informacion__legal-mobile"
+    }
+  }
+}

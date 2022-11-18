@@ -1,0 +1,60 @@
+{
+  /////////////////////////////////////////////////////// Footer sección 4 - Contiene logos y rich-text's
+  "flex-layout.row#footer__mobile--section-fourth": {
+    "title": "Footer Section 4",
+    "children": [
+      "flex-layout.col#visita__derechos"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section-fourth"
+    }
+  },
+  "flex-layout.col#visita__derechos": {
+    "title": "Section Visita - Derechos",
+    "children": [
+      "flex-layout.row#visita__mobile",
+      "rich-text#derechos"
+    ],
+    "props": {
+      "blockClass": "visita__derechos"
+    }
+  },
+  "flex-layout.row#visita__mobile": {
+    "title": "Row Visita",
+    "children": [
+      "flex-layout.col#visita__mobile"
+    ],
+    "props": {
+      "blockClass": "visita__mobile"
+    }
+  },
+  "flex-layout.col#visita__mobile": {
+    "title": "Container Visita",
+    "children": [
+      "rich-text#visita__mobile",
+      "flex-layout.row#logos__comerciales--mobile"
+    ],
+    "props": {
+      "blockClass": "visita__mobile"
+    }
+  },
+  "rich-text#visita__mobile": {
+    "title": "Text Visita también:",
+    "props": {
+      "blockClass": "visita__mobile",
+      "text": "Visita también:"
+    }
+  },
+  "flex-layout.row#logos__comerciales--mobile": {
+    "title": "Container logos",
+    "children": [
+      "logo#carulla",
+      "logo#viva",
+      "logo#superinter",
+      "logo#surtimax"
+    ],
+    "props": {
+      "blockClass": "logos__comerciales--mobile"
+    }
+  }
+}
