@@ -28,3 +28,14 @@ color: rgb(119, 119, 119);
     font-weight: 500;
     font-family: Poppins,Helvetica,sans-serif!important;
 }
+
+.paragraph--disclosure__links {
+    color: #414141;
+    font-size: 13px;
+    margin: 5px 0;
+    text-decoration: none;
+  }
+  
+  .paragraph--disclosure__links:hover {
+    text-decoration: underline;
+  }

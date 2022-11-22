@@ -1,0 +1,85 @@
+.logoImage--retail__ecommerce,
+.logoImage--400__productos,
+.logoImage--compras__seguras,
+.logoImage--acumula__puntos,
+.logoImage--pago__linea {
+    width: 55px;
+    height: 33px;
+}
+
+.logoContainer--retail__ecommerce,
+.logoContainer--400__productos,
+.logoContainer--compras__seguras,
+.logoContainer--acumula__puntos,
+.logoContainer--pago__linea {
+    padding: 0;
+    max-width: 55px;
+    min-width: 55px;
+    max-height: 33px;
+    margin: auto;
+}
+
+.container--newsletter,
+.inputGroup--newsletter,
+.searchBarIcon--header__desktop--search,
+.container {
+    padding: 0;
+}
+
+.imageElement--qr {
+    width: 75px;
+}
+
+.imageElement--exclamation {
+    aspect-ratio: 41/41;
+    height: 41px;
+    padding-left: 22px;
+    width: 41px;
+}
+
+/*////////////// mobile //////////////////*/
+.logoContainer--retail__ecommerce-mobile,
+.logoContainer--400__productos-mobile,
+.logoContainer--compras__seguras-mobile,
+.logoContainer--pago__linea-mobile,
+.logoContainer--acumula__puntos-mobile {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImage--retail__ecommerce-mobile,
+.logoImage--400__productos-mobile,
+.logoImage--compras__seguras-mobile,
+.logoImage--pago__linea-mobile,
+.logoImage--acumula__puntos-mobile {
+    width: 40px;
+    height: 23px;
+}
+
+.logoContainer--retail__ecommerce-mobile,
+.logoContainer--400__productos-mobile,
+.logoContainer--compras__seguras-mobile,
+.logoContainer--acumula__puntos-mobile,
+.logoContainer--pago__linea-mobile {
+    margin: auto;
+}
+
+.logoImage--carulla,
+.logoImage--viva,
+.logoImage--superinter,
+.logoImage--surtimax {
+    height: 30px;
+}
+
+.logoContainer--carulla,
+.logoContainer--viva,
+.logoContainer--superinter,
+.logoContainer--surtimax {
+    padding: 0;
+    max-width: 50px;
+    min-width: 50px;
+    max-height: 30px;
+    margin: auto;
+}

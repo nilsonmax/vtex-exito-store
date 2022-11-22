@@ -1,0 +1,305 @@
+.flexRowContent--compras__seguras,
+.flexRowContent--acumula__puntos,
+.flexRowContent--pago__linea,
+.flexRowContent--400__productos {
+  display: flex;
+  justify-content: start;
+}
+
+/********************* seccion uno ******************/
+.flexRowContent--retail__ecommerce {
+  display: flex;
+  justify-content: start;
+}
+.flexRowContent--footer__desktop--seccion-uno {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  overflow-x: hidden;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.flexRow--footer__desktop--seccion-uno {
+  background-color: #f7f7f7;
+}
+
+/*////////////////// mobile layout //////////////////////*/
+.flexRowContent--footer__mobile--section-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 20% !important;
+}
+.flexRowContent--footer__mobile--section-one {
+  display: flex;
+  align-items: start;
+  background: #f7f7f7;
+  border: 1px solid #ededed;
+  /* justify-content: space-around; */
+  overflow-x: hidden;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/******************* fin seccion uno ***************************/
+
+/****************** seccion dos ********************************/
+
+/*** desktop ***/
+.flexRowContent--footer__desktop--seccion-dos {
+  max-width: 97%;
+  margin: auto;
+}
+
+.flexCol--contactos {
+  color: #414141;;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 500;
+  min-width: 328px !important;
+}
+.flexCol--contactos__content {
+  margin-left: 10px;
+}
+.flexCol--contactos__content-mobile {
+  margin-left: 10px;
+}
+.flexColChild--contactos__content {
+  height: 41px !important;
+  width: 397px !important;
+}
+.flexColChild--contactos :global(.vtex-rich-text-0-x-link) {
+  color: #414141 !important;
+}
+
+.flexRowContent--resto__ciudades,
+.flexRowContent--medellin,
+.flexRowContent--linea__nacional,
+.flexRowContent--servicio__whatsapp,
+.flexRowContent--ventas__whatsapp,
+.flexRowContent--ventas__telefonicas {
+    display: flex;
+}
+.flexCol--newsletter {
+  padding: 0 24px;
+  min-width: 430px !important;
+}
+
+.flexColChild--newsletter {
+  height: auto !important;
+}
+
+.flexRowContent--email__submit {
+  display: flex;
+}
+
+.flexRowContent--checkbox :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+.flexRowContent--checkbox :global(.vtex-checkbox__label) {
+  display: none;
+}
+
+.flexRowContent--checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.flexCol--qr__networks {
+  min-width: 370px !important;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--qr__container {
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 3px 6px rgb(60 60 60 / 16%);
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: fit-content;
+  pointer-events: none;
+}
+
+.flexColChild--qr__networks {
+  width: 100% !important;
+  padding-left: 102px !important;
+}
+.flexCol--networks__container {
+  min-width: 265px;
+}
+.flexRowContent--app__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+  align-items: center;
+}
+.flexRowContent--app__container {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 3px 6px rgb(60 60 60 / 16%);
+  justify-content: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+/** mobile ***/
+.flexColChild--footer__mobile--section-two {
+  max-width: 100%;
+  padding: 0 12px;
+}
+/****************** fin seccion dos ********************************/
+
+/****************** seccion tres ********************************/
+/************************** disclouser ***************************/
+.flexRowContent--footer__desktop--seccion-tres :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--disclosure__desktop {
+    background-color: #f7f7f7;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.flexRowContent--disclosure__desktop :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    line-height: 15px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    max-height: 500px;
+    transition: max-height .25s ease-in;
+}
+
+
+.flexRowContent--trigger__desktop--mas-informacion {
+    display: flex;
+    justify-content: center;
+    max-width: 175px;
+    margin: auto;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1px;
+    z-index: 2;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* padding: 4px 140px; */
+    color: #414141;
+    transform: translateY(0px);
+}
+/*********************** fin disclouser *********************/
+
+.flexRow--trigger__desktop--titles {
+  background-color: #f7f7f7;
+  color: #000000;
+  border: 1px solid #ededed;
+  border-bottom: transparent;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  height: auto;
+  justify-content: center;
+  min-height: 67px;
+  padding: 0 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.flexRowContent--trigger__centro--ayuda,
+.flexRowContent--trigger__exito--com,
+.flexRowContent--trigger__nuestra--compania,
+.flexRowContent--trigger__comunidad,
+.flexRowContent--trigger__informacion--legal {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/****************** fin seccion tres ********************************/
+
+
+ /********************** seccion cuatro ********************/
+ .flexRowContent--footer__desktop--seccion-cuatro {
+  align-items: center;
+  display: flex;
+  height: 58px;
+  justify-content: space-between;
+}
+
+.flexRowContent--trigger__desktop--mas-informacion :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--trigger__centro--ayuda :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--trigger__exito--com :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--trigger__nuestra--compania :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--trigger__comunidad :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--trigger__informacion--legal :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--trigger__desktop--mas-informacion :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--home__seccion-cuatro :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+}
+.flexColChild--visita {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 90px;
+  width: 300px;
+}
+/* .flexCol--visitas{
+  margin-left: 50px;
+}
+.container--visitas{
+  margin-left: 50px;
+} */
+.flexColChild--visita__derechos {
+  padding: 0 20px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.flexColChild--logos__comerciales {
+  width: 307px;
+  display: flex;
+  justify-content: space-around;
+}
+.flexRowContent--logos__comerciales {
+  width: 607px;
+  display: flex;
+  justify-content: space-around;
+}
+.flexRowContent--logos__comerciales--mobile {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 0;
+  width: 100%;
+}
+.flexColChild--derechos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flexColChild--visita__derechos {
+  padding: 0 20px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+ /********************** fin seccion cuatro ********************/
+
+
+

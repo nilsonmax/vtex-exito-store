@@ -11,3 +11,14 @@
   letter-spacing: 0;
   text-decoration: none;
 }
+
+.link--disclosure__links {
+  color: #414141;
+  font-size: 13px;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.link--disclosure__links:hover {
+  text-decoration: underline;
+}

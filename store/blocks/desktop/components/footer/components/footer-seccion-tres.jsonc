@@ -1,0 +1,548 @@
+{
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+      // "blockClass": "state--disclosure"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "flex-layout.row#footer__desktop--seccion-tres": {
+    "title": "Footer Seccion 3",
+    "children": ["disclosure-layout#disclosure__desktop"],
+    "props": {
+      "blockClass": "footer__desktop--seccion-tres"
+    }
+  },
+  ////////////////////////////////////////////////////// Disclosure Layout
+  "disclosure-layout#disclosure__desktop": {
+    "title": "Disclosure Layout",
+    "children": [
+      "disclosure-trigger#disclosure__desktop",
+      "disclosure-content#disclosure__desktop"
+    ],
+    "props": {
+      "blockClass": "disclosure__desktop"
+    }
+  },
+  ////////////////////////////////////////////////////// Disclosure Trigger
+  "disclosure-trigger#disclosure__desktop": {
+    "title": "Disclosure Trigger",
+    "children": [
+      "flex-layout.row#trigger__desktop--mas-informacion",
+      "flex-layout.row#trigger__desktop--titles"
+    ],
+    "props": {
+      "blockClass": "disclosure__desktop"
+    }
+  },
+  ////////////////////////////////////////////////////// Trigger Más información
+  "flex-layout.row#trigger__desktop--mas-informacion": {
+    "title": "Trigger Más información",
+    "children": ["rich-text#mas__informacion", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "trigger__desktop--mas-informacion"
+    }
+  },
+  "rich-text#mas__informacion": {
+    "title": "Text Más información",
+    "props": {
+      "text": "Más información",
+      "blockClass": "mas__informacion"
+    }
+  },
+  ////////////////////////////////////////////////////// Trigger Titles
+  "flex-layout.row#trigger__desktop--titles": {
+    "title": "Trigger Titles",
+    "children": [
+      "flex-layout.col#trigger__centro--ayuda",
+      "flex-layout.col#trigger__exito--com",
+      "flex-layout.col#trigger__nuestra--compania",
+      "flex-layout.col#trigger__comunidad",
+      "flex-layout.col#trigger__informacion--legal"
+    ],
+    "props": {
+      "blockClass": "trigger__desktop--titles"
+    }
+  },
+  ////////////////////////////////////////////////////// Centro de ayuda
+  "flex-layout.col#trigger__centro--ayuda": {
+    "title": "Column Centro de ayuda",
+    "children": ["flex-layout.row#trigger__centro--ayuda"],
+    "props": {
+      "blockClass": "trigger__centro--ayuda"
+    }
+  },
+  "flex-layout.row#trigger__centro--ayuda": {
+    "title": "Row Centro de ayuda",
+    "children": [
+      "rich-text#trigger__centro--ayuda",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "trigger__centro--ayuda"
+    }
+  },
+  "rich-text#trigger__centro--ayuda": {
+    "title": "Text Centro de ayuda",
+    "props": {
+      "blockClass": "trigger__centro--ayuda",
+      "text": "Centro de ayuda"
+    }
+  },
+  ////////////////////////////////////////////////////// exito.com
+  "flex-layout.col#trigger__exito--com": {
+    "title": "Column exito.com",
+    "children": ["flex-layout.row#trigger__exito--com"],
+    "props": {
+      "blockClass": "trigger__exito--com"
+    }
+  },
+  "flex-layout.row#trigger__exito--com": {
+    "title": "Row exito.com",
+    "children": ["rich-text#trigger__exito--com", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "trigger__exito--com"
+    }
+  },
+  "rich-text#trigger__exito--com": {
+    "title": "Text exito.com",
+    "props": {
+      "blockClass": "trigger__exito--com",
+      "text": "exito.com"
+    }
+  },
+  ////////////////////////////////////////////////////// Nuestra compañía
+  "flex-layout.col#trigger__nuestra--compania": {
+    "title": "Column Nuestra compañía",
+    "children": ["flex-layout.row#trigger__nuestra--compania"],
+    "props": {
+      "blockClass": "trigger__nuestra--compania"
+    }
+  },
+  "flex-layout.row#trigger__nuestra--compania": {
+    "title": "Row Nuestra compañía",
+    "children": [
+      "rich-text#trigger__nuestra--compania",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "trigger__nuestra--compania"
+    }
+  },
+  "rich-text#trigger__nuestra--compania": {
+    "title": "Text Nuestra compañía",
+    "props": {
+      "blockClass": "trigger__nuestra--compania",
+      "text": "Nuestra compañía"
+    }
+  },
+  ////////////////////////////////////////////////////// Comunidad
+  "flex-layout.col#trigger__comunidad": {
+    "title": "Column Comunidad",
+    "children": ["flex-layout.row#trigger__comunidad"],
+    "props": {
+      "blockClass": "trigger__comunidad"
+    }
+  },
+  "flex-layout.row#trigger__comunidad": {
+    "title": "Row Comunidad",
+    "children": ["rich-text#trigger__comunidad", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "trigger__comunidad"
+    }
+  },
+  "rich-text#trigger__comunidad": {
+    "title": "Text Comunidad",
+    "props": {
+      "blockClass": "trigger__comunidad",
+      "text": "Comunidades"
+    }
+  },
+  ////////////////////////////////////////////////////// Información legal
+  "flex-layout.col#trigger__informacion--legal": {
+    "title": "Column Información legal",
+    "children": ["flex-layout.row#trigger__informacion--legal"],
+    "props": {
+      "blockClass": "trigger__informacion--legal"
+    }
+  },
+  "flex-layout.row#trigger__informacion--legal": {
+    "title": "Row Información legal",
+    "children": [
+      "rich-text#trigger__informacion--legal",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "trigger__informacion--legal"
+    }
+  },
+  "rich-text#trigger__informacion--legal": {
+    "title": "Text Información legal",
+    "props": {
+      "blockClass": "trigger__informacion--legal",
+      "text": "Información legal"
+    }
+  },
+  ////////////////////////////////////////////////////// Disclosure Content
+  "disclosure-content#disclosure__desktop": {
+    "title": "Disclosure Content",
+    "children": ["flex-layout.row#disclosure__desktop"],
+    "props": {
+      "blockClass": "disclosure__desktop"
+    }
+  },
+  ////////////////////////////////////////////////////// Content Titles
+  "flex-layout.row#disclosure__desktop": {
+    "title": "Content Titles",
+    "children": [
+      "flex-layout.col#content__centro--ayuda",
+      "flex-layout.col#content__exito--com",
+      "flex-layout.col#content__nuestra--compania",
+      "flex-layout.col#content__comunidad",
+      "flex-layout.col#content__informacion--legal"
+    ],
+    "props": {
+      "blockClass": "disclosure__desktop"
+    }
+  },
+  ////////////////////////////////////////////////////// Centro de ayuda
+  "flex-layout.col#content__centro--ayuda": {
+    "title": "Content Centro de ayuda",
+    "children": [
+      "link#preguntas__frequentes",
+      "link#politica__cambios",
+      "link#politica__garantias",
+      "link#contacto",
+      "link#cambio__producto",
+      "link#almacenes",
+      "link#escribenos",
+      "link#mi__pedido",
+      "link#actualizar__datos"
+    ],
+    "props": {
+      "blockClass": "content__centro--ayuda"
+    }
+  },
+  "link#preguntas__frequentes": {
+    "title": "Text Preguntas frecuentes",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Preguntas Frecuentes",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#politica__cambios": {
+    "title": "Text Política de cambios",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Políticas de Cambios y Devoluciones",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#politica__garantias": {
+    "title": "Text Política de garantías",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Política de garantías",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#contacto": {
+    "title": "Text Contacto",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "contacto",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#cambio__producto": {
+    "title": "Text Cambia tu producto",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Cambia tu producto fácil",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#almacenes": {
+    "title": "Text Almacenes",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Almacenes",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#escribenos": {
+    "title": "Text Escríbenos (PQRS)",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Escríbenos (PQRS)",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#mi__pedido": {
+    "title": "Text ¿Cómo gestionar mi pedido?",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "¿Cómo gestionar mi pedido?",
+      "blockClass": "disclosure__links"
+    }
+  },
+  "link#actualizar__datos": {
+    "title": "Text Actualiza tus datos",
+    "props": {
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Actualiza tus datos",
+      "blockClass": "disclosure__links"
+    }
+  },
+  ////////////////////////////////////////////////////// exito.com
+  "flex-layout.col#content__exito--com": {
+    "title": "Content exito.com",
+    "children": [
+      "link#compra__recoge",
+      "link#domicilio__telefonico",
+      "link#garantia__extendida",
+      "link#vende__en",
+      "link#pauta",
+      "link#afiliados__clickam",
+      "link#revista__virtual"
+    ],
+    "props": {
+      "blockClass": "content__exito--com"
+    }
+  },
+  "link#compra__recoge": {
+    "title": "Text Compra y recoge",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Compra y recoge"
+    }
+  },
+  "link#domicilio__telefonico": {
+    "title": "Text Domicilio telefónico",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Domicilio telefónico"
+    }
+  },
+  "link#garantia__extendida": {
+    "title": "Text Garantía extendida",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Garantía extendida"
+    }
+  },
+  "link#vende__en": {
+    "title": "Text Vende en exito.com",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Vende en exito.com"
+    }
+  },
+  "link#pauta": {
+    "title": "Text Paute con nosotros",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Paute con nosotros"
+    }
+  },
+  "link#afiliados__clickam": {
+    "title": "Text Afiliados clickam",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Afiliados Clickam"
+    }
+  },
+  "link#revista__virtual": {
+    "title": "Text Revista virtual",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Revista virtual"
+    }
+  },
+  ////////////////////////////////////////////////////// Nuestra compañía
+  "flex-layout.col#content__nuestra--compania": {
+    "title": "Content Nuestra compañía",
+    "children": [
+      "link#grupo__exito",
+      "link#fundacion__exito",
+      "link#donar__goticas",
+      "link#inversionistas",
+      "link#ventas__empresariales",
+      "link#oportunidad__empleo"
+    ],
+    "props": {
+      "blockClass": "content__nuestra--compania"
+    }
+  },
+  "link#grupo__exito": {
+    "title": "Text Grupo éxito",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Grupo éxito"
+    }
+  },
+  "link#fundacion__exito": {
+    "title": "Text Fundación éxito",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Fundación éxito"
+    }
+  },
+  "link#donar__goticas": {
+    "title": "Text Donar goticas",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Donar goticas"
+    }
+  },
+  "link#inversionistas": {
+    "title": "Text Inversionistas",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Inversionistas"
+    }
+  },
+  "link#ventas__empresariales": {
+    "title": "Text Ventas empresariales",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Ventas empresariales"
+    }
+  },
+  "link#oportunidad__empleo": {
+    "title": "Text Oportundades de empleo",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Oportunidades de empleo"
+    }
+  },
+  ////////////////////////////////////////////////////// Comunidad
+  "flex-layout.col#content__comunidad": {
+    "title": "Content Comunidad",
+    "children": ["link#vivevinos","link#exploradores__exito"],
+    "props": {
+      "blockClass": "content__comunidad"
+    }
+  },
+  "link#vivevinos": {
+    "title": "Text Vivevinos",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Vivevinos"
+    }
+  },
+  "link#exploradores__exito": {
+    "title": "Text Exploradores éxito",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Exploradores éxito"
+    }
+  },
+  ////////////////////////////////////////////////////// Información legal
+  "flex-layout.col#content__informacion--legal": {
+    "title": "Content Información legal",
+    "children": [
+      "link#dia__legal",
+      "link#terminos__condiciones",
+      "link#terminos__marketplace",
+      "link#politica__privacidad",
+      "link#autorizacion__datos",
+      "link#SIC",
+      "link#derecho__retracto",
+      "link#solicitud__reversion"
+    ],
+    "props": {
+      "blockClass": "content__informacion--legal"
+    }
+  },
+  "link#dia__legal": {
+    "title": "Text Legales del día",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Legales del día"
+    }
+  },
+  "link#terminos__condiciones": {
+    "title": "Text Términos y condiciones",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Terminos y condiciones"
+    }
+  },
+  "link#terminos__marketplace": {
+    "title": "Text Términos de la Marketplace",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Términos de la Marketplace"
+    }
+  },
+  "link#politica__privacidad": {
+    "title": "Text Política de privacidad",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Política de privacidad"
+    }
+  },
+  "link#autorizacion__datos": {
+    "title": "Text Autorización tratamiento de datos",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Autorización tratamiento de datos"
+    }
+  },
+  "link#SIC": {
+    "title": "Text Superintendencia de Industria y Comercio - SIC",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Superintendencia de Industria y Comercio - SIC"
+    }
+  },
+  "link#derecho__retracto": {
+    "title": "Text Derecho de retracto",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Derecho de retracto"
+    }
+  },
+  "link#solicitud__reversion": {
+    "title": "Text Solicitud de reversiones",
+    "props": {
+      "blockClass": "disclosure__links",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
+      "label": "Solicitud de reversiones"
+    }
+  }
+}

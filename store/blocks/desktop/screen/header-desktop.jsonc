@@ -6,8 +6,12 @@
   "header-row#header__desktop": {
     "title": "Header Desktop",
     "children": [
-      "mega-menu#home__menu",
-      "mega-menu-trigger-btn",
+      // "mega-menu-trigger-btn",
+      // "mega-menu#home__menu",
+      "flex-layout.row#mega__menu--desktop",
+      "flex-layout.row#mega-menu",
+      // "sticky-layout#mega__menu--desktop",
+      // "flex-layout.row#trigger-mega-menu",
       "logo#header__desktop",
       "flex-layout.row#header__desktop",
       "search-bar#header__desktop",
