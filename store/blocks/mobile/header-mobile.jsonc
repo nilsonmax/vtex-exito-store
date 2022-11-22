@@ -23,35 +23,6 @@
     }
   },
   "drawer#header__mobile": {
-    "children": [ "mega-menu#home__menu"]
+    "children": ["flex-layout.row#mega-menu"]
   }
-  // "menu#menu__mobile": {
-  //   "children": ["menu-item#category__one", "menu-item#category__two"]
-  // },
-  // "menu-item#category__one": {
-  //   "props": {
-  //     "id": "category__one",
-  //     "type": "custom",
-  //     "itemPros":{
-  //       "type":"external",
-  //       "href":"https://www.google.com/",
-  //       "nofollow": true,
-  //       "tabTitle":"Google Title",
-  //       "text": "Google"
-  //     }
-  //   }
-  // },
-  // "menu-item#category__two": {
-  //   "props": {
-  //     "id": "category__two",
-  //     "type": "custom",
-  //     "itemPros":{
-  //       "type":"external",
-  //       "href":"https://www.bing.com/",
-  //       "nofollow": true,
-  //       "tabTitle":"Bing Title",
-  //       "text": "Big"
-  //     }
-  //   }
-  // }
 }

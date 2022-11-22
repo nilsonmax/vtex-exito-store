@@ -1,0 +1,11 @@
+{
+  "footer-layout.desktop": {
+    "title": "Footer Desktop",
+    "children": [
+      "flex-layout.row#footer__desktop--seccion-uno",
+      "flex-layout.row#footer__desktop--seccion-dos",
+      "flex-layout.row#footer__desktop--seccion-tres",
+      "flex-layout.row#footer__desktop--seccion-cuatro"
+    ]
+  }
+}

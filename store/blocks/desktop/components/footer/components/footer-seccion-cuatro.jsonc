@@ -1,0 +1,113 @@
+{
+  "flex-layout.row#footer__desktop--seccion-cuatro": {
+    "title": "Section Footer 4",
+    "children": [
+      "flex-layout.col#visita__logos",
+      "flex-layout.col#derechos"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--seccion-cuatro"
+    }
+  },
+  ////////////////////////////////////////////////////// Visita - Logos
+  "flex-layout.col#visita__logos": {
+    "title": "Section Visita - Logos",
+    "children": [
+      "flex-layout.row#visita__logos"
+    ]
+  },
+  "flex-layout.row#visita__logos": {
+    "title": "Container Visita - Logos",
+    "children": [
+      // "flex-layout.col#visita",
+      "flex-layout.col#logos__comerciales"
+    ],
+    "props": {
+      "blockClass": "visita__logos"
+    }
+  },
+  "flex-layout.col#visita": {
+    "title": "Column Visita",
+    "children": [
+      "rich-text#visita"
+    ],
+    "props": {
+      "blockClass": "visita"
+    }
+  },
+  "rich-text#visita": {
+    "title": "Text Visita también",
+    "props": {
+      "blockClass": "visita",
+      "text": "Visita también:",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "flex-layout.col#logos__comerciales": {
+    "title": "Column Logos comerciales",
+    "children": [
+    "flex-layout.row#logos__comerciales"
+    ]
+  },
+  "flex-layout.row#logos__comerciales": {
+    "title": "Container logos",
+    "children": [
+      "flex-layout.col#visita",
+      "logo#carulla",
+      "logo#viva",
+      "logo#superinter",
+      "logo#surtimax"
+    ],
+    "props": {
+      "blockClass": "logos__comerciales"
+    }
+  },
+  "logo#carulla": {
+    "title": "Logo Carulla",
+    "props": {
+      "blockClass": "carulla",
+      "url": "assets/img/footer-carulla.svg"
+    }
+  },
+  "logo#viva": {
+    "title": "Logo Viva",
+    "props": {
+      "blockClass": "viva",
+      "url": "assets/img/footer-viva.svg"
+    }
+  },
+  "logo#superinter": {
+    "title": "Logo Superinter",
+    "props": {
+      "blockClass": "superinter",
+      "url": "assets/img/footer-superinter.svg"
+    }
+  },
+  "logo#surtimax": {
+    "title": "Logo Surtimax",
+    "props": {
+      "blockClass": "surtimax",
+      "url": "assets/img/footer-surtimax.svg"
+    }
+  },
+  ////////////////////////////////////////////////////// Derechos
+  "flex-layout.col#derechos": {
+    "title": "Section Derechos",
+    "children": [
+      "rich-text#derechos"
+    ],
+    "props": {
+      "blockClass": "derechos"
+    }
+  },
+  "rich-text#derechos": {
+    "title": "Text 2022 Éxito ® NIT 890900608-9. Todos los derechos reservados.",
+    "props": {
+      "blockClass": "derechos",
+      "text": "2022 Éxito ® NIT 890900608-9. Todos los derechos reservados.",
+      "textAlignment": "right",
+      "textPosition": "right"
+    }
+  }
+}

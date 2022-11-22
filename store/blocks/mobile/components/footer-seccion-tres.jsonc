@@ -70,15 +70,15 @@
   "flex-layout.col#centro__ayuda-mobile": {
     "title": "Content Centro de ayuda",
     "children": [
-      "rich-text#preguntas__frequentes",
-      "rich-text#politica__cambios",
-      "rich-text#politica__garantias",
-      "rich-text#contacto",
-      "rich-text#cambio__producto",
-      "rich-text#almacenes",
-      "rich-text#escribenos",
-      "rich-text#mi__pedido",
-      "rich-text#actualizar__datos"
+      "link#preguntas__frequentes",
+      "link#politica__cambios",
+      "link#politica__garantias",
+      "link#contacto",
+      "link#cambio__producto",
+      "link#almacenes",
+      "link#escribenos",
+      "link#mi__pedido",
+      "link#actualizar__datos"
     ],
     "props": {
       "blockClass": "centro__ayuda-mobile"
@@ -117,13 +117,13 @@
   "flex-layout.col#exito__com-mobile": {
     "title": "Content exito.com",
     "children": [
-      "rich-text#compra__recoge",
-      "rich-text#domicilio__telefonico",
-      "rich-text#garantia__extendida",
-      "rich-text#vende__en",
-      "rich-text#pauta",
-      "rich-text#afiliados__clickam",
-      "rich-text#revista__virtual"
+      "link#compra__recoge",
+      "link#domicilio__telefonico",
+      "link#garantia__extendida",
+      "link#vende__en",
+      "link#pauta",
+      "link#afiliados__clickam",
+      "link#revista__virtual"
     ],
     "props": {
       "blockClass": "exito__com-mobile"
@@ -162,12 +162,12 @@
   "flex-layout.col#nuestra__compania-mobile": {
     "title": "Content Nuestra compañía",
     "children": [
-      "rich-text#grupo__exito",
-      "rich-text#fundacion__exito",
-      "rich-text#donar__goticas",
-      "rich-text#inversionistas",
-      "rich-text#ventas__empresariales",
-      "rich-text#oportunidad__empleo"
+      "link#grupo__exito",
+      "link#fundacion__exito",
+      "link#donar__goticas",
+      "link#inversionistas",
+      "link#ventas__empresariales",
+      "link#oportunidad__empleo"
     ],
     "props": {
       "blockClass": "nuestra__compania-mobile"
@@ -205,8 +205,8 @@
   "flex-layout.col#comunidad-mobile": {
     "title": "Content Comunidad",
     "children": [
-      "rich-text#vivevinos",
-      "rich-text#exploradores__exito"
+      "link#vivevinos",
+      "link#exploradores__exito"
     ],
     "props": {
       "blockClass": "comunidad-mobile"
@@ -245,14 +245,14 @@
   "flex-layout.col#informacion__legal-mobile": {
     "title": "Content Información legal",
     "children": [
-      "rich-text#dia__legal",
-      "rich-text#terminos__condiciones",
-      "rich-text#terminos__marketplace",
-      "rich-text#politica__privacidad",
-      "rich-text#autorizacion__datos",
-      "rich-text#SIC",
-      "rich-text#derecho__retracto",
-      "rich-text#solicitud__reversion"
+      "link#dia__legal",
+      "link#terminos__condiciones",
+      "link#terminos__marketplace",
+      "link#politica__privacidad",
+      "link#autorizacion__datos",
+      "link#SIC",
+      "link#derecho__retracto",
+      "link#solicitud__reversion"
     ],
     "props": {
       "blockClass": "informacion__legal-mobile"

@@ -1,0 +1,30 @@
+.trigger--disclosure__desktop--hidden,
+.trigger--disclosure__desktop--visible {
+    background: transparent;
+    border-color: transparent;
+    padding: 0;
+    border: 0;
+    width: 2px;
+}
+
+.trigger--nuestra__compania-mobile--hidden,
+.trigger--centro__ayuda-mobile--hidden,
+.trigger--exito__com-mobile--hidden,
+.trigger--comunidad-mobile--hidden,
+.trigger--informacion__legal-mobile--hidden,
+.trigger--centro__ayuda-mobile--visible,
+.trigger--exito__com-mobile--visible,
+.trigger--nuestra__compania-mobile--visible,
+.trigger--comunidad-mobile--visible,
+.trigger--informacion__legal-mobile--visible {
+    background: transparent;
+    border-color: transparent;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 5px;
+    width: 100%;
+}
