@@ -1,36 +1,3 @@
-// {
-      //////////////////////////////////////////////////// Mega Menu
-  // "mega-menu#home__menu": {
-  //   "title": "Home Mega Menu",
-  //   "props": {
-  //     "blockClass": "home__menu",
-  //     "openOnly": "horizontal",
-  //     "width": "25%"
-  //   }
-  // },
-  // "flex-layout.row#trigger-mega-menu": {
-  //   "title": "Sesión mega menú escritorio dos",
-  //   "props": {
-  //     "verticalAlign": "middle"
-  //   },
-  //   "children": ["mega-menu-trigger-btn"]
-  // },
-//   "mega-menu-trigger-btn": {
-//     "title": "Mega menú botón",
-//     "props": {
-//       "blockClass":"home__menu",
-//       "Drawer": "drawer"
-//     }
-//   }
-// }
-// {
-//   "sticky-layout#mega__menu--desktop": {
-//     "title": "Menú de escritorio",
-//     "children": [
-//       "flex-layout.row#mega__menu--desktop",
-//       "flex-layout.row#mega-menu"
-//     ]
-//   },
 {
   "flex-layout.row#mega__menu--desktop": {
     "title": "Sesión mega menú escritorio",
@@ -43,9 +10,7 @@
   "mega-menu#desktop": {
     "title": "Mega menú",
     "props": {
-      // "orientation":"vertical",
-      // "openOnly": "vertical",
-      "width": "100%"
+      "openOnly": "horizontal"
     }
   },
   "flex-layout.col#trigger-mega-menu": {
