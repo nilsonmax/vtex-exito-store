@@ -8,5 +8,14 @@
       "width": 80,
       "href": "/"
     }
+  },
+  "logo#header__menu": {
+    "title": "Header Logo",
+    "props": {
+      "blockClass": "header__menu",
+      "url": "assets/img/logo-exito.svg",
+      "width": 80,
+      "href": "/"
+    }
   }
 }
