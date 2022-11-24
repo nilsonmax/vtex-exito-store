@@ -1,0 +1,100 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product__breadcrumb",
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "flex-layout.row#product__info"
+    ]
+  },
+  "flex-layout.row#product__breadcrumb": {
+    "children": [
+      "flex-layout.col#product__breadcrumb"
+    ],
+    "props": {
+      "blockClass": "product__breadcrumb"
+    }
+  },
+  "flex-layout.col#product__breadcrumb": {
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "blockClass": "product__breadcrumb"
+    }
+  },
+  "vtex.store-components:product-name": {
+    "props": {
+      "blockClass": "product__name"
+    }
+  },
+  "vtex.store-components:product-brand": {
+    "props": {
+      "blockClass": "product__brand"
+    }
+  },
+  "flex-layout.row#product__info": {
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "product__info"
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "children": [
+      "product-images#product__info--image"
+    ],
+    "props": {
+      "blockClass": "product__info--image"
+    }
+  },
+  "product-images#product__info--image": {
+    "props": {
+      "blockClass": "product__info--image",
+      "zoomMode": "open-modal"
+    }
+  },
+  "flex-layout.col#product__info--data": {
+    "children": [
+      "product-price",
+      "product-separator",
+      "product-quantity",
+      "add-to-cart-button",
+      "flex-layout.row#checkout__button",
+      "modal-trigger#add__to--card-info",
+      "product-description",
+      "product-rating-inline",
+      // "shipping-simulator",
+      "share"
+    ],
+    "props": {
+      "blockClass": "product__info--data"
+    }
+  },
+  "flex-layout.row#checkout__button": {
+    "children": [
+      "rich-text#go__checkout"
+    ]
+  },
+  "rich-text#go__checkout": {
+    "props": {
+      "blockClass": "go__checkout",
+      "text": "[Comprar ahora](/checkout)"
+    }
+  },
+  "share": {
+    "props": {
+      "options": {
+        "size": 20
+      },
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": true,
+        "Pinterest": false
+      }
+    }
+  }
+}
