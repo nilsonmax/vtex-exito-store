@@ -29,8 +29,11 @@
   "icon-cart": {
     "title": "Icon Cart",
     "props": {
-      "id": "hpa-cart",
-      "size": 20
+      "id": "hpa-cart-dos",
+      "size": 26,
+      "viewBox": "0 0 16 26",
+      "activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
     }
   },
   "minicart-base-content": {

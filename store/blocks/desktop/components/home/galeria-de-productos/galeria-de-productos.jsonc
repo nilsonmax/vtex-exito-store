@@ -35,9 +35,9 @@
     "children": ["search-content#home__results--search"]
   },
   "search-content#home__results--search": {
-    "blocks": ["gallery", "not-found"]
+    "blocks": ["gallery#product", "not-found"]
   },
-  "gallery": {
+  "gallery#product": {
     "blocks": ["product-summary.shelf"]
   }
 }

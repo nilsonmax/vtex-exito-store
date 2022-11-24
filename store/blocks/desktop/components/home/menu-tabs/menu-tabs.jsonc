@@ -19,9 +19,9 @@
         "text": "Inicio"
       },
       "iconProps": {
-        "id": "nav-home",
-        "size": 16,
-        "viewBox": "0 0 16 16",
+        "id": "bnd-tv",
+        "size": 22,
+        "viewBox": "0 0 16 26",
         "activeClassName": "rebel-pink",
         "mutedClassName": "c-action-primary"
       },
@@ -42,9 +42,9 @@
         "text": "Mercado"
       },
       "iconProps": {
-        "id": "mpa-store",
-        "size": 16,
-        "viewBox": "0 0 16 16",
+        "id": "bnd-mercado",
+        "size": 22,
+        "viewBox": "0 0 16 26",
         "activeClassName": "rebel-pink",
         "mutedClassName": "c-action-primary"
       },
@@ -65,9 +65,9 @@
         "text": "Moda"
       },
       "iconProps": {
-        "id": "mpa-heart",
-        "size": 16,
-        "viewBox": "0 0 16 16",
+        "id": "bnd-ropa",
+        "size": 22,
+        "viewBox": "0 0 16 26",
         "activeClassName": "rebel-pink",
         "mutedClassName": "c-action-primary"
       },

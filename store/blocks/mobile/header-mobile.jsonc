@@ -14,10 +14,8 @@
       "minicart.v2"
     ],
     "props": {
-      // "blockClass": "main-header-mobile",
       "blockClass": "header__mobile",
       "preventHorizontalStretch": true,
-      // "preserveLayoutOnMobile": true,
       "fullWidth": true,
       "sticky": true
     }
@@ -42,10 +40,8 @@
     "children": [
       "logo#header__menu",
       "flex-layout.row#drawer-close-button"
-      // "flex-layout.row#mega-menu-go-back-btn"
     ],
     "props": {
-      // "blockClass": "drawer-header",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true,
@@ -58,7 +54,6 @@
       "flex-layout.row#mega-menu-go-back-btn"
     ],
     "props": {
-      // "blockClass": "drawer-header",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true,
@@ -71,13 +66,6 @@
       "flex-layout.row#drawer-header__close__exito",
       "flex-layout.row#drawer-header__go-back-btn"
     ]
-    // "props": {
-    //   // "blockClass": "drawer-header",
-    //   "preventHorizontalStretch": true,
-    //   "preventVerticalStretch": true,
-    //   "preserveLayoutOnMobile": true,
-    //   "fullWidth": false
-    // }
   },
   "flex-layout.row#drawer-close-button": {
     "title": "botón cerrar",
