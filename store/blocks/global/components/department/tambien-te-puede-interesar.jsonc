@@ -1,0 +1,46 @@
+{
+  "list-context.product-list#slider--tambien-te-puede-interesar": {
+    "blocks": ["product-summary.shelf#slider--tambien-te-puede-interesar"],
+    "children": ["rich-text#tambien-te-puede-interesar","slider-layout#demo-products--tambien-te-puede-interesar"],
+    "props": {
+      "height": "200px"
+      // "blockClass":"home__slider--tambien-te-puede-interesar--celumania-images"
+    }
+  },
+  "rich-text#tambien-te-puede-interesar": {
+    "props": {
+      "text": "También te puede interesar"
+    }
+  },
+  "product-summary.shelf#slider--tambien-te-puede-interesar": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      // "product-summary-buy-button"
+      "add-to-cart-button"
+    ],
+    "props": {
+      "height": "200px",
+      "blockClass": "home__slider--tambien-te-puede-interesar-images"
+    }
+  },
+  "slider-layout#demo-products--tambien-te-puede-interesar": {
+    "title": "slider--tambien-te-puede-interesar con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false,
+      // "infinite": true,
+      "showPaginationDots": false,
+      // "fullWidth": false,
+      "navigationStep": 1,
+      "stopOnHover": true,
+      // "showNavigationArrows": false
+      "blockClass": "home__slider--tambien-te-puede-interesar"
+    }
+  }
+}

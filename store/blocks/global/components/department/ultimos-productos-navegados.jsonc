@@ -1,0 +1,46 @@
+{
+  "list-context.product-list#slider--ultimos-productos-navegados": {
+    "blocks": ["product-summary.shelf#slider--ultimos-productos-navegados"],
+    "children": ["rich-text#ultimos-productos-navegados","slider-layout#demo-products--ultimos-productos-navegados"],
+    "props": {
+      "height": "200px"
+      // "blockClass":"home__slider--ultimos-productos-navegados--celumania-images"
+    }
+  },
+  "rich-text#ultimos-productos-navegados": {
+    "props": {
+      "text": "Últimos productos navegados"
+    }
+  },
+  "product-summary.shelf#slider--ultimos-productos-navegados": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      // "product-summary-buy-button"
+      "add-to-cart-button"
+    ],
+    "props": {
+      "height": "200px",
+      "blockClass": "home__slider--ultimos-productos-navegados-images"
+    }
+  },
+  "slider-layout#demo-products--ultimos-productos-navegados": {
+    "title": "slider--ultimos-productos-navegados con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false,
+      // "infinite": true,
+      "showPaginationDots": false,
+      // "fullWidth": false,
+      "navigationStep": 1,
+      "stopOnHover": true,
+      // "showNavigationArrows": false
+      "blockClass": "home__slider--ultimos-productos-navegados"
+    }
+  }
+}
