@@ -50,10 +50,19 @@
       "blockClass": "product__info--image"
     }
   },
-  "product-images#product__info--image": {
+  "product-images.high-quality-image#product__info--image": {
     "props": {
-      "blockClass": "product__info--image",
-      "zoomMode": "open-modal"
+      "zoomMode": "in-place-click",
+      "zoomFactor": 2
+    }
+  },
+   "product-images#product__info--image": {
+    "props": {
+      "ModalZoom": "product-images.high-quality-image#product__info--image",
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      }
     }
   },
   "flex-layout.col#product__info--data": {

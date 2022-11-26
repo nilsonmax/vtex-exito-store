@@ -1,9 +1,15 @@
 {
   "store.home": {
     "blocks": [
+      "back-to-top-button",
       "responsive-layout.desktop#home__info--desktop",
       "responsive-layout.mobile#home__info--mobile"
       // "responsive-layout.tablet#home__info--tablet"
     ]
+  },
+  "back-to-top-button": {
+    "props": {
+      "display": "caret-icon"
+    }
   }
 }
