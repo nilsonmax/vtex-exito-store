@@ -4,7 +4,11 @@
       "flex-layout.row#product__breadcrumb",
       "vtex.store-components:product-name",
       "vtex.store-components:product-brand",
-      "flex-layout.row#product__info"
+      "flex-layout.row#product__info",
+      "list-context.product-list#slider--tambien-te-puede-interesar",
+      "list-context.product-list#slider--ultimos-productos-navegados",
+      "product-reviews"
+      // "product-rating-summary"
     ]
   },
   "flex-layout.row#product__breadcrumb": {
