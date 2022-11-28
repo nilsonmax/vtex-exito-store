@@ -11,6 +11,7 @@
   "flex-layout.col#home__sections#desktop": {
     "children": [
       // "tab-layout#home",
+      "whatsapp-button",
       "flex-layout.row#home__top",
       "flex-layout.row#home__section--one-desktop",
       "flex-layout.row#home__categorias",
@@ -23,10 +24,15 @@
       "flex-layout.row#moda-y-accesorios--desktop",
       "flex-layout.row#todo-para-tu-hogar--desktop",
       "flex-layout.row#todo-para-tu-familia--desktop"
-      // "search-result-layout.customQuery#home" // clases
     ]
-    // "props": {
-    //   "blockClass": "home__sections"
-    // }
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/logo-whatsapp.png",
+      "phone": "3008935212",
+      "message": "Estas comunicarse con Grupo Exito, Ingrese su mensaje",
+      "width": 40,
+      "height": 40
+    }
   }
 }

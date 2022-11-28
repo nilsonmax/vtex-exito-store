@@ -14,9 +14,7 @@
       "search-result-layout.desktop": {
       "children": [
         "flex-layout.row#bread",
-        "flex-layout.row#department__results",
-        "list-context.product-list#slider--tambien-te-puede-interesar",
-        "list-context.product-list#slider--ultimos-productos-navegados"
+        "flex-layout.row#department__results"
       ]
     },
     "search-result-layout.mobile": {
