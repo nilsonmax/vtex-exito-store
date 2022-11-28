@@ -1,62 +1,129 @@
-# Minimum Boilerplate Theme
+# Minimum Boilerplate Theme - exito.com
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+El Minimum Boilerplate Theme es un modelo básico de escaparate basado en VTEX IO Store Framework.
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+La tienda está construida a partir de la viva imagen de exito.com
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+<img src="https://github.com/nilsonmax/vtex-exito-store/tree/main/assets/img/pantalla.png" alt="preview" />
 
-## Configuration
+## Configuración
+### Paso 1 - Configuración básica
 
-### Step 1 -  Basic setup
+Acceda a la [guía de configuración básica](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) de VTEX IO y siga todos los pasos indicados.
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+Al final de la configuración, debe tener instalada la interfaz de línea de comandos de VTEX (Toolbelt) junto con un espacio de trabajo de desarrollador en el que puede trabajar.
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+### Paso 2 - Clonación del repositorio
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+[Clonar](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) este repositorio en sus archivos locales para poder comenzar a trabajar en él de manera efectiva.
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+Luego, acceda al directorio del repositorio usando su terminal.
 
-Then, access the repository's directory using your terminal. 
+### Paso 3 - Editar el Manifest.json
 
-### Step 3 - Editing the `Manifest.json`
+Una vez en el directorio del repositorio, es hora de editar el archivo `manifest.json` de la plantilla mínima.
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
-
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+Una vez que esté en el archivo, debe reemplazar los valores `vendor` y `account`. `vendor` es el nombre de la cuenta en la que está trabajando y `account` es cualquier nombre que desee para su tema. Por ejemplo:
 
 ```json
 {
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
+  "vendor": "itgloberspartnercl",
+  "name": "store-theme",
 }
 ```
 
-### Step 4 -  Installing required apps
+### Paso 4 - Instalar apps necesarias
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+Para usar Store Framework y trabajar en el tema de su tienda, es necesario tener instalados `vtex.store-sitemap` y `vtex.store`.
 
-Run  `vtex list`  and check whether those apps are already installed. 
+Ejecute `vtex list` y verifique si esas aplicaciones ya están instaladas.
 
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
+Si no lo están, ejecute el siguiente comando para instalarlos: `vtex install vtex.store-sitemap vtex.store -f`
 
-### Step 5 -  Uninstalling any existing theme
+### Paso 5 - Desinstalar el store-theme predeterminado
 
-By running `vtex list`,  you can verify if any theme is installed.
+Al ejecutar `vtex list`, puede verificar si algún tema está instalado.
 
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
+Es común tener ya instalado un `vtex.store-theme` cuando inicia el proceso de desarrollo frontal de la tienda.
 
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
+Por lo tanto, si lo encuentra en la lista de aplicaciones, copie su nombre y utilícelo junto con el comando `vtex uninstall`. Por ejemplo:
 
 ```json
 vtex uninstall vtex.store-theme
 ```
 
-### Step 6- Run and preview your store
+### Paso 6 - Ejecute un preview de la tienda
 
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
+Entonces ha llegado el momento de cargar todos los cambios que realizó en sus archivos locales a la plataforma. Para eso, use el comando `vtex link`.
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
+Si el proceso se ejecuta sin ningún error, se mostrará el siguiente mensaje: `Aplicación vinculada con éxito`. Luego, ejecute el comando `vtex browser` para abrir una ventana del navegador que tenga su tienda vinculada.
 
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
+
+## Dependencies
+1. minimun-theme
+2. Store GraphQl
+
+## peerDependencies
+1. "vtex.mega-menu"
+2. "vtex.wish-list"
+
+## Store Components
+1. "vtex.store"
+2. "vtex.store-header"
+3. "vtex.product-summary"
+4. "vtex.store-footer"
+5. "vtex.store-components"
+6. "vtex.styleguide"
+7. "vtex.slider"
+8. "vtex.carousel"
+9. "vtex.shelf"
+10. "vtex.menu"
+11. "vtex.minicart"
+12. "vtex.product-details"
+13. "vtex.product-kit"
+14. "vtex.search-result"
+15. "vtex.login"
+16. "vtex.my-account"
+17. "vtex.flex-layout"
+18. "vtex.rich-text"
+19. "vtex.store-drawer"
+20. "vtex.locale-switcher"
+21. "vtex.product-quantity"
+22. "vtex.product-identifier"
+23. "vtex.product-specification-badges"
+24. "vtex.product-review-interfaces"
+25. "vtex.telemarketing"
+26. "vtex.order-placed"
+27. "vtex.stack-layout"
+28. "vtex.tab-layout"
+29. "vtex.responsive-layout"
+30. "vtex.slider-layout"
+31. "vtex.iframe"
+32. "vtex.breadcrumb"
+33. "vtex.sticky-layout"
+34. "vtex.add-to-cart-button"
+35. "vtex.modal-layout"
+36. "vtex.store-image"
+37. "vtex.store-icons"
+38. "vtex.product-list"
+39. "vtex.checkout-summary"
+40. "vtex.category-menu"
+41. "vtex.disclosure-layout"
+42. "vtex.store-form"
+43. "vtex.store-newsletter"
+44. "vtex.product-price"
+45. "vtex.product-specifications"
+46. "vtex.product-highlights"
+
+## Custom Apps (Componentes custom que deben instalarse con la tienda)
+1. "itgloberspartnercl.whatsapp-button"
+<!-- 2. "itgloberspartnercl.bullets-diagramation"
+3. "itgloberspartnercl.add-to-cart-info"
+4. "itgloberspartnercl.custom-department-search"
+5. "itgloberspartnercl.pdf-reader"
+6. "itgloberspartnercl.quick-order"
+7. "itgloberspartnercl.special-diagramation" -->
+
+## Contributors
+1. Nilson Max Benitez Marquez
