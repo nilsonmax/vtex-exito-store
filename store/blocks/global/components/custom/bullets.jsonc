@@ -1,0 +1,105 @@
+{
+  "list-context.bullet-group": {
+    "title": "Mi lista de Bullets",
+    "children": ["slider-layout#bullet__group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/categoria-item-1.webp",
+          "titleBullet": "Navidad",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-2.webp",
+          "titleBullet": "Mercado",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-3.webp",
+          "titleBullet": "Moda",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-4.webp",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-5.webp",
+          "titleBullet": "Televisores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-6.webp",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-7.webp",
+          "titleBullet": "Electrodomésticos",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-8.webp",
+          "titleBullet": "Mundo cocina",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-9.webp",
+          "titleBullet": "Colchones",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-10.webp",
+          "titleBullet": "Deportes",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-11.webp",
+          "titleBullet": "Juguetería",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/categoria-item-12.webp",
+          "titleBullet": "Expovinos",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet__group": {
+    "title": "Mi Slider lista de Bullets",
+    "props": {
+      "itemPerPage": {
+        "desktop": 6,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "infinite": true
+    }
+  }
+}

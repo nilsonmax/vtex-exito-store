@@ -1,0 +1,98 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile layout",
+    "children": [
+      "notification.bar",
+      "header-row#header__mobile--uno",
+      "header-row#header__mobile--dos",
+      "header-row#header__mobile--tres"
+    ]
+  },
+  "header-row#header__mobile--uno": {
+    "title": "Header Mobile row uno",
+    "children": [
+      "drawer#header__mobile",
+      "logo#header__desktop",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__mobile--row-uno",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "sticky": true
+    }
+  },
+  "header-row#header__mobile--dos": {
+    "title": "Header Mobile row dos",
+    "children": [
+      "search-bar#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--row-dos",
+      "sticky": true
+    }
+  },
+  "header-row#header__mobile--tres": {
+    "title": "Header Mobile row tres",
+    "children": [
+      "flex-layout.row#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--row-tres",
+      "sticky": true
+    }
+  },
+   "mega-menu#mobile": {
+    "title": "Mega menú mobile",
+    "props": {
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer#header__mobile": {
+    "title": " Drawer menú mobile",
+    "blocks": ["drawer-header#my-drawer"],
+    "children": ["mega-menu#mobile", "flex-layout.col#trigger-mega-menu"]
+  },
+  "drawer-header#my-drawer": {
+    "title": " Drawer header menú mobile",
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header__close__exito": {
+    "title": " Drawer row menú mobile",
+    "children": ["logo#header__menu", "flex-layout.row#drawer-close-button"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false
+    }
+  },
+  "flex-layout.row#drawer-header": {
+    "title": " row header (cerrar + volver al mega menu)",
+    "children": [
+      "flex-layout.row#drawer-header__close__exito",
+      "flex-layout.row#mega-menu-go-back-btn"
+    ]
+  },
+  "flex-layout.row#drawer-close-button": {
+    "title": "row botón cerrar drawer",
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.row#mega-menu-go-back-btn": {
+    "title": "row botón mobile volver a mega menu",
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  }
+}
