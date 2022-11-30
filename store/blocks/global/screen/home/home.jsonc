@@ -6,10 +6,5 @@
       "responsive-layout.mobile#home__info--mobile"
       // "responsive-layout.tablet#home__info--tablet"
     ]
-  },
-  "back-to-top-button": {
-    "props": {
-      "display": "caret-icon"
-    }
   }
 }

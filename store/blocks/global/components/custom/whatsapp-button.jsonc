@@ -1,0 +1,11 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/logo-whatsapp.png",
+      "phone": "3008935212",
+      "message": "Estas comunicarse con Grupo Exito, Ingrese su mensaje",
+      "width": 80,
+      "height": 80
+    }
+  }
+}

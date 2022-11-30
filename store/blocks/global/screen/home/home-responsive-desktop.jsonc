@@ -7,10 +7,5 @@
     "props":{
       "blockClass": "home__responsive"
     }
-  },
-  "rich-text#home__info--desktop":{
-    "props":{
-      "text": "# Resolucion de Escritorio"
-    }
   }
 }

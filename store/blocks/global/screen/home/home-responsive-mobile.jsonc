@@ -7,10 +7,5 @@
     "props":{
       "blockClass": "home__responsive"
     }
-  },
-  "rich-text#home__info--mobile":{
-    "props":{
-      "text": "# Resolucion de Mobile"
-    }
   }
 }
