@@ -75,6 +75,7 @@
       "product-separator",
       "product-quantity",
       "add-to-cart-button",
+      // "add-to-cart-info",
       "flex-layout.row#checkout__button",
       "modal-trigger#add__to--card-info",
       "product-description",

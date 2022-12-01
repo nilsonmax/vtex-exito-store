@@ -8,6 +8,7 @@ La tienda está construida a partir de la viva imagen de exito.com
 <img src="https://github.com/nilsonmax/vtex-exito-store/blob/a939d02466c1f1d7e2a0434320d31100d7def4d5/assets/img/pantalla.png" alt="preview" />
 
 ## Configuración
+
 ### Paso 1 - Configuración básica
 
 Acceda a la [guía de configuración básica](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) de VTEX IO y siga todos los pasos indicados.
@@ -29,7 +30,7 @@ Una vez que esté en el archivo, debe reemplazar los valores `vendor` y `account
 ```json
 {
   "vendor": "itgloberspartnercl",
-  "name": "store-theme",
+  "name": "store-theme"
 }
 ```
 
@@ -62,14 +63,17 @@ Si el proceso se ejecuta sin ningún error, se mostrará el siguiente mensaje: `
 Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
 
 ## Dependencies
+
 1. minimun-theme
 2. Store GraphQl
 
 ## peerDependencies
+
 1. "vtex.mega-menu"
 2. "vtex.wish-list"
 
 ## Store Components
+
 1. "vtex.store"
 2. "vtex.store-header"
 3. "vtex.product-summary"
@@ -118,13 +122,15 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
 46. "vtex.product-highlights"
 
 ## Custom Apps (Componentes custom que deben instalarse con la tienda)
+
 1. "itgloberspartnercl.whatsapp-button"
-<!-- 2. "itgloberspartnercl.bullets-diagramation"
+2. "itgloberspartnercl.bullets-diagramation"
 3. "itgloberspartnercl.add-to-cart-info"
-4. "itgloberspartnercl.custom-department-search"
-5. "itgloberspartnercl.pdf-reader"
-6. "itgloberspartnercl.quick-order"
-7. "itgloberspartnercl.special-diagramation" -->
+<!--4. "itgloberspartnercl.custom-department-search"
+4. "itgloberspartnercl.pdf-reader"
+5. "itgloberspartnercl.quick-order"
+6. "itgloberspartnercl.special-diagramation" -->
 
 ## Contributors
+
 1. Nilson Max Benitez Marquez
