@@ -163,8 +163,8 @@
   },
   "modal-layout#add__to--card-info": {
     "children": [
-      "modal-header#add__to--card-info"
-      // "add-to-cart-info"
+      "modal-header#add__to--card-info",
+      "add-to-cart-info"
     ]
   },
   "modal-header#add__to--card-info": {
