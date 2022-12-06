@@ -1,5 +1,8 @@
 {
   "store.custom#about-us": {
     "path": "/about-us"
+  },
+  "store.custom#solicitud-garantias-por-la-pagina": {
+    "path": "/solicitud-garantias-por-la-pagina"
   }
 }

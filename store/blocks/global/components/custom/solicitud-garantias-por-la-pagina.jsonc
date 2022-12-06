@@ -1,0 +1,54 @@
+{
+  "store.custom#solicitud-garantias-por-la-pagina": {
+    "title": "Custom Solicitud garantias por la pagina",
+    "blocks": [
+      "responsive-layout.desktop#home__image--desktop",
+      "responsive-layout.mobile#home__image--mobile",
+      "pdf-reader"
+    ]
+  },
+  ///////////////////////////// desktop
+  "responsive-layout.desktop#home__image--desktop": {
+    "title": "Component mobile",
+    "children": ["image#landing--desktop", "image#landing--dos--desktop"],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  },
+  "image#landing--desktop": {
+    "title": " imagen uno Solicitud garantias por la pagina",
+    "props": {
+      "minWidth": "100%",
+      "src": "assets/img/garantias-por-la-pagina.webp"
+    }
+  },
+  "image#landing--dos--desktop": {
+    "title": " imagen dos Solicitud garantias por la pagina",
+    "props": {
+      "minWidth": "100%",
+      "src": "assets/img/garantias-por-la-pagina.png"
+    }
+  },
+  ////////////////////////////// mobile
+  "responsive-layout.mobile#home__image--mobile": {
+    "title": "Component mobile",
+    "children": ["image#landing--mobile", "image#landing--dos--mobile"],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  },
+  "image#landing--mobile": {
+    "title": " imagen uno Solicitud garantias por la pagina",
+    "props": {
+      "minWidth": "100%",
+      "src": "assets/img/garantias-por-la-pagina-mobil.webp"
+    }
+  },
+  "image#landing--dos--mobile": {
+    "title": " imagen dos Solicitud garantias por la pagina",
+    "props": {
+      "minWidth": "100%",
+      "src": "assets/img/garantias-por-la-pagina-mobil.png"
+    }
+  }
+}
