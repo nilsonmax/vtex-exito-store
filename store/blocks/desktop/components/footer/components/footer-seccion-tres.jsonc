@@ -221,7 +221,7 @@
     "children": [
       "link#preguntas__frequentes",
       "link#politica__cambios",
-      "link#politica__garantias",
+      "link#solicitud__garantias",
       "link#contacto",
       "link#cambio__producto",
       "link#almacenes",
@@ -249,11 +249,11 @@
       "blockClass": "disclosure__links"
     }
   },
-  "link#politica__garantias": {
-    "title": "Text Política de garantías",
+  "link#solicitud__garantias": {
+    "title": "Text Solicitud de garantías",
     "props": {
-      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/about-us",
-      "label": "Política de garantías",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/solicitud-garantias-por-la-pagina",
+      "label": "Solicitud de garantías",
       "blockClass": "disclosure__links"
     }
   },

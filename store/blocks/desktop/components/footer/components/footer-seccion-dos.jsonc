@@ -402,19 +402,19 @@
       "blockClass": "networks__icons",
       "socialNetworks": [
         {
-          "url": "https://facebook.com/foo",
+          "url": "https://www.facebook.com/exito",
           "name": "Facebook"
         },
         {
-          "url": "https://twitter.com/foo",
+          "url": "https://twitter.com/almacenesexito",
           "name": "Twitter"
         },
         {
-          "url": "https://instagram.com/foo",
+          "url": "https://www.instagram.com/exito/?hl=es-la",
           "name": "Instagram"
         },
         {
-          "url": "https://youtube.com/foo",
+          "url": "https://www.youtube.com/channel/UCmFF7DHCnRoK79xjS3bcTIA",
           "name": "YouTube"
         }
       ]

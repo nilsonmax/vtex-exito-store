@@ -1,0 +1,9 @@
+{
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/instructivo-para-radicar-solicitud-garantias-por-la-pagina.pdf",
+      "width": 1200,
+      "height": 800
+    }
+  }
+}
