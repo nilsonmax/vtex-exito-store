@@ -1,0 +1,8 @@
+.bullet__group{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.bullet__group--title{
+    width: 100%;
+}

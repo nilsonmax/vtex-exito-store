@@ -1,7 +1,31 @@
-.imageNormal{
-    height: 125px;
+.imageNormal {
+  height: 125px;
 }
 
-.brandName{
-    font-size: 14px;
+.brandName {
+  font-size: 14px;
+}
+
+.element--home__slider--celumania-images {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 0 15px 5px;
+  min-height: 250px;
+  height: auto;
+}
+
+.container--home__slider--celumania-images {
+  max-width: none !important;
+}
+
+.imageContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-right: 2px solid #ededed;
+  min-height: 235px;
+  width: 132px !important;
 }
