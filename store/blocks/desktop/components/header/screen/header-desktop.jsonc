@@ -25,9 +25,5 @@
     "children": [
       "department-search"
     ]
-    // "props": {
-      // "blockClass": "header__desktop"
-      // "sticky": true
-    // }
   }
 }

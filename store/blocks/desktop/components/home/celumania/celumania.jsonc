@@ -1,41 +1,52 @@
 {
-    "product-summary.shelf#slider": {
-      "children": [
-        "product-summary-image",
-        "product-summary-name",
-        "product-summary-price",
-        // "product-summary-buy-button"
-        "add-to-cart-button"
-      ],
-      "props":{
-        "height":"200px",
-        "blockClass":"home__slider--celumania-images"
-      }
-    },
-    "list-context.product-list#slider": {
-      "blocks": ["product-summary.shelf#slider"],
-      "children": ["slider-layout#demo-products"],
-      "props":{
-        "height":"200px"
-        // "blockClass":"home__slider--celumania-images"
-      }
-    },
-    "slider-layout#demo-products":{
-      "title": "Slider con hijos declarados",
-      "props":{
+  "product-summary.shelf#slider": {
+    "title": "slider product summary",
+    "children": ["product-summary-image", "flex-layout.row#slider"],
+    "props": {
+      // "height": "150px",
+      "blockClass": "home__slider--celumania-images"
+    }
+  },
+  "flex-layout.row#slider": {
+    "title": "slider product summary row",
+    "children": ["flex-layout.col#slider"],
+    "props": {
+      // "height": "300px",
+      "blockClass": "home__slider--celumania-parte-dos"
+    }
+  },
+  "flex-layout.col#slider": {
+    "title": "slider product summary col",
+    "children": [
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "list-context.product-list#slider": {
+    "blocks": ["product-summary.shelf#slider"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      // "height": "200px"
+      // "blockClass":"home__slider--celumania-images"
+    }
+  },
+  "slider-layout#demo-products": {
+    "title": "Slider con hijos declarados",
+    "props": {
       "itemsPerPage": {
-          "desktop": 4,
-          "tablet": 3,
-          "phone": 1
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
       },
       "infinite": false,
       // "infinite": true,
       "showPaginationDots": false,
       // "fullWidth": false,
-      "navigationStep":1,
-      "stopOnHover":true,
-          // "showNavigationArrows": false
+      "navigationStep": 1,
+      "stopOnHover": true,
+      // "showNavigationArrows": false
       "blockClass": "home__slider--celumania"
-      }
     }
   }
+}

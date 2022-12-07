@@ -8,20 +8,20 @@
   margin: 0 auto;
 }
 
-.flexRowContent--home__section--anuncio-images{
+.flexRowContent--home__section--anuncio-images {
   margin: 0 auto;
   max-width: 1280px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.flexRowContent--home__section--moda-y-accesorios-images{
+.flexRowContent--home__section--moda-y-accesorios-images {
   margin: 0 auto;
   max-width: 1280px;
   margin-bottom: 10px;
 }
 
-.flexRowContent--home__section--tecnologia-images{
+.flexRowContent--home__section--tecnologia-images {
   margin: 0 auto;
   max-width: 1280px;
   margin-bottom: 10px;
@@ -38,15 +38,34 @@
 .flexColChild--home__section--todo-para-tu-familia--text__ver-todo,
 .flexColChild--home__section--electrodomesticos-para-tu-hogar--text__ver-todo,
 .flexColChild--home__section--lo-mejor-en-tecnologia--text__ver-todo {
-  display:flex;
-  justify-content:end;
+  display: flex;
+  justify-content: end;
   align-items: center;
 }
 
 .flexColChild--list__one--item,
 .flexColChild--list__two--item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.flexColChild--product__info--data {
+  height: auto !important;
+  width: 97%;
+}
+
+.flexColChild--product__info--data :global(.vtex-button) {
+  border-radius: 15px;
+}
+
+.flexRow--home__slider--celumania-parte-dos :global(.vtex-button) {
+  height: 47px;
+  outline: none;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  width: 160px;
 }

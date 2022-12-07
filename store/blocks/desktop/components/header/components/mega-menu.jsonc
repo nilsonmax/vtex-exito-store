@@ -8,17 +8,17 @@
     "children": ["mega-menu#desktop"]
   },
   "mega-menu#desktop": {
-    "title": "Mega menú",
-    "props": {
-      "openOnly": "horizontal"
-    }
+    "title": "Mega menú"
+    // "props": {
+    //   "openOnly": "horizontal"
+    // }
   },
   "flex-layout.col#trigger-mega-menu": {
     "title": "Sesión mega menú escritorio dos",
+    "children": ["mega-menu-trigger-btn"],
     "props": {
       "verticalAlign": "middle"
-    },
-    "children": ["mega-menu-trigger-btn"]
+    }
   },
   "mega-menu-trigger-btn": {
     "title": "Mega menú botón",
