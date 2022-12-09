@@ -1,7 +1,7 @@
 {
   "header-layout.desktop": {
     "title": "Header",
-    "children": ["notification.bar", "header-row#header__desktop","header-row#header__desktop--prueba"]
+    "children": ["notification.bar", "header-row#header__desktop"]
   },
   "header-row#header__desktop": {
     "title": "Header Desktop",
@@ -19,11 +19,5 @@
       "blockClass": "header__desktop",
       "sticky": true
     }
-  },
-  "header-row#header__desktop--prueba": {
-    "title": "Header Desktop",
-    "children": [
-      "department-search"
-    ]
   }
 }
