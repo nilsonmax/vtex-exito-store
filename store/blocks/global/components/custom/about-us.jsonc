@@ -1,7 +1,12 @@
 {
   "store.custom#about-us": {
-    "title":"",
-    "blocks": ["image#landing--about-us", "flex-layout.row#about-us"]
+    "title": "",
+    "blocks": [
+      "flex-layout.row#department-search",
+      "flex-layout.row#quick-order",
+      "image#landing--about-us",
+      "flex-layout.row#about-us"
+    ]
   },
   "image#landing--about-us": {
     "props": {
@@ -10,15 +15,10 @@
     }
   },
   "flex-layout.row#about-us": {
-    "children": [
-      "flex-layout.col#text-about-us"
-    ]
+    "children": ["flex-layout.col#text-about-us"]
   },
   "flex-layout.col#text-about-us": {
-    "children": [
-      "rich-text#about-title",
-      "rich-text#about-content"
-    ],
+    "children": ["rich-text#about-title", "rich-text#about-content"],
     "props": {
       "preventVerticalStretch": true
     }
@@ -33,6 +33,19 @@
     "props": {
       "blockClass": "about-content",
       "text": " About us content - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+    }
+  },
+  "flex-layout.row#department-search": {
+    "title": "Header Desktop",
+    "children": ["department-search"],
+    "props": {
+      "blockClass": "background--prueba"
+    }
+  },
+  "flex-layout.row#quick-order": {
+    "children": ["quick-order"],
+    "props": {
+      "blockClass": "background--prueba"
     }
   }
 }
