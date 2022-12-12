@@ -1,53 +1,70 @@
 {
   "store.product": {
+    "title": "Product PDP",
     "children": [
       "flex-layout.row#product__breadcrumb",
       "vtex.store-components:product-name",
-      "vtex.store-components:product-brand",
-      // "flex-layout.row#product-rating-inline",
-      "product-rating-summary",
+      // "vtex.store-components:product-brand",
+      // "product-identifier.product",
+      "flex-layout.row#product-identifier",
+      // "product-rating-summary",
+      "flex-layout.row#product-rating-inline",
       "flex-layout.row#product__info",
+      "product-reviews",
+      // "flex-layout.row#disclosure__product-info",
       "list-context.product-list#slider--tambien-te-puede-interesar",
-      "list-context.product-list#slider--ultimos-productos-navegados",
-      "product-reviews"
-      // "product-rating-summary"
+      "list-context.product-list#slider--ultimos-productos-navegados"
     ]
   },
-  "flex-layout.row#product-rating-inline": {
-    "children": [
-      "product-rating-inline"
-    ],
+  "flex-layout.row#disclosure__product-info": {
+    "title": "disclosure product details",
+    "children": ["flex-layout.col#disclosure__product-info"],
     "props": {
-      "blockClass": "product-rating-inline"
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "flex-layout.row#product-rating-inline": {
+    "title": "Row Product PDP product rating inline",
+    "children": ["product-rating-summary"],
+    "props": {
+      "blockClass": "product__name"
     }
   },
   "flex-layout.row#product__breadcrumb": {
-    "children": [
-      "flex-layout.col#product__breadcrumb"
-    ],
+    "title": "Row Product PDP product breadcrumb",
+    "children": ["flex-layout.col#product__breadcrumb"],
     "props": {
       "blockClass": "product__breadcrumb"
     }
   },
   "flex-layout.col#product__breadcrumb": {
-    "children": [
-      "breadcrumb"
-    ],
+    "title": "Col Product PDP product breadcrumb",
+    "children": ["breadcrumb"],
     "props": {
       "blockClass": "product__breadcrumb"
     }
   },
   "vtex.store-components:product-name": {
+    "title": "Product PDP product name",
+    "props": {
+      "blockClass": "product__name"
+    }
+  },
+  "flex-layout.row#product-identifier": {
+    "title": "Product PDP product identifier",
+    "children": ["product-identifier.product"],
     "props": {
       "blockClass": "product__name"
     }
   },
   "vtex.store-components:product-brand": {
+    "title": "Product PDP product barnd",
     "props": {
       "blockClass": "product__brand"
     }
   },
   "flex-layout.row#product__info": {
+    "title": "Row Product PDP product info",
     "children": [
       "flex-layout.col#product__info--image",
       "flex-layout.col#product__info--data"
@@ -57,20 +74,24 @@
     }
   },
   "flex-layout.col#product__info--image": {
+    "title": "Col Product PDP product info image",
     "children": [
-      "product-images#product__info--image"
+      "product-images#product__info--image",
+      "flex-layout.row#disclosure__product-info"
     ],
     "props": {
       "blockClass": "product__info--image"
     }
   },
   "product-images.high-quality-image#product__info--image": {
+    "title": "Product PDP product high quality image",
     "props": {
       "zoomMode": "in-place-click",
       "zoomFactor": 2
     }
   },
-   "product-images#product__info--image": {
+  "product-images#product__info--image": {
+    "title": "Row Product PDP product info images",
     "props": {
       "ModalZoom": "product-images.high-quality-image#product__info--image",
       "aspectRatio": {
@@ -80,6 +101,7 @@
     }
   },
   "flex-layout.col#product__info--data": {
+    "title": "Col Product PDP product info data",
     "children": [
       "product-price",
       "product-separator",
@@ -98,11 +120,11 @@
     }
   },
   "flex-layout.row#checkout__button": {
-    "children": [
-      "rich-text#go__checkout"
-    ]
+    "title": "Row Product PDP product checkout button",
+    "children": ["rich-text#go__checkout"]
   },
   "rich-text#go__checkout": {
+    "title": "Row Product PDP product text Comprar ahora",
     "props": {
       "blockClass": "go__checkout",
       "text": "[Comprar ahora](/checkout)"

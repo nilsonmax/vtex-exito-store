@@ -1,9 +1,13 @@
 {
   "flex-layout.row#mega__menu--desktop": {
     "title": "Sesión mega menú escritorio",
-    "children": ["flex-layout.col#trigger-mega-menu"]
+    "children": ["flex-layout.col#mega__menu--desktop"]
   },
-  "flex-layout.row#mega-menu": {
+  "flex-layout.col#mega__menu--desktop": {
+    "title": "Sesión mega menú escritorio",
+    "children": ["flex-layout.col#trigger-mega-menu","flex-layout.col#mega-menu"]
+  },
+  "flex-layout.col#mega-menu": {
     "title": "Sesión mega menú escritorio uno",
     "children": ["mega-menu#desktop"]
   },
@@ -15,10 +19,10 @@
   },
   "flex-layout.col#trigger-mega-menu": {
     "title": "Sesión mega menú escritorio dos",
-    "children": ["mega-menu-trigger-btn"],
-    "props": {
-      "verticalAlign": "middle"
-    }
+    "children": ["mega-menu-trigger-btn"]
+    // "props": {
+    //   "verticalAlign": "middle"
+    // }
   },
   "mega-menu-trigger-btn": {
     "title": "Mega menú botón",

@@ -1,0 +1,240 @@
+{
+  "flex-layout.col#disclosure__product-info": {
+    "title": "disclosure product details",
+    "children": ["disclosure-layout-group#product-info"],
+    "props": {
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "disclosure-layout-group#product-info": {
+    "title": "disclosure content",
+    "children": [
+      "disclosure-layout#product-info__description",
+      "disclosure-layout#product-info__features",
+      "disclosure-layout#product-info__care",
+      "disclosure-layout#product-info__care-instructions"
+    ]
+  },
+  "disclosure-layout#product-info__description": {
+    "title": "trigger content description",
+    "children": [
+      "disclosure-trigger#product-info__description",
+      "disclosure-content#product-info__description"
+    ],
+    "props": {
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "disclosure-trigger#product-info__description": {
+    "children": ["flex-layout.row#description__tilte"]
+  },
+  "flex-layout.row#description__tilte": {
+    "title": "content",
+    "children": [
+      "rich-text#description__title",
+      "disclosure-state-indicator#product-info"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "rich-text#description__title": {
+    "title": "title Sobre este producto",
+    "props": {
+      "text": "Sobre este producto"
+    }
+  },
+  "disclosure-content#product-info__description": {
+    "title": "disclosure conten",
+    "children": ["flex-layout.row#description__content"],
+    "props": {
+      "blockClass": "disclosure-content"
+    }
+  },
+  "flex-layout.row#description__content": {
+    "title": "description",
+    "children": ["product-description"]
+  },
+  "disclosure-layout#product-info__features": {
+    "title": "trigger content features",
+    "children": [
+      "disclosure-trigger#product-info__features",
+      "disclosure-content#product-info__features"
+    ],
+    "props": {
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "disclosure-trigger#product-info__features": {
+    "title": "features",
+    "children": ["flex-layout.row#features__title"]
+  },
+  "flex-layout.row#features__title": {
+    "title": "content",
+    "children": [
+      "rich-text#features__title",
+      "disclosure-state-indicator#product-info"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "rich-text#features__title": {
+    "title": "title",
+    "props": {
+      "text": "Especificaciones"
+    }
+  },
+  "disclosure-content#product-info__features": {
+    "title": "disclosure conten",
+    "children": ["flex-layout.row#features__content"]
+  },
+  "flex-layout.row#features__content": {
+    "title": "features content",
+    "children": ["product-specification-group#features__content"]
+    // "props": {
+    //   // "colSizing": "auto",
+    //   // "preserveLayoutOnMobile": true,
+    //   "blockClass": "features__content"
+    // }
+  },
+  "product-specification-group#features__content": {
+    "children": [
+      "product-specification-text#group",
+      "product-specification#features__content"
+    ]
+  },
+  "product-specification#features__content": {
+    "children": [
+      "product-specification-text#specification",
+      "product-specification-values#features__content"
+    ]
+  },
+  "product-specification-values#features__content": {
+    "children": ["product-specification-text#value"],
+    "props": {
+      // "colSizing": "auto",
+      // "preserveLayoutOnMobile": true,
+      "blockClass": "features__content"
+    }
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  },
+  "disclosure-layout#product-info__care": {
+    "title": "trigger content care",
+    "children": [
+      "disclosure-trigger#product-info__care",
+      "disclosure-content#product-info__care"
+    ],
+    "props": {
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "disclosure-trigger#product-info__care": {
+    "children": ["flex-layout.row#care__title"]
+  },
+  "flex-layout.row#care__title": {
+    "title": "content",
+    "children": [
+      "rich-text#care__title",
+      "disclosure-state-indicator#product-info"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "rich-text#care__title": {
+    "title": "title",
+    "props": {
+      "text": "CUIDADOS"
+    }
+  },
+  "disclosure-content#product-info__care": {
+    "title": "disclosure conten",
+    "children": ["rich-text#care__info"]
+  },
+  "rich-text#care__info": {
+    "title": "care",
+    "props": {
+      "text": "**qui va algo**"
+    }
+  },
+  "disclosure-layout#product-info__care-instructions": {
+    "title": "trigger content care instructions",
+    "children": [
+      "disclosure-trigger#product-info__care-instructions",
+      "disclosure-content#product-info__care-instructions"
+    ],
+    "props": {
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "disclosure-trigger#product-info__care-instructions": {
+    "children": ["flex-layout.row#care-instructions__title"]
+  },
+  "flex-layout.row#care-instructions__title": {
+    "title": "content",
+    "children": [
+      "rich-text#care-instructions__title",
+      "disclosure-state-indicator#product-info"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "disclosure__product-info"
+    }
+  },
+  "rich-text#care-instructions__title": {
+    "title": "title",
+    "props": {
+      "text": "INSTRUCCIONES DE CUIDADO"
+    }
+  },
+  "disclosure-content#product-info__care-instructions": {
+    "title": "disclosure conten",
+    "children": ["rich-text#care-instructions__info"]
+  },
+  "rich-text#care-instructions__info": {
+    "title": "care instruction",
+    "props": {
+      "text": "Las marcas en el cuero son únicas, le dan carácter y personalidad a cada pieza. Para su limpieza, usar un paño suave humedecido con agua y jabón de tocador, frotar suavemente y remover con cuidado. Evitar el contacto con superficies abrasivas. Se recomienda guardar el producto en una bolsa de tela para evitar humedad o acumulación de polvo. No aplicar perfume directamente sobre los productos de cuero para evitar manchas irreversibles y daños en el acabado"
+    }
+  },
+  "disclosure-state-indicator#product-info": {
+    "props": {
+      "Show": "icon#angle--up",
+      "Hide": "icon#angle--down"
+    }
+  },
+  "icon#angle--down": {
+    "props": {
+      "id": "mpa-rallita",
+      "size": 25,
+      "viewBox": "0 0 18 2"
+    }
+  },
+  "icon#angle--up": {
+    "props": {
+      "id": "mpa-plus--line"
+    }
+  }
+}
