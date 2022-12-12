@@ -4,7 +4,8 @@
     "blocks": [
       "responsive-layout.desktop#home__image--desktop",
       "responsive-layout.mobile#home__image--mobile",
-      "pdf-reader"
+      "pdf-reader",
+      "flex-layout.row#custom-grid"
     ]
   },
   ///////////////////////////// desktop
@@ -50,5 +51,8 @@
       "minWidth": "100%",
       "src": "assets/img/garantias-por-la-pagina-mobil.png"
     }
+  },
+  "flex-layout.row#custom-grid":{
+    "children":["custom-grid"]
   }
 }
