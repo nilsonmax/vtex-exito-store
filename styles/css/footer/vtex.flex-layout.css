@@ -5,6 +5,11 @@
   display: flex;
   justify-content: start;
 }
+/******** product **************/
+.flexRowContent--vendido-por {
+  display: flex;
+  justify-content: start;
+}
 
 /********************* seccion uno ******************/
 .flexRowContent--retail__ecommerce {

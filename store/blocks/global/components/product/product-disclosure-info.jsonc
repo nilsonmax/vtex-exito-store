@@ -7,16 +7,15 @@
     }
   },
   "disclosure-layout-group#product-info": {
-    "title": "disclosure content",
+    "title": "disclosure contenido informativo de productos",
     "children": [
-      "disclosure-layout#product-info__description",
       "disclosure-layout#product-info__features",
-      "disclosure-layout#product-info__care",
-      "disclosure-layout#product-info__care-instructions"
+      "disclosure-layout#product-info__description",
+      "disclosure-layout#product-info__care--opiniones-sobre-este-producto"
     ]
   },
   "disclosure-layout#product-info__description": {
-    "title": "trigger content description",
+    "title": "trigger contenido descripción",
     "children": [
       "disclosure-trigger#product-info__description",
       "disclosure-content#product-info__description"
@@ -43,6 +42,7 @@
   "rich-text#description__title": {
     "title": "title Sobre este producto",
     "props": {
+      "blockClass":"title__descripcion-producto",
       "text": "Sobre este producto"
     }
   },
@@ -86,21 +86,20 @@
   "rich-text#features__title": {
     "title": "title",
     "props": {
+      "blockClass":"title__descripcion-producto",
       "text": "Especificaciones"
     }
   },
   "disclosure-content#product-info__features": {
     "title": "disclosure conten",
-    "children": ["flex-layout.row#features__content"]
+    "children": ["flex-layout.row#features__content"],
+    "props": {
+      "blockClass": "disclosure__product-info"
+    }
   },
   "flex-layout.row#features__content": {
     "title": "features content",
     "children": ["product-specification-group#features__content"]
-    // "props": {
-    //   // "colSizing": "auto",
-    //   // "preserveLayoutOnMobile": true,
-    //   "blockClass": "features__content"
-    // }
   },
   "product-specification-group#features__content": {
     "children": [
@@ -115,12 +114,7 @@
     ]
   },
   "product-specification-values#features__content": {
-    "children": ["product-specification-text#value"],
-    "props": {
-      // "colSizing": "auto",
-      // "preserveLayoutOnMobile": true,
-      "blockClass": "features__content"
-    }
+    "children": ["product-specification-text#value"]
   },
   "product-specification-text#group": {
     "props": {
@@ -137,23 +131,23 @@
       "message": "{specificationValue}"
     }
   },
-  "disclosure-layout#product-info__care": {
+  "disclosure-layout#product-info__care--opiniones-sobre-este-producto": {
     "title": "trigger content care",
     "children": [
-      "disclosure-trigger#product-info__care",
+      "disclosure-trigger#product-info__care--opiniones-sobre-este-producto",
       "disclosure-content#product-info__care"
     ],
     "props": {
       "blockClass": "disclosure__product-info"
     }
   },
-  "disclosure-trigger#product-info__care": {
-    "children": ["flex-layout.row#care__title"]
+  "disclosure-trigger#product-info__care--opiniones-sobre-este-producto": {
+    "children": ["flex-layout.row#care__title--opiniones-sobre-este-producto"]
   },
-  "flex-layout.row#care__title": {
+  "flex-layout.row#care__title--opiniones-sobre-este-producto": {
     "title": "content",
     "children": [
-      "rich-text#care__title",
+      "rich-text#care__title--opiniones-sobre-este-producto",
       "disclosure-state-indicator#product-info"
     ],
     "props": {
@@ -162,51 +156,18 @@
       "blockClass": "disclosure__product-info"
     }
   },
-  "rich-text#care__title": {
-    "title": "title",
+  "rich-text#care__title--opiniones-sobre-este-producto": {
+    "title": "title Opiniones sobre este producto",
     "props": {
-      "text": "CUIDADOS"
+      "blockClass":"title__descripcion-producto",
+      "text": "Opiniones sobre este producto"
     }
   },
   "disclosure-content#product-info__care": {
-    "title": "disclosure conten",
-    "children": ["rich-text#care__info"]
-  },
-  "rich-text#care__info": {
-    "title": "care",
+    "title": "disclosure contenido opiniones-sobre este producto",
+    "children": ["product-reviews"],
     "props": {
-      "text": "**qui va algo**"
-    }
-  },
-  "disclosure-layout#product-info__care-instructions": {
-    "title": "trigger content care instructions",
-    "children": [
-      "disclosure-trigger#product-info__care-instructions",
-      "disclosure-content#product-info__care-instructions"
-    ],
-    "props": {
-      "blockClass": "disclosure__product-info"
-    }
-  },
-  "disclosure-trigger#product-info__care-instructions": {
-    "children": ["flex-layout.row#care-instructions__title"]
-  },
-  "flex-layout.row#care-instructions__title": {
-    "title": "content",
-    "children": [
-      "rich-text#care-instructions__title",
-      "disclosure-state-indicator#product-info"
-    ],
-    "props": {
-      "colSizing": "auto",
-      "preserveLayoutOnMobile": true,
-      "blockClass": "disclosure__product-info"
-    }
-  },
-  "rich-text#care-instructions__title": {
-    "title": "title",
-    "props": {
-      "text": "INSTRUCCIONES DE CUIDADO"
+      "blockClass":"product-reviews"
     }
   },
   "disclosure-content#product-info__care-instructions": {

@@ -126,10 +126,10 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
 1. "itgloberspartnercl.whatsapp-button"
 2. "itgloberspartnercl.bullets-diagramation"
 3. "itgloberspartnercl.add-to-cart-info"
-<!--4. "itgloberspartnercl.custom-department-search"
+4. "itgloberspartnercl.custom-department-search"
 4. "itgloberspartnercl.pdf-reader"
 5. "itgloberspartnercl.quick-order"
-6. "itgloberspartnercl.special-diagramation" -->
+6. "itgloberspartnercl.special-diagramation"
 
 ## Contributors
 

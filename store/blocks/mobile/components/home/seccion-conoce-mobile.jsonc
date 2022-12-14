@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#home__seccion-conoce--mobile": {
+    "title": "Tablet slider información de pagos, entregas y ventas",
+    "children": ["list-context.image-list#home__slider--list-info"],
+    "props": {
+      "blockClass": "home__session-slider-pagos"
+    }
+  },
+  "list-context.image-list#home__slider--list-info": {
+    "title": "Lista de imágenes",
+    "children": ["slider-layout#home__slider--list-info1"],
+    "props": {
+      "preload": true,
+      "height": 100,
+      "images": [
+        {
+          "image": "assets/img/home-seccion-conoce-1.webp",
+          "description": "Slide"
+        },
+        {
+          "image": "assets/img/home-seccion-conoce-2.webp",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/home-seccion-conoce-3.webp",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/home-seccion-conoce-4.webp",
+          "description": "Slide 3"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list-info1": {
+    "title": "Slider con lista",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "infinite": true,
+      "blockClass": "home__slider--mobile",
+      "fullWidth": false,
+      "navigationStep":1,
+      "stopOnHover":true,
+      "autoplay": {
+        "timeout": 3000
+        // "stopOnHover": true
+      }
+    }
+  }
+}

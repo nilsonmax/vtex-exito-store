@@ -7,7 +7,14 @@
   font-size: 14px;
   line-height: normal;
 }
+/************ product ***********/
+.paragraph--vendido-por {
+  color: #373737;
+  font-size: 14px;
+  line-height: normal;
+}
 
+ /****************************************/
 .paragraph--ventas__telefonicas--numero,
 .paragraph--ventas__whatsapp--numero,
 .paragraph--servicio__whatsapp--numero,
@@ -98,6 +105,13 @@
     text-align: center;
     color: #414141;
 }
+/************ product ***********/
+.paragraph--vendido-por-mobile {
+    font-size: 10px;
+    text-align: center;
+    color: #414141;
+}
+/*****************************/
 .container--retail__ecommerce-mobile,
 .container--400__productos-mobile,
 .container--compras__seguras-mobile,
@@ -106,6 +120,12 @@
     display: flex;
     justify-content: center;
 }
+/************ product ***********/
+.container--vendido-por-mobile {
+    display: flex;
+    justify-content: center;
+}
+/******************************/
 .wrapper--mas__informacion {
   max-width: 375px;
   /* width: 200px; */
