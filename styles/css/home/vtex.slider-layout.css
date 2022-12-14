@@ -1,3 +1,6 @@
+.paginationDotsContainer--home__slider--mobile{
+  transform: translateY(14px);
+}
 .paginationDotsContainer--home__slider {
   transform: translateY(-8px);
 }
@@ -33,6 +36,11 @@
   margin: 0 auto;
   margin-top: 20px;
 }
+.sliderLayoutContainer--home__slider--mobile {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
 /*///////////// pagination moda-y-accesorios ////////////*/
 .paginationDot--home__seccion--moda-y-accesorios--isActive,
@@ -50,6 +58,7 @@
 }
 
 /*/////////////////////////////////////////////////*/
+
 .sliderLeftArrow--home__seccion--todo-para-tu-hogar,
 .sliderLeftArrow--home__seccion--moda-y-accesorios {
   cursor: pointer;
@@ -62,6 +71,7 @@
   border-radius: 50px 50px;
   margin-left: 20px;
 }
+
 .sliderLeftArrow--home__seccion--todo-para-tu-hogar:hover,
 .sliderLeftArrow--home__seccion--moda-y-accesorios:hover {
   z-index: 1;
@@ -106,6 +116,7 @@
   background-color: rgb(139, 135, 135);
 }
 
+.paginationDot--home__slider--mobile,
 .paginationDot--home__slider {
   width: 8px !important;
   height: 8px !important;
@@ -123,6 +134,18 @@
   transition: all 0.2s ease;
   border-radius: 50px 50px;
   margin-left: 20px;
+}
+.sliderLeftArrow--home__slider--mobile {
+  /* z-index: 1; */
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+  padding: 12px 14px;
+  background-color: hsla(0, 0%, 89.8%, 0.75) !important;
+  display: flex;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  border-radius: 50px 50px;
+  /* margin-left: 20px; */
 }
 .sliderLeftArrow--home__slider:hover {
   z-index: 1;
@@ -147,6 +170,18 @@
   transition: all 0.2s ease;
   border-radius: 50px 50px;
   margin-right: 20px;
+}
+.sliderRightArrow--home__slider--mobile {
+  /* z-index: 1; */
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+  padding: 12px 14px;
+  background-color: hsla(0, 0%, 89.8%, 0.75) !important;
+  display: flex;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  border-radius: 50px 50px;
+  /* margin-right: 20px; */
 }
 .sliderRightArrow--home__slider:hover {
   z-index: 1;

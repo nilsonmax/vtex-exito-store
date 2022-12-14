@@ -4,24 +4,12 @@
     "children": [
       "flex-layout.row#product__breadcrumb",
       "vtex.store-components:product-name",
-      // "vtex.store-components:product-brand",
-      // "product-identifier.product",
       "flex-layout.row#product-identifier",
-      // "product-rating-summary",
       "flex-layout.row#product-rating-inline",
       "flex-layout.row#product__info",
-      "product-reviews",
-      // "flex-layout.row#disclosure__product-info",
       "list-context.product-list#slider--tambien-te-puede-interesar",
       "list-context.product-list#slider--ultimos-productos-navegados"
     ]
-  },
-  "flex-layout.row#disclosure__product-info": {
-    "title": "disclosure product details",
-    "children": ["flex-layout.col#disclosure__product-info"],
-    "props": {
-      "blockClass": "disclosure__product-info"
-    }
   },
   "flex-layout.row#product-rating-inline": {
     "title": "Row Product PDP product rating inline",
@@ -83,6 +71,13 @@
       "blockClass": "product__info--image"
     }
   },
+  "flex-layout.row#disclosure__product-info": {
+    "title": "disclosure product details",
+    "children": ["flex-layout.col#disclosure__product-info"],
+    "props": {
+      "blockClass": "disclosure__product-info"
+    }
+  },
   "product-images.high-quality-image#product__info--image": {
     "title": "Product PDP product high quality image",
     "props": {
@@ -110,9 +105,11 @@
       // "add-to-cart-info",
       "flex-layout.row#checkout__button",
       "modal-trigger#add__to--card-info",
-      "product-description",
+      // "product-description",
       // "product-rating-inline",
       // "shipping-simulator",
+      // "flex-layout.row#vendidos-por",
+      "flex-layout.row#seccion-vendios-por",
       "share"
     ],
     "props": {

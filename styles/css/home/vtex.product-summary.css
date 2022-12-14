@@ -19,7 +19,9 @@
   max-width: none !important;
 }
 
-.imageContainer {
+.element--home__slider--celumania-images :global(.vtex-product-summary-2-x-imageContainer) {
+
+/* .imageContainer { */
   position: relative;
   display: flex;
   align-items: center;

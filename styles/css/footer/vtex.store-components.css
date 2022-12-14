@@ -6,6 +6,12 @@
     width: 55px;
     height: 33px;
 }
+/************ product ***********/
+.logoImage--vendido-por {
+    width: 21px;
+    height: 21px;
+}
+/***********************************/
 
 .logoContainer--retail__ecommerce,
 .logoContainer--400__productos,
@@ -18,7 +24,15 @@
     max-height: 33px;
     margin: auto;
 }
-
+/************ product ***********/
+.logoContainer--vendido-por {
+    /* padding-right: 5px; */
+    max-width: 21px;
+    min-width: 21px;
+    max-height: 21px;
+    margin: auto;
+}
+/***********************************/
 .container--newsletter,
 .inputGroup--newsletter,
 .searchBarIcon--header__desktop--search,
@@ -48,7 +62,14 @@
     align-items: center;
     justify-content: center;
 }
-
+/************ product ***********/
+.logoContainer--vendido-por-mobile {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/**************************************/
 .logoImage--retail__ecommerce-mobile,
 .logoImage--400__productos-mobile,
 .logoImage--compras__seguras-mobile,
@@ -58,6 +79,13 @@
     height: 23px;
 }
 
+/************ product ***********/
+.logoImage--vendido-por-mobile {
+    width: 21px;
+    height: 21px;
+}
+/*****************************************/
+
 .logoContainer--retail__ecommerce-mobile,
 .logoContainer--400__productos-mobile,
 .logoContainer--compras__seguras-mobile,
@@ -65,6 +93,11 @@
 .logoContainer--pago__linea-mobile {
     margin: auto;
 }
+/************ product ***********/
+.logoContainer--vendido-por-mobile {
+    margin: auto;
+}
+/**************************************/
 
 .logoImage--carulla,
 .logoImage--viva,

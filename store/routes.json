@@ -4,5 +4,8 @@
   },
   "store.custom#solicitud-garantias-por-la-pagina": {
     "path": "/solicitud-garantias-por-la-pagina"
+  },
+  "store.custom#cart": {
+    "path": "/cart"
   }
 }

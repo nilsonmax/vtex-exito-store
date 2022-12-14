@@ -9,6 +9,13 @@
   margin-bottom: 10px;
   margin-top: 40px;
 }
+.imageElement--list--item-categories{
+  width: 100px;
+}
+.imageElement--home__slider--mobile{
+  height: 100px;
+  /* width: 173px; */
+}
 
 .imageElementLink--home__tecnologia--image {
   max-width: 1280px;
