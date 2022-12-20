@@ -3,8 +3,8 @@
     "title": " Text moda y accesorios",
     "children": ["rich-text#moda-y-accesorios--text__uno"],
     "props": {
-        "blockClass": "home__section--moda-y-accesorios--text"
-      }
+      "blockClass": "home__section--moda-y-accesorios--text"
+    }
   },
   "rich-text#moda-y-accesorios--text__uno": {
     "title": " Text moda y accesorios",
@@ -17,10 +17,11 @@
     "title": " Link VER TODO",
     "children": ["link#moda-y-accesorios--text__dos"],
     "props": {
-        "blockClass": "home__section--moda-y-accesorios--text__ver-todo"
-      }
+      "blockClass": "home__section--moda-y-accesorios--text__ver-todo"
+    }
   },
   "link#moda-y-accesorios--text__dos": {
+    "title": " Href Link VER TODO",
     "props": {
       "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft",
       "label": "¡VER TODO!",

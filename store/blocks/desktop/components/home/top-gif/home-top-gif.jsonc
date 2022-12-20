@@ -1,6 +1,6 @@
 {
   /////////////////////////////////////////////////////////////// Home Top
- "flex-layout.row#home__top": {
+  "flex-layout.row#home__top": {
     "title": "Home Top gif",
     "props": {
       "marginBottom": 3,
@@ -9,6 +9,7 @@
     "children": ["image#home__top--gif"]
   },
   "image#home__top--gif": {
+    "title": "Home Top gif",
     "props": {
       "blockClass": "home__top--gif",
       "src": "assets/img/image-section-one-top.gif",

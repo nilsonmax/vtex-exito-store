@@ -1,7 +1,7 @@
 {
   /////////////////////////////////////////////////////////////// Home Section One Col Two
   "flex-layout.col#section__one--col-two-desktop": {
-    "title": "Home Section col two image",
+    "title": "home - row dos - Sección uno - imágenes",
     "children": ["image#col__two--image"],
     "props": {
       "horizontalAlign": "center",
@@ -10,6 +10,7 @@
     }
   },
   "image#col__two--image": {
+    "title": "home - row dos - Sección uno - imagen",
     "props": {
       "src": "assets/img/image-section-one.webp",
       "link": {

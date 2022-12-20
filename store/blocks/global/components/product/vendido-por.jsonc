@@ -2,9 +2,6 @@
   "flex-layout.row#seccion-vendios-por": {
     "title": "Footer Section 1",
     "children": ["flex-layout.col#seccion-vendidos-por"]
-    // "props": {
-    //   "blockClass": "footer__desktop--seccion-uno"
-    // }
   },
   "flex-layout.col#seccion-vendidos-por": {
     "title": "Column 400 Mil Productos",
@@ -17,7 +14,7 @@
   },
   /////////////////// vendido por
   "flex-layout.row#vendidos-por": {
-    "title": "Row container vendidos por",
+    "title": "Row - container - vendidos por",
     "children": ["logo#vendidos-por", "rich-text#vendidos-por"],
     "props": {
       "blockClass": "vendido-por",
@@ -25,14 +22,14 @@
     }
   },
   "logo#vendidos-por": {
-    "title": "Logo vendidos por",
+    "title": "Logo - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "url": "assets/img/vendido-por.svg"
     }
   },
   "rich-text#vendidos-por": {
-    "title": "Text vendidos por",
+    "title": "Text - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "text": "Vendidos por: Exito"
@@ -40,7 +37,7 @@
   },
   /////////// envio
   "flex-layout.row#envio": {
-    "title": "Row container vendidos por",
+    "title": "Row - container - vendidos por",
     "children": ["logo#envio", "rich-text#envio"],
     "props": {
       "blockClass": "vendido-por",
@@ -48,14 +45,14 @@
     }
   },
   "logo#envio": {
-    "title": "Logo vendidos por",
+    "title": "Logo - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "url": "assets/img/envio.svg"
     }
   },
   "rich-text#envio": {
-    "title": "Text vendidos por",
+    "title": "Text - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "text": "Costo de envío: por Calcular"
@@ -63,7 +60,7 @@
   },
   /////////////////// puntos colombia
   "flex-layout.row#puntos-colombia": {
-    "title": "Row container vendidos por",
+    "title": "Row - container - vendidos por",
     "children": ["logo#puntos-colombia", "rich-text#puntos-colombia"],
     "props": {
       "blockClass": "vendido-por",
@@ -71,14 +68,14 @@
     }
   },
   "logo#puntos-colombia": {
-    "title": "Logo vendidos por",
+    "title": "Logo - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "url": "assets/img/puntos-colombia.svg"
     }
   },
   "rich-text#puntos-colombia": {
-    "title": "Text vendidos por",
+    "title": "Text - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "text": "Gana puntos Colombia"
@@ -86,29 +83,29 @@
   },
   /////////////////// garantia
   "flex-layout.row#garantia": {
-    "title": "Row container vendidos por",
-    "children": ["logo#garantia", "rich-text#garantia","logo#ayuda-garantia"],
+    "title": "Row - container - vendidos por",
+    "children": ["logo#garantia", "rich-text#garantia", "logo#ayuda-garantia"],
     "props": {
       "blockClass": "vendido-por",
       "colSizing": "auto"
     }
   },
   "logo#garantia": {
-    "title": "Logo vendidos por",
+    "title": "Logo - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "url": "assets/img/garantia.svg"
     }
   },
   "rich-text#garantia": {
-    "title": "Text vendidos por",
+    "title": "Text - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "text": "Adquiere tu Garantía Extendida Éxito"
     }
   },
   "logo#ayuda-garantia": {
-    "title": "Logo vendidos por",
+    "title": "Logo - vendidos por",
     "props": {
       "blockClass": "vendido-por",
       "url": "assets/img/ayuda.svg"

@@ -1,13 +1,13 @@
 {
   "flex-layout.col#lo-mejor-en-tecnologia--text__uno": {
-    "title": " Text lo mejor en tecnologia",
+    "title": " Text lo mejor en tecnología",
     "children": ["rich-text#lo-mejor-en-tecnologia--text__uno"],
     "props": {
-        "blockClass": "home__section--lo-mejor-en-tecnologia--text"
-      }
+      "blockClass": "home__section--lo-mejor-en-tecnologia--text"
+    }
   },
   "rich-text#lo-mejor-en-tecnologia--text__uno": {
-    "title": " Text lo mejor en tecnologia",
+    "title": " Text lo mejor en tecnología",
     "props": {
       "blockClass": "home__section--lo-mejor-en-tecnologia--text",
       "text": "##### Lo mejor en tecnologia"
@@ -17,10 +17,11 @@
     "title": " Link VER TODO",
     "children": ["link#lo-mejor-en-tecnologia--text__dos"],
     "props": {
-        "blockClass": "home__section--lo-mejor-en-tecnologia--text__ver-todo"
-      }
+      "blockClass": "home__section--lo-mejor-en-tecnologia--text__ver-todo"
+    }
   },
   "link#lo-mejor-en-tecnologia--text__dos": {
+    "title": " Href Link VER TODO",
     "props": {
       "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft",
       "label": "¡VER TODO!",

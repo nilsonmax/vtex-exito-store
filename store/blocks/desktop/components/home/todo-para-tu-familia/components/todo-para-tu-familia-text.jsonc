@@ -3,8 +3,8 @@
     "title": " Text todo para tu familia",
     "children": ["rich-text#todo-para-tu-familia--text__uno"],
     "props": {
-        "blockClass": "home__section--todo-para-tu-familia--text"
-      }
+      "blockClass": "home__section--todo-para-tu-familia--text"
+    }
   },
   "rich-text#todo-para-tu-familia--text__uno": {
     "title": " Text todo para tu familia",
@@ -17,10 +17,11 @@
     "title": " Link VER TODO",
     "children": ["link#todo-para-tu-familia--text__dos"],
     "props": {
-        "blockClass": "home__section--todo-para-tu-familia--text__ver-todo"
-      }
+      "blockClass": "home__section--todo-para-tu-familia--text__ver-todo"
+    }
   },
   "link#todo-para-tu-familia--text__dos": {
+    "title": " Href Link VER TODO",
     "props": {
       "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft",
       "label": "¡VER TODO!",

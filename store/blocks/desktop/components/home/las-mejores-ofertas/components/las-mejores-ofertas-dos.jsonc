@@ -23,6 +23,7 @@
     }
   },
   "image#row__las-mejores-ofertas-dos--uno-row-image": {
+    "title": "Home - row - Las mejores ofertas dos - imagen uno",
     "props": {
       "blockClass": "home__tecnologia--image-2-1",
       "src": "assets/img/las-mejores-ofertas-de-mercado-dos-1.webp",
@@ -32,6 +33,7 @@
     }
   },
   "image#row__las-mejores-ofertas-dos--dos-row-image": {
+    "title": "Home - row - Las mejores ofertas dos - imagen dos",
     "props": {
       "blockClass": "home__tecnologia--image-2-1",
       "src": "assets/img/las-mejores-ofertas-de-mercado-dos-2.webp",
@@ -41,6 +43,7 @@
     }
   },
   "image#row__las-mejores-ofertas-dos--tres-row-image": {
+    "title": "Home - row - Las mejores ofertas dos - imagen tres",
     "props": {
       "blockClass": "home__tecnologia--image-2-1",
       "src": "assets/img/las-mejores-ofertas-de-mercado-dos-3.webp",
@@ -50,6 +53,7 @@
     }
   },
   "image#row__las-mejores-ofertas-dos--cuatro-row-image": {
+    "title": "Home - row - Las mejores ofertas dos - imagen cuatro",
     "props": {
       "blockClass": "home__tecnologia--image-2-2",
       "src": "assets/img/las-mejores-ofertas-de-mercado-dos-4.webp",

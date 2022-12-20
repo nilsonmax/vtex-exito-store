@@ -3,8 +3,8 @@
     "title": " Text Las mejores ofertas",
     "children": ["rich-text#las-mejores-ofertas--text__uno"],
     "props": {
-        "blockClass": "home__section--las-mejores-ofertas--text"
-      }
+      "blockClass": "home__section--las-mejores-ofertas--text"
+    }
   },
   "rich-text#las-mejores-ofertas--text__uno": {
     "title": " Text Las mejores ofertas en el mercado",
@@ -17,10 +17,11 @@
     "title": " Link VER TODO",
     "children": ["link#las-mejores-ofertas--text__dos"],
     "props": {
-        "blockClass": "home__section--las-mejores-ofertas--text__ver-todo"
-      }
+      "blockClass": "home__section--las-mejores-ofertas--text__ver-todo"
+    }
   },
   "link#las-mejores-ofertas--text__dos": {
+    "title": " Href Link VER TODO",
     "props": {
       "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft",
       "label": "¡VER TODO!",

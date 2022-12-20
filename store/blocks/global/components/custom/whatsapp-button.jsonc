@@ -1,5 +1,6 @@
 {
   "whatsapp-button": {
+    "title": "whatsapp button",
     "props": {
       "logo": "assets/img/logo-whatsapp.png",
       "phone": "3008935212",

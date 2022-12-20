@@ -1,6 +1,6 @@
 {
   "store.custom#about-us": {
-    "title": "",
+    "title": "Custom about us",
     "blocks": [
       "flex-layout.row#department-search",
       "flex-layout.row#quick-order",
@@ -9,40 +9,46 @@
     ]
   },
   "image#landing--about-us": {
+    "title": " image - Custom about us",
     "props": {
       "minWidth": "100%",
       "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png"
     }
   },
   "flex-layout.row#about-us": {
+    "title": " row - Custom about us",
     "children": ["flex-layout.col#text-about-us"]
   },
   "flex-layout.col#text-about-us": {
+    "title": " col - Custom about us",
     "children": ["rich-text#about-title", "rich-text#about-content"],
     "props": {
       "preventVerticalStretch": true
     }
   },
   "rich-text#about-title": {
+    "title": " text - Custom about us - Somos ITGlobers los mejores",
     "props": {
       "blockClass": "about-title",
       "text": "# Somos ITGlobers los mejores"
     }
   },
   "rich-text#about-content": {
+    "title": " text - Custom about us - about content",
     "props": {
       "blockClass": "about-content",
       "text": " About us content - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     }
   },
   "flex-layout.row#department-search": {
-    "title": "Header Desktop",
+    "title": " text - Custom about us - department-search",
     "children": ["department-search"],
     "props": {
       "blockClass": "background--prueba"
     }
   },
   "flex-layout.row#quick-order": {
+    "title": " text - Custom about us - quick-order",
     "children": ["quick-order"],
     "props": {
       "blockClass": "background--prueba"

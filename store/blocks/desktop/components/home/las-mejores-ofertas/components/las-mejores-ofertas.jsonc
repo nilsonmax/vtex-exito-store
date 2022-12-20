@@ -1,6 +1,6 @@
 {
   "flex-layout.row#las-mejores-ofertas": {
-    "title": "las-mejores-ofertas",
+    "title": "Las mejores ofertas - row principal",
     "children": [
       "flex-layout.col#las-mejores-ofertas--text__uno",
       "flex-layout.col#las-mejores-ofertas--text__dos"

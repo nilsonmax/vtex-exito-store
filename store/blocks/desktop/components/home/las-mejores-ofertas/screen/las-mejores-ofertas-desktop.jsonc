@@ -1,9 +1,10 @@
 {
   "flex-layout.row#las-mejores-ofertas-desktop": {
+    "title": " Screen Las mejores ofertas - row principal",
     "children": ["flex-layout.col#las-mejores-ofertas-desktop"]
   },
   "flex-layout.col#las-mejores-ofertas-desktop": {
-    "title": "las-mejores-ofertas",
+    "title": "Las mejores ofertas desktop",
     "children": [
       "flex-layout.row#las-mejores-ofertas",
       "flex-layout.row#seccion__las-mejores-ofertas-uno--row-desktop",

@@ -1,57 +1,61 @@
 {
-    "flex-layout.row#todo-para-tu-familia--row-dos-desktop": {
-      "title": "Home Seccion col electrodomesticos para tu hogar imagenes",
-      "children": [
-        "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-uno"
-      ],
-      "props": {
-        "blockClass": "home__section--anuncio-images",
-        "horizontalAlign": "center"
+  "flex-layout.row#todo-para-tu-familia--row-dos-desktop": {
+    "title": "Home - Sección - row - Todo para tu familia - imágenes",
+    "children": [
+      "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-uno"
+    ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-uno": {
+    "title": "Home - Sección - row - Todo para tu familia - imágenes uno",
+    "children": [
+      "image#row__todo-para-tu-familia-dos--uno-row-image",
+      "image#row__todo-para-tu-familia-dos--dos-row-image",
+      "image#row__todo-para-tu-familia-dos--tres-row-image",
+      "image#row__todo-para-tu-familia-dos--cuatro-row-image"
+    ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "width": "grow"
+    }
+  },
+  "image#row__todo-para-tu-familia-dos--uno-row-image": {
+    "title": "Home - Sección - image - Todo para tu familia - imagen uno",
+    "props": {
+      "src": "assets/img/todo-para-tu-familia-dos-1.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
-    },
-    "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-uno": {
-        "title": "Home Seccion col todo-para-tu-familia imagenes",
-        "children": [
-          "image#row__todo-para-tu-familia-dos--uno-row-image",
-          "image#row__todo-para-tu-familia-dos--dos-row-image",
-          "image#row__todo-para-tu-familia-dos--tres-row-image",
-          "image#row__todo-para-tu-familia-dos--cuatro-row-image"
-        ],
-        "props": {
-          "blockClass": "home__section--anuncio-images",
-          "width":"grow"
-        }
-      },
-    "image#row__todo-para-tu-familia-dos--uno-row-image": {
-      "props": {
-        "src": "assets/img/todo-para-tu-familia-dos-1.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+    }
+  },
+  "image#row__todo-para-tu-familia-dos--dos-row-image": {
+    "title": "Home - Sección - image - Todo para tu familia - imagen dos",
+    "props": {
+      "src": "assets/img/todo-para-tu-familia-dos-2.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
-    },
-    "image#row__todo-para-tu-familia-dos--dos-row-image": {
-      "props": {
-        "src": "assets/img/todo-para-tu-familia-dos-2.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+    }
+  },
+  "image#row__todo-para-tu-familia-dos--tres-row-image": {
+    "title": "Home - Sección - image - Todo para tu familia - imagen tres",
+    "props": {
+      "src": "assets/img/todo-para-tu-familia-dos-3.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
-    },
-    "image#row__todo-para-tu-familia-dos--tres-row-image": {
-      "props": {
-        "src": "assets/img/todo-para-tu-familia-dos-3.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
-      }
-    },
-    "image#row__todo-para-tu-familia-dos--cuatro-row-image": {
-      "props": {
-        "src": "assets/img/todo-para-tu-familia-dos-4.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+    }
+  },
+  "image#row__todo-para-tu-familia-dos--cuatro-row-image": {
+    "title": "Home - Sección - image - Todo para tu familia - imagen cuatro",
+    "props": {
+      "src": "assets/img/todo-para-tu-familia-dos-4.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   }
+}

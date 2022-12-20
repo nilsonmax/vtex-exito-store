@@ -1,26 +1,31 @@
 {
   "flex-layout.row#home__mobile--categorias": {
+    "title": " Sección - row - categories",
     "props": {
       "blockClass": "home__seccion--mobile--categorias"
     },
     "children": ["flex-layout.col#mobile--categorias__container"]
   },
   "flex-layout.col#mobile--categorias__container": {
+    "title": " Sección - col -categories",
     "children": [
       "rich-text#mobile--categorias__container--title",
       "flex-layout.row#mobile--categorias__container"
     ]
   },
   "rich-text#mobile--categorias__container--title": {
+    "title": " Sección - text - categories",
     "props": {
       "text": " Compra por categorías",
       "blockClass": "categorias__container--title"
     }
   },
   "flex-layout.row#mobile--categorias__container": {
+    "title": " Sección - row - container - categories",
     "children": ["flex-layout.col#mobile--categorias__container--list"]
   },
   "flex-layout.col#mobile--categorias__container--list": {
+    "title": " Sección - row - container list - categories",
     "children": [
       "flex-layout.row#mobile__container__list--one",
       "flex-layout.row#mobile__container__list--one-two",
@@ -29,44 +34,44 @@
     ]
   },
   "flex-layout.row#mobile__container__list--one": {
-   "children": [
+    "title": " Sección - row - container list one - categories",
+    "children": [
       "flex-layout.col#mobile__list__one--item-1",
       "flex-layout.col#mobile__list__one--item-2",
       "flex-layout.col#mobile__list__one--item-3"
-      // "flex-layout.col#mobile__list__one--item-4",
-      // "flex-layout.col#mobile__list__one--item-5",
-      // "flex-layout.col#mobile__list__one--item-6"
     ],
     "props": {
       "blockClass": "home__seccion--mobile--categorias",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#mobile__container__list--one-two": {
-   "children": [
-      // "flex-layout.col#mobile__list__one--item-1",
-      // "flex-layout.col#mobile__list__one--item-2",
-      // "flex-layout.col#mobile__list__one--item-3",
+    "title": " Sección - row - container list two - categories",
+    "children": [
       "flex-layout.col#mobile__list__one--item-4",
       "flex-layout.col#mobile__list__one--item-5",
       "flex-layout.col#mobile__list__one--item-6"
     ],
     "props": {
       "blockClass": "home__seccion--mobile--categorias",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#mobile__list__one--item-1": {
+    "title": " Sección - row - container list one - items - categories",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__1--image", "rich-text#mobile--item__1--title"]
+    "children": [
+      "image#mobile__item__1--image",
+      "rich-text#mobile--item__1--title"
+    ]
   },
   "image#mobile__item__1--image": {
-    "title": "item__1--image",
+    "title": " Sección - image - container list one - item 1 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-1.webp",
@@ -76,22 +81,27 @@
     }
   },
   "rich-text#mobile--item__1--title": {
+    "title": " Sección - text - container list one - item 1 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Navidad"
     }
   },
   "flex-layout.col#mobile__list__one--item-2": {
+    "title": " Sección - col - container list one - item 2 - categories",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__2--image", "rich-text#mobile--item__2--title"]
+    "children": [
+      "image#mobile__item__2--image",
+      "rich-text#mobile--item__2--title"
+    ]
   },
   "image#mobile__item__2--image": {
-    "title": "item__2--image",
+    "title": " Sección - row - container list one - item 2 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-2.webp",
@@ -101,22 +111,27 @@
     }
   },
   "rich-text#mobile--item__2--title": {
+    "title": " Sección - text - container list one - item 2 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Mercado"
     }
   },
   "flex-layout.col#mobile__list__one--item-3": {
+    "title": " Sección - col - container list one - item 3 - categories",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__3--image", "rich-text#mobile--item__3--title"]
+    "children": [
+      "image#mobile__item__3--image",
+      "rich-text#mobile--item__3--title"
+    ]
   },
   "image#mobile__item__3--image": {
-    "title": "item__3--image",
+    "title": " Sección - image - container list one - item 3 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-3.webp",
@@ -126,22 +141,27 @@
     }
   },
   "rich-text#mobile--item__3--title": {
+    "title": " Sección - text - container list one - item 3 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Moda"
     }
   },
   "flex-layout.col#mobile__list__one--item-4": {
+    "title": " Sección - col - container list one - item 4 - categories",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__4--image", "rich-text#mobile--item__4--title"]
+    "children": [
+      "image#mobile__item__4--image",
+      "rich-text#mobile--item__4--title"
+    ]
   },
   "image#mobile__item__4--image": {
-    "title": "item__4--image",
+    "title": " Sección - image - container list one - item 4 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-4.webp",
@@ -151,23 +171,27 @@
     }
   },
   "rich-text#mobile--item__4--title": {
+    "title": " Sección - text - container list one - item 4 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Celulares"
     }
   },
   "flex-layout.col#mobile__list__one--item-5": {
-    "title": "list item--image",
+    "title": " Sección - col - container list one - item 5 - categories",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__5--image", "rich-text#mobile--item__5--title"]
+    "children": [
+      "image#mobile__item__5--image",
+      "rich-text#mobile--item__5--title"
+    ]
   },
   "image#mobile__item__5--image": {
-    "title": "item__5--image",
+    "title": " Sección - image - container list one - item 5 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-5.webp",
@@ -177,22 +201,27 @@
     }
   },
   "rich-text#mobile--item__5--title": {
+    "title": " Sección - text - container list one - item 5 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Televisores"
     }
   },
   "flex-layout.col#mobile__list__one--item-6": {
+    "title": " Sección - col - container list one - item 6 - categories",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__6--image", "rich-text#mobile--item__6--title"]
+    "children": [
+      "image#mobile__item__6--image",
+      "rich-text#mobile--item__6--title"
+    ]
   },
   "image#mobile__item__6--image": {
-    "title": "item__6--image",
+    "title": " Sección - image - container list one - item 6 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-6.webp",
@@ -202,52 +231,53 @@
     }
   },
   "rich-text#mobile--item__6--title": {
+    "title": " Sección - text - container list one - item 6 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Computadores"
     }
   },
+
+  /////// list two
   "flex-layout.row#mobile__container__list--two": {
+    "title": " Sección - row - container list two - one - item - categories",
     "props": {
       "blockClass": "container__list--two",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#mobile__list__two--item-7",
       "flex-layout.col#mobile__list__two--item-8",
       "flex-layout.col#mobile__list__two--item-9"
-      // "flex-layout.col#mobile__list__two--item-10",
-      // "flex-layout.col#mobile__list__two--item-11",
-      // "flex-layout.col#mobile__list__two--item-12"
     ]
   },
   "flex-layout.row#mobile__container__list--two-two": {
-    "title": "List item--categories two-two",
+    "title": " Sección - row - container list two - two - item - categories",
     "props": {
       "blockClass": "container__list--two",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": true
     },
     "children": [
-      // "flex-layout.col#mobile__list__two--item-7",
-      // "flex-layout.col#mobile__list__two--item-8",
-      // "flex-layout.col#mobile__list__two--item-9"
       "flex-layout.col#mobile__list__two--item-10",
       "flex-layout.col#mobile__list__two--item-11",
       "flex-layout.col#mobile__list__two--item-12"
     ]
   },
   "flex-layout.col#mobile__list__two--item-7": {
-    "title": "List item--image",
+    "title": " Sección - col - container list two - one - item 7 - categories",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-7"
     },
-    "children": ["image#mobile__item__7--image", "rich-text#mobile--item__7--title"]
+    "children": [
+      "image#mobile__item__7--image",
+      "rich-text#mobile--item__7--title"
+    ]
   },
   "image#mobile__item__7--image": {
-    "title": "item__7--image",
+    "title": " Sección - image - container list two - one - item 7 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-7.webp",
@@ -257,23 +287,27 @@
     }
   },
   "rich-text#mobile--item__7--title": {
+    "title": " Sección - text - container list two - one - item 7 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Electrodomésticos"
     }
   },
   "flex-layout.col#mobile__list__two--item-8": {
-    "title": "List item--image two",
+    "title": " Sección - col - container list two - one - item 8 - categories",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__8--image", "rich-text#mobile--item__8--title"]
+    "children": [
+      "image#mobile__item__8--image",
+      "rich-text#mobile--item__8--title"
+    ]
   },
   "image#mobile__item__8--image": {
-    "title": "item__8--image",
+    "title": " Sección - image - container list two - one - item 8 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-8.webp",
@@ -283,22 +317,27 @@
     }
   },
   "rich-text#mobile--item__8--title": {
+    "title": " Sección - text - container list two - one - item 8 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Mundo cocina"
     }
   },
   "flex-layout.col#mobile__list__two--item-9": {
+    "title": " Sección - col - container list two - one - item 9 - categories",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__9--image", "rich-text#mobile--item__9--title"]
+    "children": [
+      "image#mobile__item__9--image",
+      "rich-text#mobile--item__9--title"
+    ]
   },
   "image#mobile__item__9--image": {
-    "title": "item__9--image",
+    "title": " Sección - image - container list two - one - item 9 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-9.webp",
@@ -308,22 +347,27 @@
     }
   },
   "rich-text#mobile--item__9--title": {
+    "title": " Sección - text - container list two - one - item 9 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Colchones"
     }
   },
   "flex-layout.col#mobile__list__two--item-10": {
+    "title": " Sección - col - container list two - one - item 10 - categories",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__10--image", "rich-text#mobile--item__10--title"]
+    "children": [
+      "image#mobile__item__10--image",
+      "rich-text#mobile--item__10--title"
+    ]
   },
   "image#mobile__item__10--image": {
-    "title": "item__10--image",
+    "title": " Sección - image - container list two - one - item 10 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-10.webp",
@@ -333,22 +377,27 @@
     }
   },
   "rich-text#mobile--item__10--title": {
+    "title": " Sección - text - container list two - one - item 10 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Deportes"
     }
   },
   "flex-layout.col#mobile__list__two--item-11": {
+    "title": " Sección - col - container list two - one - item 11 - categories",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__11--image", "rich-text#mobile--item__11--title"]
+    "children": [
+      "image#mobile__item__11--image",
+      "rich-text#mobile--item__11--title"
+    ]
   },
   "image#mobile__item__11--image": {
-    "title": "item__11--image",
+    "title": " Sección - image - container list two - one - item 11 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-11.webp",
@@ -358,28 +407,34 @@
     }
   },
   "rich-text#mobile--item__11--title": {
+    "title": " Sección - text - container list two - one - item 11 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
-      "text": "Juguetería"
+      "text": "Juguetearía"
     }
   },
   "flex-layout.col#mobile__list__two--item-12": {
+    "title": " Sección - col - container list two - one - item 12 - categories",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#mobile__item__12--image", "rich-text#mobile--item__12--title"]
+    "children": [
+      "image#mobile__item__12--image",
+      "rich-text#mobile--item__12--title"
+    ]
   },
   "rich-text#mobile--item__12--title": {
-    "title": "item__12--image",
+    "title": " Sección - text - container list two - one - item 12 - categories",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Expovinos"
     }
   },
   "image#mobile__item__12--image": {
+    "title": " Sección - image - container list two - one - item 12 - categories",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-12.webp",

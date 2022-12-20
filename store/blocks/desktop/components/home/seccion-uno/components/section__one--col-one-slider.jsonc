@@ -1,7 +1,7 @@
 {
- /////////////////////////////////////////////////////////////// Home Section One Col One
- "flex-layout.col#section__one--col-one-desktop": {
-    "title": "Home Section col one Slider",
+  /////////////////////////////////////////////////////////////// Home Section One Col One
+  "flex-layout.col#section__one--col-one-desktop": {
+    "title": "Home - Sección - col - Slider - Sección uno - imágenes",
     "children": ["slider-layout#home__slider--children-desktop"],
     "props": {
       "horizontalAlign": "center",
@@ -11,7 +11,7 @@
     }
   },
   "slider-layout#home__slider--children-desktop": {
-    "title": "Slider con hijos declarados",
+    "title": "Slider - Sección uno - imágenes",
     "children": [
       "image#home__slider--one",
       "image#home__slider--two",
@@ -35,26 +35,31 @@
     }
   },
   "image#home__slider--one": {
+    "title": "home - Sección uno - imagen uno",
     "props": {
       "src": "assets/img/image-section-one-slide-1.webp"
     }
   },
   "image#home__slider--two": {
+    "title": "home - Sección uno - imagen dos",
     "props": {
       "src": "assets/img/image-section-one-slide-2.webp"
     }
   },
   "image#home__slider--three": {
+    "title": "home - Sección uno - imagen tres",
     "props": {
       "src": "assets/img/image-section-one-slide-3.webp"
     }
   },
   "image#home__slider--fourth": {
+    "title": "home - Sección uno - imagen cuatro",
     "props": {
       "src": "assets/img/image-section-one-slide-4.webp"
     }
   },
   "image#home__slider--five": {
+    "title": "home - Sección uno - imagen cinco",
     "props": {
       "src": "assets/img/image-section-one-slide-5.webp"
     }

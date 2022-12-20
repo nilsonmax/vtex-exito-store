@@ -1,5 +1,6 @@
 {
   "search-result-layout#subcategory": {
+    "title": "Search subcategory",
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",

@@ -1,61 +1,62 @@
 {
-    "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop": {
-      "title": "Home Seccion col lo-mejor-en-tecnologia-tres imagenes",
-      "children": [
-        "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-uno",
-        "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-dos"
-      ],
-      "props": {
-        "blockClass": "home__section--tecnologia-images",
-        "horizontalAlign": "center"
+  "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop": {
+    "title": "Home - Sección row - Lo mejor en tecnología tres - imágenes",
+    "children": [
+      "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-uno",
+      "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-dos"
+    ],
+    "props": {
+      "blockClass": "home__section--tecnologia-images",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-uno": {
+    "title": "Home - Sección - row - Lo mejor en tecnologia tres - imágenes",
+    "children": ["image#row__lo-mejor-en-tecnologia-tres__tres--uno-row-image"],
+    "props": {
+      "blockClass": "home__section--tecnologia-images",
+      "width": "grow"
+    }
+  },
+  "image#row__lo-mejor-en-tecnologia-tres__tres--uno-row-image": {
+    "title": "Home - Sección - imagen - Lo mejor en tecnologia tres - imagen uno",
+    "props": {
+      "blockClass": "home__tecnologia--image-2-2",
+      "src": "assets/img/seccion-tecnologia-tres-1.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
-    },
-    "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-uno": {
-        "title": "Home Seccion col lo-mejor-en-tecnologia-tres imagenes",
-        "children": [
-          "image#row__lo-mejor-en-tecnologia-tres__tres--uno-row-image"
-        ],
-        "props": {
-          "blockClass": "home__section--tecnologia-images",
-          "width":"grow"
-        }
-      },
-    "image#row__lo-mejor-en-tecnologia-tres__tres--uno-row-image": {
-      "props": {
-        "blockClass":"home__tecnologia--image-2-2",
-        "src": "assets/img/seccion-tecnologia-tres-1.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+    }
+  },
+  "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-dos": {
+    "title": "Home - Sección col- Lo mejor en tecnologia tres - imágenes",
+    "children": [
+      "image#row__lo-mejor-en-tecnologia-tres__tres--dos-row-image",
+      "image#row__lo-mejor-en-tecnologia-tres__tres--tres-row-image"
+    ],
+    "props": {
+      "blockClass": "home__section--tecnologia-images",
+      "width": "grow"
+    }
+  },
+  "image#row__lo-mejor-en-tecnologia-tres__tres--dos-row-image": {
+    "title": "Home - Sección - imagen - Lo mejor en tecnologia tres - imagen dos",
+    "props": {
+      "blockClass": "home__tecnologia--image-2-1",
+      "src": "assets/img/seccion-tecnologia-tres-2.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
-    },
-    "flex-layout.row#seccion__lo-mejor-en-tecnologia-tres--row-desktop-dos": {
-        "title": "Home Seccion col lo-mejor-en-tecnologia-tres imagenes",
-        "children": [
-          "image#row__lo-mejor-en-tecnologia-tres__tres--dos-row-image",
-          "image#row__lo-mejor-en-tecnologia-tres__tres--tres-row-image"
-        ],
-        "props": {
-          "blockClass": "home__section--tecnologia-images",
-          "width": "grow"
-        }
-      },
-    "image#row__lo-mejor-en-tecnologia-tres__tres--dos-row-image": {
-      "props": {
-        "blockClass":"home__tecnologia--image-2-1",
-        "src": "assets/img/seccion-tecnologia-tres-2.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
-      }
-    },
-    "image#row__lo-mejor-en-tecnologia-tres__tres--tres-row-image": {
-      "props": {
-        "blockClass":"home__tecnologia--image-2-1",
-        "src": "assets/img/seccion-tecnologia-tres-3.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+    }
+  },
+  "image#row__lo-mejor-en-tecnologia-tres__tres--tres-row-image": {
+    "title": "Home - Sección - imagen - Lo mejor en tecnologia tres - imagen tres",
+    "props": {
+      "blockClass": "home__tecnologia--image-2-1",
+      "src": "assets/img/seccion-tecnologia-tres-3.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   }
+}

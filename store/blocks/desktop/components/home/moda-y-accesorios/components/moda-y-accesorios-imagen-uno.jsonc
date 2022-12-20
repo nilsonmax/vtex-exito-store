@@ -1,6 +1,6 @@
 {
   "flex-layout.row#moda-y-accesorios--row-uno-desktop": {
-    "title": "Home Seccion col todo para tu hogar imagenes",
+    "title": "Home - Sección - row - Moda y accesorios - imágenes",
     "children": [
       "flex-layout.row#seccion__moda-y-accesorios-uno--row-desktop-uno"
     ],
@@ -10,7 +10,7 @@
     }
   },
   "flex-layout.row#seccion__moda-y-accesorios-uno--row-desktop-uno": {
-    "title": "Home Seccion col todo para tu hogar imagenes",
+    "title": "Home - Sección - row - Moda y accesorios - imágenes uno",
     "children": [
       "flex-layout.col#seccion__moda-y-accesorios-uno--col-desktop-uno",
       "flex-layout.col#seccion__moda-y-accesorios-uno-dos--col-desktop-uno"
@@ -22,14 +22,16 @@
   },
   //////////////////////////////// primera columna /////////////////////////
   "flex-layout.col#seccion__moda-y-accesorios-uno--col-desktop-uno": {
+    "title": "Home - Sección - col - Moda y accesorios - imágenes uno",
     "children": ["image#row__moda-y-accesorios-uno--uno-row-image"],
     "props": {
       "width": "grow"
     }
   },
   "image#row__moda-y-accesorios-uno--uno-row-image": {
+    "title": "Home - Sección - image - Moda y accesorios - imagen uno",
     "props": {
-      "blockClass":"home__moda-y-accesorios--image-2-1",
+      "blockClass": "home__moda-y-accesorios--image-2-1",
       "src": "assets/img/moda-y-accesorios-uno-1.webp",
       "link": {
         "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
@@ -38,6 +40,7 @@
   },
   //////////////////////////////// segunda columna /////////////////////////
   "flex-layout.col#seccion__moda-y-accesorios-uno-dos--col-desktop-uno": {
+    "title": "Home - Sección - row - Moda y accesorios - imágenes dos",
     "children": [
       "flex-layout.row#seccion__moda-y-accesorios-uno-dos-1--row-desktop-uno",
       "flex-layout.row#seccion__moda-y-accesorios-uno-dos-2--row-desktop-uno"
@@ -48,7 +51,7 @@
   },
   ///////////////////////// segunda columna primera fila ////////////////////
   "flex-layout.row#seccion__moda-y-accesorios-uno-dos-1--row-desktop-uno": {
-    "title": "Home Seccion col todo para tu hogar imagenes",
+    "title": "Home - Sección - col - Moda y accesorios - imágenes dos",
     "children": [
       "image#row__moda-y-accesorios-uno--dos-row-image",
       "image#row__moda-y-accesorios-uno--tres-row-image"
@@ -58,8 +61,9 @@
     }
   },
   "image#row__moda-y-accesorios-uno--dos-row-image": {
+    "title": "Home - Sección - image - Moda y accesorios - imagen dos",
     "props": {
-      "blockClass":"home__moda-y-accesorios--image-2-2",
+      "blockClass": "home__moda-y-accesorios--image-2-2",
       "src": "assets/img/moda-y-accesorios-uno-2-1.webp",
       "link": {
         "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
@@ -67,17 +71,18 @@
     }
   },
   "image#row__moda-y-accesorios-uno--tres-row-image": {
+    "title": "Home - Sección - image - Moda y accesorios - imagen tres",
     "props": {
-      "blockClass":"home__moda-y-accesorios--image-2-2",
+      "blockClass": "home__moda-y-accesorios--image-2-2",
       "src": "assets/img/moda-y-accesorios-uno-2-2.webp",
       "link": {
         "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-   ///////////////////////// segunda columna segunda fila ////////////////////
+  ///////////////////////// segunda columna segunda fila ////////////////////
   "flex-layout.row#seccion__moda-y-accesorios-uno-dos-2--row-desktop-uno": {
-    "title": "Home Seccion col todo para tu hogar imagenes",
+    "title": "Home - Sección - row - Moda y accesorios - imágenes tres",
     "children": [
       "image#row__moda-y-accesorios-uno--cuatro-row-image",
       "image#row__moda-y-accesorios-uno--cinco-row-image"
@@ -86,9 +91,10 @@
       "width": "grow"
     }
   },
-   "image#row__moda-y-accesorios-uno--cuatro-row-image": {
+  "image#row__moda-y-accesorios-uno--cuatro-row-image": {
+    "title": "Home - Sección - image - Moda y accesorios - imagen cuatro",
     "props": {
-      "blockClass":"home__moda-y-accesorios--image-2-3",
+      "blockClass": "home__moda-y-accesorios--image-2-3",
       "src": "assets/img/moda-y-accesorios-uno-2-3.webp",
       "link": {
         "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
@@ -96,8 +102,9 @@
     }
   },
   "image#row__moda-y-accesorios-uno--cinco-row-image": {
+    "title": "Home - Sección - image - Moda y accesorios - imagen cinco",
     "props": {
-      "blockClass":"home__moda-y-accesorios--image-2-3",
+      "blockClass": "home__moda-y-accesorios--image-2-3",
       "src": "assets/img/moda-y-accesorios-uno-2-4.webp",
       "link": {
         "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"

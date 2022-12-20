@@ -1,6 +1,6 @@
 {
   "flex-layout.row#todo-para-tu-familia": {
-    "title": "todo para tu familia",
+    "title": " Home- Sección - row principal - todo para tu familia - imágenes",
     "children": [
       "flex-layout.col#todo-para-tu-familia--text__uno",
       "flex-layout.col#todo-para-tu-familia--text__dos"
