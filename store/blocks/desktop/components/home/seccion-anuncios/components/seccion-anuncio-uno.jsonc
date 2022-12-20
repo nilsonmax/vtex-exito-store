@@ -1,7 +1,7 @@
 {
   //////////////////////////////////////////////////////////// Seccion Anuncios
   "flex-layout.row#seccion__anuncios--row-uno-desktop": {
-    "title": "Home Seccion col anuncio uno",
+    "title": "Home Seccion row anuncio uno",
     "children": [
       "image#row__anuncios__uno--row-one-image"
      ],
@@ -11,10 +11,11 @@
     }
   },
   "image#row__anuncios__uno--row-one-image": {
+    "title": "Home Seccion row image anuncio uno",
     "props": {
       "src": "assets/img/seccion-anuncio-uno.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   }

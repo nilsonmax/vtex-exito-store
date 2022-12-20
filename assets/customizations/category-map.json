@@ -4,33 +4,53 @@
       {
         "id": 1,
         "name": "Electrodomesticos",
+        "slug": "electrodomesticos",
         "href": "/electrodomesticos",
         "children": [
           {
             "id": 3,
             "name": "Hierro",
+            "slug": "hierro",
             "href": "/electrodomesticos/hierro"
           },
           {
             "id": 4,
             "name": "Varillas",
+            "slug": "varillas",
             "href": "/electrodomesticos/varillas"
           },
           {
             "id": 5,
             "name": "Ladrillos",
+            "slug": "ladrillos",
             "href": "/electrodomesticos/ladrillos"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Celulares",
+        "slug": "celulares",
+        "href": "/celulares",
+        "children": [
+          {
+            "id": 16,
+            "name": "iPhone",
+            "slug": "iphone",
+            "href": "/celulares/iphone"
           }
         ]
       },
       {
         "id": 8,
         "name": "Madera",
+        "slug": "madera",
         "href": "/madera",
         "children": [
           {
             "id": 9,
             "name": "Madera Maciza",
+            "slug": "madera-maciza",
             "href": "/madera/madera-maciza"
           }
         ]
@@ -38,16 +58,19 @@
       {
         "id": 10,
         "name": "Queso",
+        "slug": "queso",
         "href": "/queso",
         "children": [
           {
             "id": 2,
             "name": "Cemento",
+            "slug": "cemento",
             "href": "/queso/cemento"
           },
           {
             "id": 11,
             "name": "Quesos Importados",
+            "slug": "quesos-importados",
             "href": "/queso/quesos-importados"
           }
         ]
@@ -55,11 +78,13 @@
       {
         "id": 12,
         "name": "Mujer",
+        "slug": "mujer",
         "href": "/mujer",
         "children": [
           {
             "id": 13,
             "name": "Zapatos",
+            "slug": "zapatos",
             "href": "/mujer/zapatos"
           }
         ]
@@ -67,11 +92,13 @@
       {
         "id": 14,
         "name": "Notebook",
+        "slug": "notebook",
         "href": "/notebook",
         "children": [
           {
             "id": 15,
             "name": "Notebook Tradicional",
+            "slug": "notebook-tradicional",
             "href": "/notebook/notebook-tradicional"
           }
         ]

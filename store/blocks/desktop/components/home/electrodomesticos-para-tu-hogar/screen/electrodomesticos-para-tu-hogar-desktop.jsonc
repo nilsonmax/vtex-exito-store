@@ -1,9 +1,10 @@
 {
   "flex-layout.row#electrodomesticos-para-tu-hogar--desktop": {
+    "title": " Screen - Electrodomésticos para tu hogar - desktop",
     "children": ["flex-layout.col#electrodomesticos-para-tu-hogar--desktop"]
   },
   "flex-layout.col#electrodomesticos-para-tu-hogar--desktop": {
-    "title": "Home Seccion electrodomesticos para tu hogar imagenes",
+    "title": "Screen Home - Sección electrodomésticos para tu hogar - imágenes",
     "children": [
       "flex-layout.row#electrodomesticos-para-tu-hogar",
       "flex-layout.row#electrodomesticos-para-tu-hogar--row-uno-desktop",

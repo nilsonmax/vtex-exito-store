@@ -15,19 +15,14 @@
   //////////////////////////////////////// Retail eCommerce
   "flex-layout.col#retail__ecommerce": {
     "title": "Columna Retail eCommerce",
-    "children": [
-      "flex-layout.row#retail__ecommerce"
-    ],
+    "children": ["flex-layout.row#retail__ecommerce"],
     "props": {
       "blockClass": "retail__ecommerce"
     }
   },
   "flex-layout.row#retail__ecommerce": {
     "title": "Row container Retail eCommerce",
-    "children": [
-      "logo#retail__ecommerce",
-      "rich-text#retail__ecommerce"
-    ],
+    "children": ["logo#retail__ecommerce", "rich-text#retail__ecommerce"],
     "props": {
       "blockClass": "retail__ecommerce",
       "colSizing": "auto"
@@ -50,16 +45,11 @@
   ////////////////////////////////////////////////////// Más de 400 mil productos
   "flex-layout.col#400__productos": {
     "title": "Column 400 Mil Productos",
-    "children": [
-      "flex-layout.row#400__productos"
-    ]
+    "children": ["flex-layout.row#400__productos"]
   },
   "flex-layout.row#400__productos": {
     "title": "Row container 400 Mil Productos",
-    "children": [
-      "logo#400__productos",
-      "rich-text#400__productos"
-    ],
+    "children": ["logo#400__productos", "rich-text#400__productos"],
     "props": {
       "blockClass": "400__productos",
       "colSizing": "auto"
@@ -82,16 +72,11 @@
   ////////////////////////////////////////////////////// Compras seguras
   "flex-layout.col#compras__seguras": {
     "title": "Column Compras Seguras",
-    "children": [
-      "flex-layout.row#compras__seguras"
-    ]
+    "children": ["flex-layout.row#compras__seguras"]
   },
   "flex-layout.row#compras__seguras": {
     "title": "Row container Compras Seguras",
-    "children": [
-      "logo#compras__seguras",
-      "rich-text#compras__seguras"
-    ],
+    "children": ["logo#compras__seguras", "rich-text#compras__seguras"],
     "props": {
       "blockClass": "compras__seguras",
       "colSizing": "auto"
@@ -114,16 +99,11 @@
   ////////////////////////////////////////////////////// Acumula puntos
   "flex-layout.col#acumula__puntos": {
     "title": "Column Acumula Puntos",
-    "children": [
-      "flex-layout.row#acumula__puntos"
-    ]
+    "children": ["flex-layout.row#acumula__puntos"]
   },
   "flex-layout.row#acumula__puntos": {
     "title": "Row container Acumula Puntos",
-    "children": [
-      "logo#acumula__puntos",
-      "rich-text#acumula__puntos"
-    ],
+    "children": ["logo#acumula__puntos", "rich-text#acumula__puntos"],
     "props": {
       "blockClass": "acumula__puntos",
       "colSizing": "auto"
@@ -146,16 +126,11 @@
   ////////////////////////////////////////////////////// Paga en línea o en efectivo
   "flex-layout.col#pago__linea": {
     "title": "Column Pago en Línea",
-    "children": [
-      "flex-layout.row#pago__linea"
-    ]
+    "children": ["flex-layout.row#pago__linea"]
   },
   "flex-layout.row#pago__linea": {
     "title": "Row container Pago en Línea",
-    "children": [
-      "logo#pago__linea",
-      "rich-text#pago__linea"
-    ],
+    "children": ["logo#pago__linea", "rich-text#pago__linea"],
     "props": {
       "blockClass": "pago__linea",
       "colSizing": "auto"

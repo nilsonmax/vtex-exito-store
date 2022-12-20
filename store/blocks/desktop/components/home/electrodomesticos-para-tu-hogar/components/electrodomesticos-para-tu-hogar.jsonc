@@ -1,6 +1,6 @@
 {
   "flex-layout.row#electrodomesticos-para-tu-hogar": {
-    "title": "electrodomesticos para tu hogar",
+    "title": "Electrodomésticos para tu hogar - row - principal",
     "children": [
       "flex-layout.col#electrodomesticos-para-tu-hogar--text__uno",
       "flex-layout.col#electrodomesticos-para-tu-hogar--text__dos"

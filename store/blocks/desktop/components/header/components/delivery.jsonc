@@ -37,24 +37,28 @@
     }
   },
   "modal-trigger#delivery__modal--children": {
+    "title": "modal receive order - delivery",
     "children": [
       "rich-text#receive__order",
       "modal-layout#delivery__modal--layout"
     ]
   },
   "modal-layout#delivery__modal--layout": {
-    "children": ["modal-header#delivery__modal--layout","rich-text#content"]
+    "title": " Seccion delivery del modal",
+    "children": ["modal-header#delivery__modal--layout", "rich-text#content"]
   },
   "rich-text#content": {
+    "title": "Text Selecciona la ciudad",
     "props": {
-      "text": "Seleciona la ciudad y almacen para recoger tu pedido.",
+      "text": "Selecciona la ciudad y almacén para recoger tu pedido.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
   "modal-header#delivery__modal--layout": {
+    "title": "Label del header del modal",
     "props": {
-      "label":"¿Cómo quieres recibir tu pedido?",
+      "label": "¿Cómo quieres recibir tu pedido?",
       "showClosedButton": true
     }
   }

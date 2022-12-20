@@ -1,28 +1,29 @@
 {
   "flex-layout.col#electrodomesticos-para-tu-hogar--text__uno": {
-    "title": " Text Electrodomesticos para tu hogar",
+    "title": " Text - Electrodomésticos para tu hogar",
     "children": ["rich-text#electrodomesticos-para-tu-hogar--text__uno"],
     "props": {
-        "blockClass": "home__section--electrodomesticos-para-tu-hogar--text"
-      }
+      "blockClass": "home__section--electrodomesticos-para-tu-hogar--text"
+    }
   },
   "rich-text#electrodomesticos-para-tu-hogar--text__uno": {
-    "title": " Text electrodomesticos para tu hogar",
+    "title": " Text - uno - electrodomésticos para tu hogar",
     "props": {
       "blockClass": "home__section--electrodomesticos-para-tu-hogar--text",
-      "text": "##### Electrodomesticos para tu hogar"
+      "text": "##### Electrodomésticos para tu hogar"
     }
   },
   "flex-layout.col#electrodomesticos-para-tu-hogar--text__dos": {
     "title": " Link VER TODO",
     "children": ["link#electrodomesticos-para-tu-hogar--text__dos"],
     "props": {
-        "blockClass": "home__section--electrodomesticos-para-tu-hogar--text__ver-todo"
-      }
+      "blockClass": "home__section--electrodomesticos-para-tu-hogar--text__ver-todo"
+    }
   },
   "link#electrodomesticos-para-tu-hogar--text__dos": {
+    "title": " Text - dos - electrodomesticos para tu hogar",
     "props": {
-      "href": "/construccion",
+      "href": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft",
       "label": "¡VER TODO!",
       "blockClass": "home__section--electrodomesticos-para-tu-hogar--text__ver-todo"
     }

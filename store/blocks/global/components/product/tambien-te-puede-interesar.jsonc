@@ -1,46 +1,77 @@
 {
-  "list-context.product-list#slider--tambien-te-puede-interesar": {
-    "blocks": ["product-summary.shelf#slider--tambien-te-puede-interesar"],
-    "children": ["rich-text#tambien-te-puede-interesar","slider-layout#demo-products--tambien-te-puede-interesar"],
-    "props": {
-      "height": "200px"
-      // "blockClass":"home__slider--tambien-te-puede-interesar--celumania-images"
-    }
-  },
-  "rich-text#tambien-te-puede-interesar": {
-    "props": {
-      "text": "También te puede interesar"
-    }
-  },
   "product-summary.shelf#slider--tambien-te-puede-interesar": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-price",
-      // "product-summary-buy-button"
-      "add-to-cart-button"
-    ],
+    "title": "slider--tambien-te-puede-interesar product summary",
+    "children": ["product-summary-image", "flex-layout.row#slider--tambien-te-puede-interesar"],
     "props": {
-      "height": "200px",
       "blockClass": "home__slider--tambien-te-puede-interesar-images"
     }
   },
-  "slider-layout#demo-products--tambien-te-puede-interesar": {
-    "title": "slider--tambien-te-puede-interesar con hijos declarados",
+  "flex-layout.row#slider--tambien-te-puede-interesar": {
+    "title": "slider--tambien-te-puede-interesar product summary row",
+    "children": ["flex-layout.col#slider--tambien-te-puede-interesar"],
+    "props": {
+      // "height": "300px",
+      "blockClass": "home__slider--tambien-te-puede-interesar-parte-dos"
+    }
+  },
+  "flex-layout.col#slider--tambien-te-puede-interesar": {
+    "title": "slider--tambien-te-puede-interesar product summary col",
+    "children": [
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "list-context.product-list#slider--tambien-te-puede-interesar": {
+    "blocks": ["product-summary.shelf#slider--tambien-te-puede-interesar"],
+    "children": ["responsive-layout.desktop#tambien-te-puede-interesar--desktop","responsive-layout.mobile#tambien-te-puede-interesar--mobile"]
+  },
+   ///////////////////////////// desktop
+   "responsive-layout.desktop#tambien-te-puede-interesar--desktop": {
+    "title": "Component mobile",
+    "children": ["slider-layout#desktop-tambien-te-puede-interesar"],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  },
+   ///////////////////////////// desktop
+   "responsive-layout.mobile#tambien-te-puede-interesar--mobile": {
+    "title": "Component mobile",
+    "children": ["slider-layout#mobile-tambien-te-puede-interesar"],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  },
+  "slider-layout#desktop-tambien-te-puede-interesar": {
+    "title": "slider--tambien-te-puede-interesar desktop tambien-te-puede-interesar",
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": false,
-      // "infinite": true,
       "showPaginationDots": false,
-      // "fullWidth": false,
       "navigationStep": 1,
       "stopOnHover": true,
-      // "showNavigationArrows": false
+      // "showNavigationArrows": false,
       "blockClass": "home__slider--tambien-te-puede-interesar"
+    }
+  },
+  "slider-layout#mobile-tambien-te-puede-interesar": {
+    "title": "slider--tambien-te-puede-interesar desktop tambien-te-puede-interesar",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "showPaginationDots": false,
+      "navigationStep": 1,
+      "stopOnHover": true,
+      "showNavigationArrows": false,
+      "blockClass": "home__slider--tambien-te-puede-interesar-mobile"
     }
   }
 }

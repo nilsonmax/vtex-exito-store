@@ -1,13 +1,18 @@
-.paginationDotsContainer--home__slider--mobile{
+.paginationDotsContainer--home__slider--mobile {
   transform: translateY(14px);
 }
 .paginationDotsContainer--home__slider {
   transform: translateY(-8px);
 }
 
-.sliderTrack{
+.sliderTrack--home__slider {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
+}
+.sliderTrack--home__slider--celumania-mobile {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
 }
 .slide--home__slider--celumania {
   min-width: 315px;
@@ -24,12 +29,82 @@
   touch-action: manipulation;
   min-height: 250px;
   height: auto;
-  margin-top:5px;
-  margin-bottom:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   margin-left: 2px;
 }
 
+.slide--home__slider--celumania-mobile {
+  min-width: 315px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid rgba(46, 46, 46, 0.22);
+  border-radius: 12px;
+  margin-right: 10px;
+  opacity: 1;
+  box-shadow: 0 1px 6px rgb(46 46 46 / 22%);
+  touch-action: manipulation;
+  min-height: 250px;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* margin-left: 14px; */
+}
+
+/*tambien-te-puede-interesar*/
+.sliderTrack--home__slider--ultimos-productos-navegados-mobile,
+.sliderTrack--home__slider--tambien-te-puede-interesar-mobile {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
+}
+.slide--home__slider--ultimos-productos-navegados,
+.slide--home__slider--tambien-te-puede-interesar {
+  min-width: 315px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid rgba(46, 46, 46, 0.22);
+  border-radius: 12px;
+  margin-right: 15px;
+  opacity: 1;
+  box-shadow: 0 1px 6px rgb(46 46 46 / 22%);
+  touch-action: manipulation;
+  min-height: 250px;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.slide--home__slider--ultimos-productos-navegados-mobile,
+.slide--home__slider--tambien-te-puede-interesar-mobile {
+  min-width: 315px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid rgba(46, 46, 46, 0.22);
+  border-radius: 12px;
+  margin-right: 10px;
+  opacity: 1;
+  box-shadow: 0 1px 6px rgb(46 46 46 / 22%);
+  touch-action: manipulation;
+  min-height: 250px;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* margin-left: 14px; */
+}
 .sliderLayoutContainer--home__slider--celumania,
+.sliderLayoutContainer--home__slider--ultimos-productos-navegados,
+.sliderLayoutContainer--home__slider--tambien-te-puede-interesar,
 .sliderLayoutContainer--home__seccion--todo-para-tu-hogar,
 .sliderLayoutContainer--home__seccion--moda-y-accesorios {
   max-width: 1280px;
@@ -37,9 +112,10 @@
   margin-top: 20px;
 }
 .sliderLayoutContainer--home__slider--mobile {
-  /* max-width: 1280px; */
   margin: 0 auto;
   margin-top: 20px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 /*///////////// pagination moda-y-accesorios ////////////*/
@@ -232,6 +308,57 @@
   margin-right: 20px;
 }
 .sliderRightArrow--home__slider--celumania:hover {
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+  padding: 12px 14px;
+  background-color: rgba(218, 216, 216, 0.6) !important;
+  display: flex;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  border-radius: 50px 50px;
+  margin-right: 20px;
+}
+/*tambien-te-puede-interesar*/
+.sliderLeftArrow--home__slider--ultimos-productos-navegados,
+.sliderLeftArrow--home__slider--tambien-te-puede-interesar {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+  padding: 12px 14px;
+  background-color: hsla(0, 0%, 89.8%, 0.75) !important;
+  display: flex;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  border-radius: 50px 50px;
+  margin-left: 20px;
+}
+.sliderLeftArrow--home__slider--ultimos-productos-navegados:hover,
+.sliderLeftArrow--home__slider--tambien-te-puede-interesar:hover {
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+  padding: 12px 14px;
+  background-color: rgba(rgba(218, 216, 216, 0.6)) !important;
+  display: flex;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  border-radius: 50px 50px;
+  margin-left: 20px;
+}
+.sliderRightArrow--home__slider--ultimos-productos-navegados,
+.sliderRightArrow--home__slider--tambien-te-puede-interesar {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+  padding: 12px 14px;
+  background-color: hsla(0, 0%, 89.8%, 0.75) !important;
+  display: flex;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  border-radius: 50px 50px;
+  margin-right: 20px;
+}
+.sliderRightArrow--home__slider--ultimos-productos-navegados:hover,
+.sliderRightArrow--home__slider--tambien-te-puede-interesar:hover {
   z-index: 1;
   cursor: pointer;
   box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);

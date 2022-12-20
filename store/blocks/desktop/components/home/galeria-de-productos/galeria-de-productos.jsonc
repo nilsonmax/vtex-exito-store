@@ -1,33 +1,12 @@
 {
-  "search-result-layout.customQuery#home": {
-    "blocks": [
-      "search-result-layout.desktop#home__search--desktop",
-      "search-result-layout.mobile#home__search--mobile",
-      "search-not-found-layout"
-    ],
-    "props": {
-      "querySchema": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
   "search-result-layout.desktop#home__search--desktop": {
     "children": ["flex-layout.row#home__results"]
-    // "children": ["rich-text#test"]
   },
   "search-result-layout.mobile#home__search--mobile": {
     "children": ["flex-layout.row#home__results"]
-    // "children": ["rich-text#test"]
-  },
-  "rich-text#test": {
-    "props": {
-      "text": "texto de prueba"
-    }
   },
   "flex-layout.row#home__results": {
     "children": [
-      // "flex-layout.col#home__results--filter",
       "flex-layout.col#home__results--search"
     ]
   },

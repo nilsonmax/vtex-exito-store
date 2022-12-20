@@ -1,4 +1,4 @@
-.imageElementLink {
+.imageElementLink--home__top--gif {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -9,12 +9,22 @@
   margin-bottom: 10px;
   margin-top: 40px;
 }
+
 .imageElement--list--item-categories{
   width: 100px;
 }
 .imageElement--home__slider--mobile{
-  height: 100px;
+  /* height: 100px; */
   /* width: 173px; */
+  min-width: 100%;
+  min-height: 100px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  margin: 0 10px 10px;
+  padding: 10px 0;
 }
 
 .imageElementLink--home__tecnologia--image {

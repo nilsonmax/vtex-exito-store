@@ -1,5 +1,6 @@
 {
   "custom-grid": {
+    "title": " textos del custom grid garantías por la pagina",
     "children": [
       "rich-text#custom__grid--1",
       "rich-text#custom__grid--2",
@@ -9,30 +10,35 @@
     ]
   },
   "rich-text#custom__grid--1": {
+    "title": " Texto #1 del custom grid",
     "props": {
       "blockClass": "custom__grid--1",
       "text": "# 1\n ¿Donde puedes realizar tu solicitud?"
     }
   },
   "rich-text#custom__grid--2": {
+    "title": " Texto #2 del custom grid",
     "props": {
       "blockClass": "custom__grid--2",
       "text": "# 2\n ¿Que información debes tener?"
     }
   },
   "rich-text#custom__grid--3": {
+    "title": " Texto #3 del custom grid",
     "props": {
       "blockClass": "custom__grid--3",
       "text": "# 3\n ¿Donde debes entregar el producto?"
     }
   },
   "rich-text#custom__grid--4": {
+    "title": " Texto #4 del custom grid",
     "props": {
       "blockClass": "custom__grid--4",
       "text": "# 4\n ¿Cuanto tiempo se demora tu producto en servicio técnico?"
     }
   },
   "rich-text#custom__grid--5": {
+    "title": " Texto #5 del custom grid",
     "props": {
       "blockClass": "custom__grid--5",
       "text": "# 5\n ¿como sabras el estado de tu solicitud?"

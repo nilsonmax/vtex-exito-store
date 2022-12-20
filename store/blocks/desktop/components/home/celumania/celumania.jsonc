@@ -1,22 +1,20 @@
 {
   "product-summary.shelf#slider": {
-    "title": "slider product summary",
+    "title": "slider product summary imágenes del slider",
     "children": ["product-summary-image", "flex-layout.row#slider"],
     "props": {
-      // "height": "150px",
       "blockClass": "home__slider--celumania-images"
     }
   },
   "flex-layout.row#slider": {
-    "title": "slider product summary row",
+    "title": "slider product summary row - celumania",
     "children": ["flex-layout.col#slider"],
     "props": {
-      // "height": "300px",
       "blockClass": "home__slider--celumania-parte-dos"
     }
   },
   "flex-layout.col#slider": {
-    "title": "slider product summary col",
+    "title": "slider product summary celumania col - muestra el contenido",
     "children": [
       "product-summary-name",
       "product-summary-price",
@@ -24,29 +22,58 @@
     ]
   },
   "list-context.product-list#slider": {
+    "title": "slider product summary - modo resposive del slider celumania",
     "blocks": ["product-summary.shelf#slider"],
-    "children": ["slider-layout#demo-products"],
+    "children": [
+      "responsive-layout.desktop#celumania--desktop",
+      "responsive-layout.mobile#celumania--mobile"
+    ]
+  },
+  ///////////////////////////// desktop
+  "responsive-layout.desktop#celumania--desktop": {
+    "title": "Componente responsive slider celumania desktop",
+    "children": ["slider-layout#desktop-celumania"],
     "props": {
-      // "height": "200px"
-      // "blockClass":"home__slider--celumania-images"
+      "blockClass": "home__responsive"
     }
   },
-  "slider-layout#demo-products": {
-    "title": "Slider con hijos declarados",
+  ///////////////////////////// desktop
+  "responsive-layout.mobile#celumania--mobile": {
+    "title": "Componente responsive slider celumania mobile",
+    "children": ["slider-layout#mobile-celumania"],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  },
+  "slider-layout#desktop-celumania": {
+    "title": "Slider desktop celumania",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
-        "tablet": 3,
-        "phone": 1
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": false,
-      // "infinite": true,
-      "showPaginationDots": false,
-      // "fullWidth": false,
+      "showPaginationDots": "never",
       "navigationStep": 1,
       "stopOnHover": true,
-      // "showNavigationArrows": false
       "blockClass": "home__slider--celumania"
+    }
+  },
+  "slider-layout#mobile-celumania": {
+    "title": "Slider mobile celumania",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "navigationStep": 1,
+      "stopOnHover": true,
+      "showNavigationArrows": "never",
+      "blockClass": "home__slider--celumania-mobile"
     }
   }
 }

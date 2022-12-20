@@ -16,12 +16,30 @@
   }
 }
 
+/* .flexRow--sub-container--titles__product :global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+  width: 42% !important; */
+  /* align-items: center; */
+/* } */
+
 .flexRowContent--home__section--anuncio-images {
   margin: 0 auto;
   max-width: 1280px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.flexRow--unit-price-cart :global(.vtex-product-list-0-x-unitPriceMeasurementUnit),
+.flexRow--unit-price-cart :global(.vtex-product-list-0-x-currencyCode),
+.flexRow--unit-price-cart :global(.vtex-product-list-0-x-currencyInteger){
+  color: #dc0b13;
+  font-weight: 400;
+}
+.flexRow--price-cart :global(.vtex-product-list-0-x-price){
+  color: #222;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 
 .flexRowContent--home__section--moda-y-accesorios-images {
   margin: 0 auto;
@@ -68,14 +86,56 @@
   border-radius: 15px;
 }
 
+.flexRow--home__slider--celumania-parte-dos{
+  display:flex;
+  justify-content: center;
+  align-items:flex-end;
+  margin-left: 3px;
+}
 .flexRow--home__slider--celumania-parte-dos :global(.vtex-button) {
+  position: relative;
   height: 47px;
   outline: none;
   border-radius: 12px;
-  position: absolute;
-  bottom: 10px;
-  left: 200px;
   width: 160px;
+}
+@media screen and (max-width: 768px) {
+  .flexRow--home__slider--celumania-parte-dos :global(.vtex-button) {
+    position: relative;
+    height: 47px;
+    outline: none;
+    border-radius: 12px;
+    width: 136px;
+    margin-left: 5px;
+  }
+}
+/*tambien-te-puede-interesar-images*/
+
+.flexRow--home__slider--ultimos-productos-navegados-parte-dos,
+.flexRow--home__slider--tambien-te-puede-interesar-parte-dos{
+  display:flex;
+  justify-content: center;
+  align-items:flex-end;
+  margin-left: 3px;
+}
+.flexRow--home__slider--ultimos-productos-navegados-parte-dos :global(.vtex-button),
+.flexRow--home__slider--tambien-te-puede-interesar-parte-dos :global(.vtex-button) {
+  position: relative;
+  height: 47px;
+  outline: none;
+  border-radius: 12px;
+  width: 160px;
+}
+@media screen and (max-width: 768px) {
+  .flexRow--home__slider--ultimos-productos-navegados-parte-dos :global(.vtex-button),
+  .flexRow--home__slider--tambien-te-puede-interesar-parte-dos :global(.vtex-button) {
+    position: relative;
+    height: 47px;
+    outline: none;
+    border-radius: 12px;
+    width: 136px;
+    margin-left: 5px;
+  }
 }
 .flexRow--background--prueba {
   background-color: #eaebed;

@@ -1,46 +1,77 @@
 {
-  "list-context.product-list#slider--ultimos-productos-navegados": {
-    "blocks": ["product-summary.shelf#slider--ultimos-productos-navegados"],
-    "children": ["rich-text#ultimos-productos-navegados","slider-layout#demo-products--ultimos-productos-navegados"],
-    "props": {
-      "height": "200px"
-      // "blockClass":"home__slider--ultimos-productos-navegados--celumania-images"
-    }
-  },
-  "rich-text#ultimos-productos-navegados": {
-    "props": {
-      "text": "Últimos productos navegados"
-    }
-  },
   "product-summary.shelf#slider--ultimos-productos-navegados": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-price",
-      // "product-summary-buy-button"
-      "add-to-cart-button"
-    ],
+    "title": "slider--ultimos-productos-navegados product summary",
+    "children": ["product-summary-image", "flex-layout.row#slider--ultimos-productos-navegados"],
     "props": {
-      "height": "200px",
       "blockClass": "home__slider--ultimos-productos-navegados-images"
     }
   },
-  "slider-layout#demo-products--ultimos-productos-navegados": {
-    "title": "slider--ultimos-productos-navegados con hijos declarados",
+  "flex-layout.row#slider--ultimos-productos-navegados": {
+    "title": "slider--ultimos-productos-navegados product summary row",
+    "children": ["flex-layout.col#slider--ultimos-productos-navegados"],
+    "props": {
+      // "height": "300px",
+      "blockClass": "home__slider--ultimos-productos-navegados-parte-dos"
+    }
+  },
+  "flex-layout.col#slider--ultimos-productos-navegados": {
+    "title": "slider--ultimos-productos-navegados product summary col",
+    "children": [
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "list-context.product-list#slider--ultimos-productos-navegados": {
+    "blocks": ["product-summary.shelf#slider--ultimos-productos-navegados"],
+    "children": ["responsive-layout.desktop#ultimos-productos-navegados--desktop","responsive-layout.mobile#ultimos-productos-navegados--mobile"]
+  },
+   ///////////////////////////// desktop
+   "responsive-layout.desktop#ultimos-productos-navegados--desktop": {
+    "title": "Component mobile",
+    "children": ["slider-layout#desktop-ultimos-productos-navegados"],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  },
+   ///////////////////////////// desktop
+   "responsive-layout.mobile#ultimos-productos-navegados--mobile": {
+    "title": "Component mobile",
+    "children": ["slider-layout#mobile-ultimos-productos-navegados"],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  },
+  "slider-layout#desktop-ultimos-productos-navegados": {
+    "title": "slider--ultimos-productos-navegados desktop ultimos-productos-navegados",
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": false,
-      // "infinite": true,
       "showPaginationDots": false,
-      // "fullWidth": false,
       "navigationStep": 1,
       "stopOnHover": true,
-      // "showNavigationArrows": false
+      // "showNavigationArrows": false,
       "blockClass": "home__slider--ultimos-productos-navegados"
+    }
+  },
+  "slider-layout#mobile-ultimos-productos-navegados": {
+    "title": "slider--ultimos-productos-navegados desktop ultimos-productos-navegados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "showPaginationDots": false,
+      "navigationStep": 1,
+      "stopOnHover": true,
+      "showNavigationArrows": false,
+      "blockClass": "home__slider--ultimos-productos-navegados-mobile"
     }
   }
 }

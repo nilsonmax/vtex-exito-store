@@ -1,17 +1,19 @@
 {
   "disclosure-state-indicator": {
+    "title": " disclousure footer exito",
     "props": {
       "Show": "icon-caret#down",
       "Hide": "icon-caret#up"
-      // "blockClass": "state--disclosure"
     }
   },
   "icon-caret#down": {
+    "title": "icon up disclousure footer",
     "props": {
       "orientation": "up"
     }
   },
   "icon-caret#up": {
+    "title": "icon down disclousure footer",
     "props": {
       "orientation": "down"
     }
@@ -443,7 +445,7 @@
   ////////////////////////////////////////////////////// Comunidad
   "flex-layout.col#content__comunidad": {
     "title": "Content Comunidad",
-    "children": ["link#vivevinos","link#exploradores__exito"],
+    "children": ["link#vivevinos", "link#exploradores__exito"],
     "props": {
       "blockClass": "content__comunidad"
     }
