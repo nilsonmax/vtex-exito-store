@@ -9,8 +9,6 @@
     "props": {
       "preventRouteChange": true,
       "defaultGalleryLayout": "grid",
-      // "showFacetQuantity": true,
-      // "thresholdForFacetSearch": 3,
       "mobileLayout": {
         "mode1": "small"
       }
@@ -54,6 +52,7 @@
     }
   },
   "flex-layout.col#products__gallery--department": {
+    "title": " sección - col - products gallery",
     "children": [
       "flex-layout.row#total__switcher",
       "search-content#department__results"
@@ -64,39 +63,46 @@
     }
   },
   "flex-layout.row#total__switcher": {
+    "title": " sección - row - products gallery - switcher",
     "children": ["total-products.v2", "flex-layout.col#order__switcher"],
     "props": {
       "blockClass": "total__switcher"
     }
   },
   "flex-layout.col#order__switcher": {
+    "title": " sección - col - products gallery - switcher",
     "children": ["flex-layout.row#order__switcher"],
     "props": {
       "blockClass": "total__switcher"
     }
   },
   "flex-layout.row#order__switcher": {
+    "title": " sección - col - products gallery - order switcher",
     "children": ["order-by.v2", "gallery-layout-switcher"],
     "props": {
       "blockClass": "order__switcher"
     }
   },
   "gallery-layout-switcher": {
+    "title": " gallery switcher",
     "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
   },
   "gallery-layout-option#grid": {
+    "title": "gallery grid",
     "props": {
       "name": "grid"
     },
     "children": ["icon-grid"]
   },
   "gallery-layout-option#list": {
+    "title": "gallery list",
     "props": {
       "name": "list"
     },
     "children": ["icon-inline-grid"]
   },
   "search-content#department__results": {
+    "title": "search content - department results",
     "blocks": ["gallery#global", "not-found"]
   },
   "gallery#global": {
@@ -122,24 +128,27 @@
     }
   },
   "product-summary.shelf#deparment": {
+    "title": "shelf the product summary",
     "children": [
       "flex-layout.row#add__list--button-deparment",
       "flex-layout.row#card"
     ]
   },
   "flex-layout.row#add__list--button-deparment": {
+    "title": "row - add list product summary",
     "children": ["add-to-list-btn"],
     "props": {
       "blockClass": "add__list-button"
     }
   },
   "flex-layout.row#card": {
+    "title": "row - card product",
     "children": ["flex-layout.col#card"]
   },
   "flex-layout.col#card": {
+    "title": "col - card product",
     "children": [
       "product-summary-image",
-      // "product-separator",
       "product-summary-brand",
       "product-summary-name",
       "product-summary-price",
@@ -151,19 +160,23 @@
     }
   },
   "product-summary-name": {
+    "title": "card product name",
     "props": {
       "tag": "h3"
     }
   },
   "add-to-cart-button": {
+    "title": "add to card",
     "props": {
       "text": "Agregar"
     }
   },
   "product-summary-sku-selector": {
+    "title": " sku selectro - card product",
     "props": { "hideImpossibleCombinations": false }
   },
   "modal-layout#add__to--card-info": {
+    "title": "modal donde se muestra la informacion de las compras",
     "children": ["modal-header#add__to--card-info", "add-to-cart-info"]
   },
   "modal-header#add__to--card-info": {
@@ -179,12 +192,14 @@
     ]
   },
   "flex-layout.row#add__list--button-list": {
+    "title": "row - card product add to list button",
     "children": ["add-to-list-btn"],
     "props": {
       "blockClass": "add__list-button"
     }
   },
   "flex-layout.row#card__list": {
+    "title": "row - product list container",
     "children": [
       "flex-layout.col#card__list--image",
       "flex-layout.col#card__list--container"
@@ -201,24 +216,28 @@
     }
   },
   "flex-layout.col#card__list--container": {
+    "title": " col - product list container",
     "children": ["flex-layout.row#card__list--container"],
     "props": {
       "blockClass": "card__list--container"
     }
   },
   "flex-layout.row#card__list--container": {
+    "title": "button add to card - product list container",
     "children": ["flex-layout.col#card__list", "add-to-cart-button"],
     "props": {
       "blockClass": "card__list--container"
     }
   },
   "flex-layout.col#card__list": {
+    "title": "col - product price and name brand - product list container",
     "children": ["flex-layout.row#brand__name", "product-summary-price"],
     "props": {
       "blockClass": "card__list"
     }
   },
   "flex-layout.row#brand__name": {
+    "title": "row name barnd - product list container",
     "children": ["product-summary-brand", "product-summary-name"],
     "props": {
       "blockClass": "brand__name"
@@ -250,6 +269,10 @@
       "preserveLayoutOnMobile": true,
       "blockClass": "mobile__filters-and-orders"
     },
-    "children": ["filter-navigator.v3", "order-by.v2","gallery-layout-switcher"]
+    "children": [
+      "filter-navigator.v3",
+      "order-by.v2",
+      "gallery-layout-switcher"
+    ]
   }
 }

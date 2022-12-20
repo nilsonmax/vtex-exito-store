@@ -47,7 +47,7 @@
     }
   },
   "disclosure-content#product-info__description": {
-    "title": "disclosure conten",
+    "title": "disclosure content",
     "children": ["flex-layout.row#description__content"],
     "props": {
       "blockClass": "disclosure-content"
@@ -84,14 +84,14 @@
     }
   },
   "rich-text#features__title": {
-    "title": "title",
+    "title": "title Especificaciones",
     "props": {
       "blockClass":"title__descripcion-producto",
       "text": "Especificaciones"
     }
   },
   "disclosure-content#product-info__features": {
-    "title": "disclosure conten",
+    "title": "disclosure content",
     "children": ["flex-layout.row#features__content"],
     "props": {
       "blockClass": "disclosure__product-info"
@@ -102,31 +102,37 @@
     "children": ["product-specification-group#features__content"]
   },
   "product-specification-group#features__content": {
+    "title": "features content",
     "children": [
       "product-specification-text#group",
       "product-specification#features__content"
     ]
   },
   "product-specification#features__content": {
+    "title": "features content",
     "children": [
       "product-specification-text#specification",
       "product-specification-values#features__content"
     ]
   },
   "product-specification-values#features__content": {
+    "title": "features content values",
     "children": ["product-specification-text#value"]
   },
   "product-specification-text#group": {
+    "title": "features content values",
     "props": {
       "message": "{groupName}"
     }
   },
   "product-specification-text#specification": {
+    "title": "features content name specification",
     "props": {
       "message": "{specificationName}"
     }
   },
   "product-specification-text#value": {
+    "title": "features content value specification",
     "props": {
       "message": "{specificationValue}"
     }
@@ -145,7 +151,7 @@
     "children": ["flex-layout.row#care__title--opiniones-sobre-este-producto"]
   },
   "flex-layout.row#care__title--opiniones-sobre-este-producto": {
-    "title": "content",
+    "title": "content title opiniones sobre este producto",
     "children": [
       "rich-text#care__title--opiniones-sobre-este-producto",
       "disclosure-state-indicator#product-info"
@@ -164,14 +170,14 @@
     }
   },
   "disclosure-content#product-info__care": {
-    "title": "disclosure contenido opiniones-sobre este producto",
+    "title": "disclosure - contenido opiniones sobre este producto",
     "children": ["product-reviews"],
     "props": {
       "blockClass":"product-reviews"
     }
   },
   "disclosure-content#product-info__care-instructions": {
-    "title": "disclosure conten",
+    "title": "disclosure content",
     "children": ["rich-text#care-instructions__info"]
   },
   "rich-text#care-instructions__info": {

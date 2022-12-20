@@ -1,6 +1,6 @@
 {
   "store.custom#cart": {
-    "title":" Custom cart product",
+    "title": " Custom cart product",
     "blocks": ["flex-layout.row#cart"]
   },
   "flex-layout.row#cart": {
@@ -11,31 +11,34 @@
   },
   /////////////////////////////////////////////////////////////// Cart productos
   "flex-layout.col#cart": {
-    "title":" cart product",
-    "children": ["flex-layout.row#sub-container--titles","flex-layout.row#cart__container"],
+    "title": " cart product",
+    "children": [
+      "flex-layout.row#sub-container--titles",
+      "flex-layout.row#cart__container"
+    ],
     "props": {
       "blockClass": "cart",
       "width": "70%"
     }
   },
   "flex-layout.row#cart__container": {
-    "title":" cart container product",
+    "title": " cart container product",
     "children": ["minicart-product-list#cart"]
   },
   "minicart-product-list#cart": {
-    "title":" cart container product list",
+    "title": " cart container product list",
     "blocks": ["product-list#cart"]
   },
   "product-list#cart": {
-    "title":" cart product list",
+    "title": " cart product list",
     "blocks": ["product-list-content-desktop"]
   },
   "product-list-content-desktop": {
-    "title":" cart content product list",
+    "title": " cart content product list",
     "children": ["flex-layout.row#list-row.desktop"]
   },
   "flex-layout.row#list-row.desktop": {
-    "title":" cart row content product list",
+    "title": " cart row content product list",
     "children": [
       "flex-layout.col#image.desktop",
       "flex-layout.col#main-container.desktop"
@@ -49,23 +52,21 @@
     }
   },
   "flex-layout.col#image.desktop": {
-    "title":" cart content product image list",
+    "title": " cart content product image list",
     "children": ["product-list-image"],
     "props": {
       "marginRight": 6
     }
   },
   "flex-layout.col#main-container.desktop": {
-    "title":" cart main container product",
-    "children": [
-      "flex-layout.row#sub-container.desktop"
-      // "flex-layout.row#message.desktop"
-    ],
+    "title": " cart main container product",
+    "children": ["flex-layout.row#sub-container.desktop"],
     "props": {
       "width": "grow"
     }
   },
   "flex-layout.row#sub-container--titles": {
+    "title": " text cart content product",
     "children": [
       "rich-text#product-description",
       "rich-text#unit-price",
@@ -73,39 +74,49 @@
       "rich-text#price-total"
     ],
     "props": {
-      "blockClass":"sub-container--titles__product"
+      "blockClass": "sub-container--titles__product"
     }
   },
   "rich-text#product-description": {
     "title": "producto",
     "props": {
-      "blockClass":["sub-container--titles__product", "sub-container--titles"],
+      "blockClass": ["sub-container--titles__product", "sub-container--titles"],
       "width": "45%",
       "text": "Producto"
     }
   },
   "rich-text#unit-price": {
-    "title": "product description unit price",
+    "title": " text product description unit price",
     "props": {
-      "blockClass":["sub-container--titles__unit-price", "sub-container--titles"],
+      "blockClass": [
+        "sub-container--titles__unit-price",
+        "sub-container--titles"
+      ],
       "text": "Precio"
     }
   },
   "rich-text#quantity": {
-    "title": "product description",
+    "title": " text product description",
     "props": {
-      "blockClass":["sub-container--titles__quantity","sub-container--titles"],
+      "blockClass": [
+        "sub-container--titles__quantity",
+        "sub-container--titles"
+      ],
       "text": "Cantidad"
     }
   },
   "rich-text#price-total": {
-    "title": "product description",
+    "title": " text product description",
     "props": {
-      "blockClass":["sub-container--titles__price-total", "sub-container--titles"],
+      "blockClass": [
+        "sub-container--titles__price-total",
+        "sub-container--titles"
+      ],
       "text": "Total"
     }
   },
   "flex-layout.row#sub-container.desktop": {
+    "title": " cart content product",
     "children": [
       "flex-layout.col#product-description",
       "product-description",
@@ -119,14 +130,14 @@
     }
   },
   "flex-layout.col#quantity.desktop": {
-    "children": [
-      "flex-layout.row#quantity-selector.desktop"
-    ],
+    "title": " col - cart content product - quantity",
+    "children": ["flex-layout.row#quantity-selector.desktop"],
     "props": {
       "marginLeft": 9
     }
   },
   "flex-layout.row#price-remove": {
+    "title": " row - cart content product - price remove",
     "children": [
       "flex-layout.col#price.desktop",
       "flex-layout.col#remove-button.desktop"
@@ -137,26 +148,30 @@
     }
   },
   "flex-layout.row#quantity-selector.desktop": {
+    "title": " row - cart content product - quantity-selector",
     "children": ["quantity-selector#minicart"],
     "props": {
       "preventHorizontalStretch": true
     }
   },
   "flex-layout.row#unit-price.desktop": {
+    "title": " row - cart content product - unit price",
     "children": ["unit-price#desktop"],
     "props": {
-      "blockClass":"unit-price-cart",
+      "blockClass": "unit-price-cart",
       "marginTop": 3,
       "preventHorizontalStretch": true
     }
   },
   "unit-price#desktop": {
+    "title": "unit price",
     "props": {
-      "unitPriceDisplay":"always",
+      "unitPriceDisplay": "always",
       "textAlign": "center"
     }
   },
   "flex-layout.col#price.desktop": {
+    "title": " col - cart content product - price",
     "children": ["price#desktop"],
     "props": {
       "marginLeft": 6,
@@ -165,20 +180,17 @@
     }
   },
   "price#desktop": {
+    "title": " price",
     "props": {
       "textAlign": "right"
     }
   },
   "flex-layout.col#remove-button.desktop": {
+    "title": "col - cart content product - remove-button",
     "children": ["remove-button"],
     "props": {
       "marginLeft": 6,
       "verticalAlign": "middle"
-    }
-  },
-  "message#desktop": {
-    "props": {
-      "layout": "cols"
     }
   },
   /////////////////////////////////////////////////////////////// Checkout
@@ -189,21 +201,25 @@
     }
   },
   "minicart-summary": {
+    "title": "minicart summary",
     "blocks": ["checkout-summary.compact"]
   },
   "checkout-summary.compact": {
+    "title": "checkout summary",
     "children": ["summary-totalizers"],
     "props": {
       "totalizersToShow": ["Items", "Discounts"]
     }
   },
   "summary-totalizers": {
+    "title": "totalizers summary",
     "props": {
       "showTotal": true,
       "showDeliveryTotal": false
     }
   },
   "minicart-checkout-button": {
+    "title": "minicart checkout button",
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform"
     }

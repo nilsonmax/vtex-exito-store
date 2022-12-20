@@ -1,10 +1,12 @@
 {
   ////////////////////////////////////////////////////////// todo-para-tu-hogar
   "list-context.image-list#home__seccion--todo-para-tu-hogar-desktop": {
-    "title": "todo-para-tu-hogar",
-    "children": ["slider-layout#home__seccion--todo-para-tu-hogar-desktop-list"],
+    "title": "Home - Sección - list content - todo para tu hogar - imágenes",
+    "children": [
+      "slider-layout#home__seccion--todo-para-tu-hogar-desktop-list"
+    ],
     "props": {
-      "blockClass":"home__seccion--todo-para-tu-hogar",
+      "blockClass": "home__seccion--todo-para-tu-hogar",
       "preload": true,
       "height": 250,
       "images": [
@@ -61,20 +63,18 @@
     }
   },
   "slider-layout#home__seccion--todo-para-tu-hogar-desktop-list": {
+    "title": "Home - Sección - list content - slider - todo para tu hogar - imágenes",
     "props": {
-      "blockClass":"home__seccion--todo-para-tu-hogar",
-        "itemsPerPage": {
-          "desktop": 5,
-          "tablet": 2,
-          "phone": 1
-        },
-        "infinite": true,
-        // "showPaginationDots": "always",
-        "fullWidth": false,
-        "navigationStep":1,
-        "stopOnHover":true
-            // "showNavigationArrows": false
-      }
-
+      "blockClass": "home__seccion--todo-para-tu-hogar",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "navigationStep": 1,
+      "stopOnHover": true
+    }
   }
 }

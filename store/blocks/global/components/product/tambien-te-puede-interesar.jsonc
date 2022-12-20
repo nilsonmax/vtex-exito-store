@@ -1,21 +1,23 @@
 {
   "product-summary.shelf#slider--tambien-te-puede-interesar": {
-    "title": "slider--tambien-te-puede-interesar product summary",
-    "children": ["product-summary-image", "flex-layout.row#slider--tambien-te-puede-interesar"],
+    "title": "slider - también te puede interesar - product summary",
+    "children": [
+      "product-summary-image",
+      "flex-layout.row#slider--tambien-te-puede-interesar"
+    ],
     "props": {
       "blockClass": "home__slider--tambien-te-puede-interesar-images"
     }
   },
   "flex-layout.row#slider--tambien-te-puede-interesar": {
-    "title": "slider--tambien-te-puede-interesar product summary row",
+    "title": "slider - row - también te puede interesar - product summary",
     "children": ["flex-layout.col#slider--tambien-te-puede-interesar"],
     "props": {
-      // "height": "300px",
       "blockClass": "home__slider--tambien-te-puede-interesar-parte-dos"
     }
   },
   "flex-layout.col#slider--tambien-te-puede-interesar": {
-    "title": "slider--tambien-te-puede-interesar product summary col",
+    "title": "slider - col - tambien te puede interesar - product summary",
     "children": [
       "product-summary-name",
       "product-summary-price",
@@ -23,27 +25,31 @@
     ]
   },
   "list-context.product-list#slider--tambien-te-puede-interesar": {
+    "title": "list context - tambien te puede interesar",
     "blocks": ["product-summary.shelf#slider--tambien-te-puede-interesar"],
-    "children": ["responsive-layout.desktop#tambien-te-puede-interesar--desktop","responsive-layout.mobile#tambien-te-puede-interesar--mobile"]
+    "children": [
+      "responsive-layout.desktop#tambien-te-puede-interesar--desktop",
+      "responsive-layout.mobile#tambien-te-puede-interesar--mobile"
+    ]
   },
-   ///////////////////////////// desktop
-   "responsive-layout.desktop#tambien-te-puede-interesar--desktop": {
-    "title": "Component mobile",
+  ///////////////////////////// desktop
+  "responsive-layout.desktop#tambien-te-puede-interesar--desktop": {
+    "title": "Component desktop - tambien te puede interesar",
     "children": ["slider-layout#desktop-tambien-te-puede-interesar"],
     "props": {
       "blockClass": "home__responsive"
     }
   },
-   ///////////////////////////// desktop
-   "responsive-layout.mobile#tambien-te-puede-interesar--mobile": {
-    "title": "Component mobile",
+  ///////////////////////////// desktop
+  "responsive-layout.mobile#tambien-te-puede-interesar--mobile": {
+    "title": "Component mobile - tambien te puede interesar",
     "children": ["slider-layout#mobile-tambien-te-puede-interesar"],
     "props": {
       "blockClass": "home__responsive"
     }
   },
   "slider-layout#desktop-tambien-te-puede-interesar": {
-    "title": "slider--tambien-te-puede-interesar desktop tambien-te-puede-interesar",
+    "title": "slider - desktop - tambien te puede interesar",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -51,15 +57,14 @@
         "phone": 2
       },
       "infinite": false,
-      "showPaginationDots": false,
+      "showPaginationDots": "never",
       "navigationStep": 1,
       "stopOnHover": true,
-      // "showNavigationArrows": false,
       "blockClass": "home__slider--tambien-te-puede-interesar"
     }
   },
   "slider-layout#mobile-tambien-te-puede-interesar": {
-    "title": "slider--tambien-te-puede-interesar desktop tambien-te-puede-interesar",
+    "title": "slider - mobile - tambien te puede interesar",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -67,10 +72,10 @@
         "phone": 2
       },
       "infinite": false,
-      "showPaginationDots": false,
+      "showPaginationDots": "never",
       "navigationStep": 1,
       "stopOnHover": true,
-      "showNavigationArrows": false,
+      "showNavigationArrows": "never",
       "blockClass": "home__slider--tambien-te-puede-interesar-mobile"
     }
   }

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#lo-mejor-en-tecnologia": {
-    "title": "lo-mejor-en-tecnologia",
+    "title": " Sección - row principal - Lo mejor en tecnología",
     "children": [
       "flex-layout.col#lo-mejor-en-tecnologia--text__uno",
       "flex-layout.col#lo-mejor-en-tecnologia--text__dos"

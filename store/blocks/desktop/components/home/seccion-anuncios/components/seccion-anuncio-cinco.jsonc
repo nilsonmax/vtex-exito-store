@@ -1,21 +1,20 @@
 {
-    //////////////////////////////////////////////////////////// Seccion Anuncios
-    "flex-layout.row#seccion__anuncios--row-cinco-desktop": {
-      "title": "Home Seccion col anuncio cinco",
-      "children": [
-        "image#row__anuncios__uno--cinco-row-one-image"
-       ],
-      "props": {
-        "blockClass": "home__section--anuncio-images",
-        "marginLeft": 2
-      }
-    },
-    "image#row__anuncios__uno--cinco-row-one-image": {
-      "props": {
-        "src": "assets/img/seccion-anuncio-cinco.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+  //////////////////////////////////////////////////////////// Seccion Anuncios
+  "flex-layout.row#seccion__anuncios--row-cinco-desktop": {
+    "title": "Home - Sección - row - anuncio cinco",
+    "children": ["image#row__anuncios__uno--cinco-row-one-image"],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "marginLeft": 2
+    }
+  },
+  "image#row__anuncios__uno--cinco-row-one-image": {
+    "title": "Home - Sección - image - anuncio cinco",
+    "props": {
+      "src": "assets/img/seccion-anuncio-cinco.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   }
+}

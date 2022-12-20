@@ -1,9 +1,10 @@
 {
   "flex-layout.row#lo-mejor-en-tecnologia-desktop": {
+    "title": "Screen - Sección - row - Lo mejor en tecnología - desktop",
     "children": ["flex-layout.col#lo-mejor-en-tecnologia-desktop"]
   },
   "flex-layout.col#lo-mejor-en-tecnologia-desktop": {
-    "title": "lo-mejor-en-tecnologia",
+    "title": "Screen - Sección - col - Lo mejor en tecnología",
     "children": [
       "flex-layout.row#lo-mejor-en-tecnologia",
       "flex-layout.row#seccion__lo-mejor-en-tecnologia-uno--row-desktop",

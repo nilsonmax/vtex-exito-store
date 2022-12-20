@@ -1,17 +1,15 @@
 {
   //////////////////////////////////////////////////////////// Seccion Anuncios
   "flex-layout.row#seccion__anuncios--row-uno-desktop": {
-    "title": "Home Seccion row anuncio uno",
-    "children": [
-      "image#row__anuncios__uno--row-one-image"
-     ],
+    "title": "Home - Sección - row - anuncios uno - imágenes",
+    "children": ["image#row__anuncios__uno--row-one-image"],
     "props": {
       "blockClass": "home__section--anuncio-images",
       "marginLeft": 2
     }
   },
   "image#row__anuncios__uno--row-one-image": {
-    "title": "Home Seccion row image anuncio uno",
+    "title": "Home - Sección - image - anuncios uno - imagen uno",
     "props": {
       "src": "assets/img/seccion-anuncio-uno.webp",
       "link": {

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#moda-y-accesorios": {
-    "title": "todo para tu hogar",
+    "title": "Home - Sección - row principal - Moda y accesorios",
     "children": [
       "flex-layout.col#moda-y-accesorios--text__uno",
       "flex-layout.col#moda-y-accesorios--text__dos"

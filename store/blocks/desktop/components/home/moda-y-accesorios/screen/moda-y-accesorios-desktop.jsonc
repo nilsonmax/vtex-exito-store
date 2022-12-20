@@ -1,13 +1,13 @@
 {
   "flex-layout.row#moda-y-accesorios--desktop": {
+    "title": "Screen - Sección - row - Moda y accesorios",
     "children": ["flex-layout.col#moda-y-accesorios--desktop"]
   },
   "flex-layout.col#moda-y-accesorios--desktop": {
-    "title": "Home Seccion moda y accesorios imagenes",
+    "title": "Home -Sección - col - moda y accesorios - imágenes",
     "children": [
       "flex-layout.row#moda-y-accesorios",
       "flex-layout.row#moda-y-accesorios--row-uno-desktop",
-      // "flex-layout.row#moda-y-accesorios--row-dos-desktop",
       "list-context.image-list#home__seccion--moda-y-accesorios-desktop"
     ],
     "props": {

@@ -1,64 +1,62 @@
 {
-    "flex-layout.row#seccion__anuncios--row-tres-desktop": {
-      "title": "Home Seccion col anuncios imagenes",
-      "children": [
-        "flex-layout.row#seccion__anuncios--row-tres-desktop-uno",
-        "flex-layout.row#seccion__anuncios--row-tres-desktop-dos"
-      ],
-      "props": {
-        "blockClass": "home__section--anuncio-images",
-        "horizontalAlign": "center"
+  "flex-layout.row#seccion__anuncios--row-tres-desktop": {
+    "title": "Home - Sección - row - anuncios tres - imágenes",
+    "children": [
+      "flex-layout.row#seccion__anuncios--row-tres-desktop-uno",
+      "flex-layout.row#seccion__anuncios--row-tres-desktop-dos"
+    ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#seccion__anuncios--row-tres-desktop-uno": {
+    "title": "Home - Sección - row - anuncios tres - imágenes uno",
+    "children": ["image#row__anuncios__tres--uno-row-tres-image"],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "width": "grow"
+    }
+  },
+  "image#row__anuncios__tres--uno-row-tres-image": {
+    "title": "Home - Sección - image - anuncios tres - imagen uno",
+    "props": {
+      "blockClass": "anuncios__row-tres-image",
+      "src": "assets/img/seccion-anuncio-tres-1.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
-    },
-    "flex-layout.row#seccion__anuncios--row-tres-desktop-uno": {
-        "title": "Home Seccion col anuncios imagenes uno",
-        "children": [
-          "image#row__anuncios__tres--uno-row-tres-image"
-        ],
-        "props": {
-          "blockClass": "home__section--anuncio-images",
-          "width":"grow"
-        }
-      },
-    "image#row__anuncios__tres--uno-row-tres-image": {
-      "title": "Home Seccion anuncios imagen uno",
-      "props": {
-        "blockClass":"anuncios__row-tres-image",
-        "src": "assets/img/seccion-anuncio-tres-1.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+    }
+  },
+  "flex-layout.row#seccion__anuncios--row-tres-desktop-dos": {
+    "title": "Home - Sección - row - anuncios tres - imágenes dos",
+    "children": [
+      "image#row__anuncios__tres--dos-row-tres-image",
+      "image#row__anuncios__tres--tres-row-tres-image"
+    ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "width": "grow"
+    }
+  },
+  "image#row__anuncios__tres--dos-row-tres-image": {
+    "title": "Home - Sección - image - anuncios tres - imagen dos",
+    "props": {
+      "blockClass": "anuncios__row-tres-image",
+      "src": "assets/img/seccion-anuncio-tres-2.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
-    },
-    "flex-layout.row#seccion__anuncios--row-tres-desktop-dos": {
-      "title": "Home Seccion col anuncios imagenes dos",
-        "children": [
-          "image#row__anuncios__tres--dos-row-tres-image",
-          "image#row__anuncios__tres--tres-row-tres-image"
-        ],
-        "props": {
-          "blockClass": "home__section--anuncio-images",
-          "width": "grow"
-        }
-      },
-    "image#row__anuncios__tres--dos-row-tres-image": {
-      "title": "Home Seccion anuncios imagen dos",
-      "props": {
-        "blockClass":"anuncios__row-tres-image",
-        "src": "assets/img/seccion-anuncio-tres-2.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
-      }
-    },
-    "image#row__anuncios__tres--tres-row-tres-image": {
-      "title": "Home Seccion anuncios imagen tres",
-      "props": {
-        "blockClass":"anuncios__row-tres-image",
-        "src": "assets/img/seccion-anuncio-tres-3.webp",
-        "link": {
-          "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
-        }
+    }
+  },
+  "image#row__anuncios__tres--tres-row-tres-image": {
+    "title": "Home - Sección - image - anuncios tres - imagen tres",
+    "props": {
+      "blockClass": "anuncios__row-tres-image",
+      "src": "assets/img/seccion-anuncio-tres-3.webp",
+      "link": {
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   }
+}

@@ -56,7 +56,6 @@
     "title": " Drawer menú mobile",
     "blocks": ["drawer-header#my-drawer"],
     "children": ["mega-menu#mobile", "flex-layout.col#trigger-mega-menu"]
-    // "children": ["mega-menu#mobile"]
   },
   "drawer-header#my-drawer": {
     "title": " Drawer header menú mobile",

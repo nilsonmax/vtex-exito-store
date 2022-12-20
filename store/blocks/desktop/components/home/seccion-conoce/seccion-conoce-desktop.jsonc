@@ -1,7 +1,7 @@
 {
   //////////////////////////////////////////////////////////// Conoce
   "flex-layout.row#seccion__conoce--col-one-desktop": {
-    "title": "Home Seccion col conoce imagenes",
+    "title": "home - Sección - row - conoce",
     "children": [
       "image#col__conoce__uno--image",
       "image#col__conoce__dos--image",
@@ -9,12 +9,13 @@
       "image#col__conoce__cuatro--image"
     ],
     "props": {
-      "blockClass":"home__section--anuncio-images",
+      "blockClass": "home__section--anuncio-images",
       "horizontalAlign": "center",
       "marginLeft": 20
     }
   },
   "image#col__conoce__uno--image": {
+    "title": "home - Sección - image - conoce - imagen uno",
     "props": {
       "src": "assets/img/home-seccion-conoce-1.webp",
       "link": {
@@ -23,6 +24,7 @@
     }
   },
   "image#col__conoce__dos--image": {
+    "title": "home - Sección - image - conoce - imagen dos",
     "props": {
       "src": "assets/img/home-seccion-conoce-2.webp",
       "link": {
@@ -31,6 +33,7 @@
     }
   },
   "image#col__conoce__tres--image": {
+    "title": "home - Sección - image - conoce - imagen tres",
     "props": {
       "src": "assets/img/home-seccion-conoce-3.webp",
       "link": {
@@ -39,6 +42,7 @@
     }
   },
   "image#col__conoce__cuatro--image": {
+    "title": "home - Sección - image - conoce - imagen cuatro",
     "props": {
       "src": "assets/img/home-seccion-conoce-4.webp",
       "link": {

@@ -1,18 +1,17 @@
 {
   "flex-layout.row#seccion__anuncios--row-dos-desktop": {
-    "title": "Home Seccion col anuncios imagenes",
+    "title": "Home - Sección - row - anuncios dos - imágenes",
     "children": [
       "image#row__anuncios__dos--uno-row-dos-image",
       "image#row__anuncios__dos--dos-row-dos-image"
     ],
     "props": {
       "blockClass": "home__section--anuncio-images",
-    //   "horizontalAlign": "center",
-    //   "width": "30%",
       "marginTop": 10
     }
   },
   "image#row__anuncios__dos--uno-row-dos-image": {
+    "title": "Home - Sección - image - anuncios dos - imagen uno",
     "props": {
       "src": "assets/img/seccion-anuncio-dos-1.webp",
       "link": {
@@ -21,6 +20,7 @@
     }
   },
   "image#row__anuncios__dos--dos-row-dos-image": {
+    "title": "Home - Sección - image - anuncios dos - imagen dos",
     "props": {
       "src": "assets/img/seccion-anuncio-dos-2.webp",
       "link": {

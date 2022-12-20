@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#websites": {
+    "title": "menu home",
     "children": ["menu-item#inicio", "menu-item#mercado", "menu-item#moda"],
     "props": {
       "blockClass": "menu-tabs"

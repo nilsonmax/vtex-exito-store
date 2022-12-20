@@ -1,10 +1,10 @@
 {
   ////////////////////////////////////////////////////////// moda-y-accesorios
   "list-context.image-list#home__seccion--moda-y-accesorios-desktop": {
-    "title": "moda-y-accesorios",
+    "title": "Home - Sección - image list - Moda y accesorios - imágenes list",
     "children": ["slider-layout#home__seccion--moda-y-accesorios-desktop-list"],
     "props": {
-      "blockClass":"home__seccion--moda-y-accesorios",
+      "blockClass": "home__seccion--moda-y-accesorios",
       "preload": true,
       "height": 250,
       "images": [
@@ -89,20 +89,18 @@
     }
   },
   "slider-layout#home__seccion--moda-y-accesorios-desktop-list": {
+    "title": "Home - Sección - slider - Moda y accesorios - imágenes list",
     "props": {
-      "blockClass":"home__seccion--moda-y-accesorios",
-        "itemsPerPage": {
-          "desktop": 5,
-          "tablet": 2,
-          "phone": 1
-        },
-        "infinite": true,
-        // "showPaginationDots": "always",
-        "fullWidth": false,
-        "navigationStep":1,
-        "stopOnHover":true
-            // "showNavigationArrows": false
-      }
-
+      "blockClass": "home__seccion--moda-y-accesorios",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "navigationStep": 1,
+      "stopOnHover": true
+    }
   }
 }
