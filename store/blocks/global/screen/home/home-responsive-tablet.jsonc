@@ -1,0 +1,11 @@
+{
+  "responsive-layout.tablet#home__info--tablet":{
+    "title": "Component tablet",
+    "children":[
+      "flex-layout.row#home__sections#tablet"
+    ],
+    "props":{
+      "blockClass": "home__responsive"
+    }
+  }
+}

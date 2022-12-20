@@ -3,7 +3,7 @@
     "title": "Tablet slider información de pagos, entregas y ventas",
     "children": ["list-context.image-list#home__slider--list-info"],
     "props": {
-      "blockClass": "home__session-slider-pagos"
+      "blockClass": "home__session-slider-conoce--mobile"
     }
   },
   "list-context.image-list#home__slider--list-info": {
@@ -11,7 +11,7 @@
     "children": ["slider-layout#home__slider--list-info1"],
     "props": {
       "preload": true,
-      "height": 100,
+      // "height": 100,
       "images": [
         {
           "image": "assets/img/home-seccion-conoce-1.webp",

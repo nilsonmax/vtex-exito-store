@@ -1,36 +1,85 @@
 {
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
   "store.search#category": {
-    "blocks": ["search-result-layout"],
-      "props": {
+    "blocks": ["search-result-layout#category"],
+    "props": {
       "context": {
-        "skusFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
   },
+
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"],
-      "props": {
+    "blocks": ["search-result-layout#subcategory"],
+    "props": {
       "context": {
-        "skusFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
   },
+
   "store.search#brand": {
-    "blocks": ["search-result-layout"],
-      "props": {
+    "blocks": ["search-result-layout#brand"],
+    "props": {
       "context": {
-        "skusFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
   },
+
+  "filter-navigator.v3#desktop__search-result--filter-navigator": {
+    "title": "Filters",
+    "props": {
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ],
+      "blockClass": "desktop__search-result--filter-navigator"
+    }
+  },
+
   "search-result-layout": {
     "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
       "search-not-found-layout"
     ]
+  },
+
+  "search-not-found-layout": {
+    "children": [
+      "rich-text#not-found"
+    ]
+  },
+
+  "rich-text#not-found": {
+    "props": {
+      "text": "Página no encontrada"
+    }
   }
 }

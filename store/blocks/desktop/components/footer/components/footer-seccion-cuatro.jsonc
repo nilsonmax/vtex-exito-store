@@ -1,10 +1,7 @@
 {
   "flex-layout.row#footer__desktop--seccion-cuatro": {
     "title": "Section Footer 4",
-    "children": [
-      "flex-layout.col#visita__logos",
-      "flex-layout.col#derechos"
-    ],
+    "children": ["flex-layout.col#visita__logos", "flex-layout.col#derechos"],
     "props": {
       "blockClass": "footer__desktop--seccion-cuatro"
     }
@@ -12,9 +9,7 @@
   ////////////////////////////////////////////////////// Visita - Logos
   "flex-layout.col#visita__logos": {
     "title": "Section Visita - Logos",
-    "children": [
-      "flex-layout.row#visita__logos"
-    ]
+    "children": ["flex-layout.row#visita__logos"]
   },
   "flex-layout.row#visita__logos": {
     "title": "Container Visita - Logos",
@@ -28,9 +23,7 @@
   },
   "flex-layout.col#visita": {
     "title": "Column Visita",
-    "children": [
-      "rich-text#visita"
-    ],
+    "children": ["rich-text#visita"],
     "props": {
       "blockClass": "visita"
     }
@@ -46,9 +39,7 @@
   },
   "flex-layout.col#logos__comerciales": {
     "title": "Column Logos comerciales",
-    "children": [
-    "flex-layout.row#logos__comerciales"
-    ]
+    "children": ["flex-layout.row#logos__comerciales"]
   },
   "flex-layout.row#logos__comerciales": {
     "title": "Container logos",
@@ -94,9 +85,7 @@
   ////////////////////////////////////////////////////// Derechos
   "flex-layout.col#derechos": {
     "title": "Section Derechos",
-    "children": [
-      "rich-text#derechos"
-    ],
+    "children": ["rich-text#derechos"],
     "props": {
       "blockClass": "derechos"
     }

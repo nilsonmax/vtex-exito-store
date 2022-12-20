@@ -1,32 +1,38 @@
 {
   "flex-layout.row#home__categorias": {
+    "title":"Row home categorias",
     "props": {
       "blockClass": "home__seccion--categorias"
     },
     "children": ["flex-layout.col#categorias__container"]
   },
   "flex-layout.col#categorias__container": {
+    "title":"Col home categorias",
     "children": [
       "rich-text#categorias__container--title",
       "flex-layout.row#categorias__container"
     ]
   },
   "rich-text#categorias__container--title": {
+    "title":"Text home Compra por categorias",
     "props": {
       "text": "#### Compra por categorías",
       "blockClass": "categorias__container--title"
     }
   },
   "flex-layout.row#categorias__container": {
+    "title":"home container por categorias",
     "children": ["flex-layout.col#categorias__container--list"]
   },
   "flex-layout.col#categorias__container--list": {
+    "title":"home container list por categorias",
     "children": [
       "flex-layout.row#container__list--one",
       "flex-layout.row#container__list--two"
     ]
   },
   "flex-layout.row#container__list--one": {
+    "title":"home container list one por categorias",
     "children": [
       "flex-layout.col#list__one--item-1",
       "flex-layout.col#list__one--item-2",
@@ -41,6 +47,7 @@
     }
   },
   "flex-layout.col#list__one--item-1": {
+    "title":"home container list one, item one por categorias",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
@@ -50,20 +57,23 @@
     "children": ["image#item__1--image", "rich-text#item__1--title"]
   },
   "image#item__1--image": {
+    "title":"home container list one, item one image por categorias",
     "props": {
       "src": "assets/img/categoria-item-1.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__1--title": {
+    "title":"home container list one, item one title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Navidad"
     }
   },
   "flex-layout.col#list__one--item-2": {
+    "title":"home container list one, item two por categorias",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
@@ -73,20 +83,23 @@
     "children": ["image#item__2--image", "rich-text#item__2--title"]
   },
   "image#item__2--image": {
+    "title":"home container list one, item two image por categorias",
     "props": {
       "src": "assets/img/categoria-item-2.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__2--title": {
+    "title":"home container list one, item two title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Mercado"
     }
   },
   "flex-layout.col#list__one--item-3": {
+    "title":"home container list one, item three por categorias",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
@@ -96,20 +109,23 @@
     "children": ["image#item__3--image", "rich-text#item__3--title"]
   },
   "image#item__3--image": {
+    "title":"home container list one, item three image por categorias",
     "props": {
       "src": "assets/img/categoria-item-3.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__3--title": {
+    "title":"home container list one, item three title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Moda"
     }
   },
   "flex-layout.col#list__one--item-4": {
+    "title":"home container list one, item four por categorias",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
@@ -119,20 +135,23 @@
     "children": ["image#item__4--image", "rich-text#item__4--title"]
   },
   "image#item__4--image": {
+    "title":"home container list one, item four image por categorias",
     "props": {
       "src": "assets/img/categoria-item-4.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__4--title": {
+    "title":"home container list one, item four title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Celulares"
     }
   },
   "flex-layout.col#list__one--item-5": {
+    "title":"home container list one, item five por categorias",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
@@ -142,20 +161,23 @@
     "children": ["image#item__5--image", "rich-text#item__5--title"]
   },
   "image#item__5--image": {
+    "title":"home container list one, item five image por categorias",
     "props": {
       "src": "assets/img/categoria-item-5.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__5--title": {
+    "title":"home container list one, item five title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Televisores"
     }
   },
   "flex-layout.col#list__one--item-6": {
+    "title":"home container list one, item six por categorias",
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
@@ -165,20 +187,23 @@
     "children": ["image#item__6--image", "rich-text#item__6--title"]
   },
   "image#item__6--image": {
+    "title":"home container list one, item six image por categorias",
     "props": {
       "src": "assets/img/categoria-item-6.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__6--title": {
+    "title":"home container list one, item six title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Computadores"
     }
   },
   "flex-layout.row#container__list--two": {
+    "title":"home container list two, item por categorias",
     "props": {
       "blockClass": "container__list--two"
     },
@@ -192,6 +217,7 @@
     ]
   },
   "flex-layout.col#list__two--item-7": {
+    "title":"home container list two, item seven por categorias",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
@@ -201,20 +227,23 @@
     "children": ["image#item__7--image", "rich-text#item__7--title"]
   },
   "image#item__7--image": {
+    "title":"home container list two, item seven image por categorias",
     "props": {
        "src": "assets/img/categoria-item-7.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__7--title": {
+    "title":"home container list two, item seven title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Electrodomésticos"
     }
   },
   "flex-layout.col#list__two--item-8": {
+    "title":"home container list two, item eight seven por categorias",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
@@ -224,20 +253,23 @@
     "children": ["image#item__8--image", "rich-text#item__8--title"]
   },
   "image#item__8--image": {
+    "title":"home container list two, item eight image por categorias",
     "props": {
       "src": "assets/img/categoria-item-8.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__8--title": {
+    "title":"home container list two, item eight title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Mundo cocina"
     }
   },
   "flex-layout.col#list__two--item-9": {
+    "title":"home container list two, item nine por categorias",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
@@ -247,20 +279,23 @@
     "children": ["image#item__9--image", "rich-text#item__9--title"]
   },
   "image#item__9--image": {
+    "title":"home container list two, item nine image por categorias",
     "props": {
       "src": "assets/img/categoria-item-9.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__9--title": {
+    "title":"home container list two, item nine title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Colchones"
     }
   },
   "flex-layout.col#list__two--item-10": {
+    "title":"home container list two, item ten por categorias",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
@@ -270,20 +305,23 @@
     "children": ["image#item__10--image", "rich-text#item__10--title"]
   },
   "image#item__10--image": {
+    "title":"home container list two, item ten image por categorias",
     "props": {
       "src": "assets/img/categoria-item-10.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__10--title": {
+    "title":"home container list two, item ten title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Deportes"
     }
   },
   "flex-layout.col#list__two--item-11": {
+    "title":"home container list two, item eleven por categorias",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
@@ -293,20 +331,23 @@
     "children": ["image#item__11--image", "rich-text#item__11--title"]
   },
   "image#item__11--image": {
+    "title":"home container list two, item eleven image por categorias",
     "props": {
       "src": "assets/img/categoria-item-11.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
   "rich-text#item__11--title": {
+    "title":"home container list two, item eleven title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Juguetería"
     }
   },
   "flex-layout.col#list__two--item-12": {
+    "title":"home container list two, item twelve por categorias",
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
@@ -316,16 +357,18 @@
     "children": ["image#item__12--image", "rich-text#item__12--title"]
   },
   "rich-text#item__12--title": {
+    "title":"home container list two, item twelve title por categorias",
     "props": {
       "blockClass": "categorias__container--text",
       "text": "Expovinos"
     }
   },
   "image#item__12--image": {
+    "title":"home container list two, item twelve image por categorias",
     "props": {
       "src": "assets/img/categoria-item-12.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   }

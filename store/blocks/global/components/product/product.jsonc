@@ -7,9 +7,29 @@
       "flex-layout.row#product-identifier",
       "flex-layout.row#product-rating-inline",
       "flex-layout.row#product__info",
-      "list-context.product-list#slider--tambien-te-puede-interesar",
-      "list-context.product-list#slider--ultimos-productos-navegados"
+      "shelf.relatedProducts#tambien-te-puede-interesar",
+      "shelf.relatedProducts#ultimos-productos-navegados"
     ]
+  },
+  "shelf.relatedProducts#tambien-te-puede-interesar": {
+    "blocks": ["product-summary.shelf#slider--tambien-te-puede-interesar"],
+    "props": {
+        "recommendation": "similars",
+        "productList": {
+            "titleText": "También te puede interesar",
+            "itemsPerPage": 3
+        }
+    }
+  },
+  "shelf.relatedProducts#ultimos-productos-navegados": {
+    "blocks": ["product-summary.shelf#slider--ultimos-productos-navegados"],
+    "props": {
+        "recommendation": "view", //similars, suggestions, accessories (these first three depend on the product's data given in the admin's catalog) and view, buy, viewandBought
+        "productList": {
+            "titleText": "Últimos productos navegados",
+            "itemsPerPage": 3
+        }
+    }
   },
   "flex-layout.row#product-rating-inline": {
     "title": "Row Product PDP product rating inline",
@@ -43,12 +63,6 @@
     "children": ["product-identifier.product"],
     "props": {
       "blockClass": "product__name"
-    }
-  },
-  "vtex.store-components:product-brand": {
-    "title": "Product PDP product barnd",
-    "props": {
-      "blockClass": "product__brand"
     }
   },
   "flex-layout.row#product__info": {
@@ -102,13 +116,8 @@
       "product-separator",
       "product-quantity",
       "add-to-cart-button",
-      // "add-to-cart-info",
       "flex-layout.row#checkout__button",
       "modal-trigger#add__to--card-info",
-      // "product-description",
-      // "product-rating-inline",
-      // "shipping-simulator",
-      // "flex-layout.row#vendidos-por",
       "flex-layout.row#seccion-vendios-por",
       "share"
     ],
@@ -138,6 +147,24 @@
         "Twitter": true,
         "Pinterest": false
       }
+    }
+  },
+  "modal-trigger#add__to--card-info": {
+    "children": ["modal-layout#add__to--card-info"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add__to--card-info": {
+    "children": [
+      "modal-header#add__to--card-info",
+      "add-to-cart-info"
+    ]
+  },
+  "modal-header#add__to--card-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
     }
   }
 }

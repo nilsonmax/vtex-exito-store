@@ -363,7 +363,10 @@
   },
   "flex-layout.col#networks": {
     "title": "Row Networks",
-    "children": ["flex-layout.row#networks","flex-layout.row#tus-compras_seguras_con"],
+    "children": [
+      "flex-layout.row#networks",
+      "flex-layout.row#tus-compras_seguras_con"
+    ],
     "props": {
       "blockClass": "networks"
     }
@@ -422,7 +425,10 @@
   },
   "flex-layout.col#networks__container_dos": {
     "title": "Container Networks",
-    "children": ["rich-text#tus-compras_seguras_con", "flex-layout.row#imagenes__container_dos"],
+    "children": [
+      "rich-text#tus-compras_seguras_con",
+      "flex-layout.row#imagenes__container_dos"
+    ],
     "props": {
       "blockClass": "networks__container"
     }

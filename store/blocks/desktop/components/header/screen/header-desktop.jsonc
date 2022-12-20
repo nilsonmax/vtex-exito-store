@@ -7,8 +7,6 @@
     "title": "Header Desktop",
     "children": [
       "flex-layout.row#mega__menu--desktop",
-      // "flex-layout.row#mega-menu",
-      // "sticky-layout.stack-container#4-desktop",
       "logo#header__desktop",
       "flex-layout.row#header__desktop",
       "search-bar#header__desktop",

@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#seccion__anuncios--row-tres-mobil": {
+    "title": "Home Seccion row anuncios imagenes",
+    "children": [
+      "flex-layout.row#seccion__anuncios--row-tres-mobil-uno",
+      "flex-layout.row#seccion__anuncios--row-tres-mobil-dos"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "height": 162
+    }
+  },
+  "flex-layout.row#seccion__anuncios--row-tres-mobil-uno": {
+    "title": "Home Seccion col anuncios imagenes",
+    "children": ["image#row__anuncios__tres--uno-row-tres-image"]
+  },
+  "flex-layout.row#seccion__anuncios--row-tres-mobil-dos": {
+    "title": "Home Seccion col anuncios imagenes",
+    "children": [
+      "flex-layout.row#seccion__anuncios--row-tres-mobil-dos-imagen-uno",
+      "flex-layout.row#seccion__anuncios--row-tres-mobil-dos-imagen-dos"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.row#seccion__anuncios--row-tres-mobil-dos-imagen-uno": {
+    "title": "Home Seccion col anuncios imagenes",
+    "children": ["image#row__anuncios__tres--dos-row-tres-image"]
+  },
+  "flex-layout.row#seccion__anuncios--row-tres-mobil-dos-imagen-dos": {
+    "title": "Home Seccion col anuncios imagenes",
+    "children": ["image#row__anuncios__tres--tres-row-tres-image"]
+  }
+}

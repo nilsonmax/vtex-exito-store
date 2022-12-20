@@ -1,28 +1,22 @@
 {
   ////////////////////////////////////////////////////// Minicart
   "minicart.v2#header__desktop": {
-    "title": "Header Minicart",
     "children": ["minicart-base-content"],
     "props": {
-      "blockClass": "header__desktop",
       "MinicartIcon": "icon-cart",
-      // "variation": "popup",
       "variation": "link",
       "linkVariationUrl": "/cart",
-      "itemCounMode": "total",
+      "itemCountMode": "total",
       "quantityDisplay": "always"
     }
   },
   ////////////////////////////////////////////////////// Minicart
   "minicart.v2": {
-    "title": "Header Minicart",
     "children": ["minicart-base-content"],
     "props": {
-      // "blockClass": "header__desktop",
       "MinicartIcon": "icon-cart",
       "variation": "popup",
-      // "linkVariationUrl": "/cart",
-      "itemCounMode": "total",
+      "itemCountMode": "total",
       "quantityDisplay": "always"
     }
   },
@@ -37,6 +31,7 @@
     }
   },
   "minicart-base-content": {
+    "title": "Contenido del Minicart",
     "blocks": ["minicart-empty-state"],
     "children": [
       "minicart-product-list",
@@ -46,15 +41,18 @@
     ]
   },
   "minicart-empty-state": {
+    "title": "Minicart icono de estado",
     "children": ["flex-layout.row#minicart__empty"]
   },
   "flex-layout.row#minicart__empty": {
+    "title": "Minicart icono de estado",
     "children": [
       "icon-cart#minicart__empty--icon",
       "rich-text#minicart__empty--text"
     ]
   },
   "rich-text#minicart__empty--text": {
+    "title": "Texto del Minicart sin productos",
     "props": {
       "text": "En exito.com tenemos más de 100 mil productos para que elijas los que más te gustan.",
       "textAlignment": "CENTER",
@@ -62,32 +60,31 @@
     }
   },
   "icon-cart#minicart__empty--icon": {
+    "title": "Tamaño Icono del Minicart sin productos",
     "props": { "size": 100 }
   },
   "flex-layout.row#summary__footer": {
-    "children": [
-      "minicart-summary"
-    ]
+    "title": "Footer Minicart",
+    "children": ["minicart-summary"]
   },
   "flex-layout.row#minicart__footer": {
-    "children": [
-       "minicart-checkout-button"
-    ]
+    "title": "Footer botón checkout Minicart",
+    "children": ["minicart-checkout-button"]
   },
   "flex-layout.row#promo__footer": {
-    "children": [
-      "rich-text#promo"
-    ]
+    "title": "Footer texto promo Minicart",
+    "children": ["rich-text#promo"]
   },
   "rich-text#promo": {
+    "title": "Footer texto promo Minicart",
     "props": {
-      "text": "Aprovecha en descuento  dia sin IVA",
+      "text": "Aprovecha en descuento dia sin IVA",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
-      // "font": "t-heading-1"
     }
   },
   "minicart-product-list": {
+    "title": "Lista de productos del Minicart",
     "blocks": ["product-list#minicart"]
   }
 }

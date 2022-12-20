@@ -14,7 +14,8 @@
     ],
     "props": {
       "blockClass": "home__section--images",
-      "marginLeft": 2
+      "marginLeft": 2,
+      "marginTop": 10
     }
   }
 }

@@ -13,8 +13,8 @@
   },
   "rich-text#mobile--categorias__container--title": {
     "props": {
-      "text": "#### Compra por categorías",
-      "blockClass": "mobile--categorias__container--title"
+      "text": " Compra por categorías",
+      "blockClass": "categorias__container--title"
     }
   },
   "flex-layout.row#mobile--categorias__container": {
@@ -22,141 +22,141 @@
   },
   "flex-layout.col#mobile--categorias__container--list": {
     "children": [
-      "flex-layout.row#container__list--one",
-      "flex-layout.row#container__list--one-two",
-      "flex-layout.row#container__list--two",
-      "flex-layout.row#container__list--two-two"
+      "flex-layout.row#mobile__container__list--one",
+      "flex-layout.row#mobile__container__list--one-two",
+      "flex-layout.row#mobile__container__list--two",
+      "flex-layout.row#mobile__container__list--two-two"
     ]
   },
-  "flex-layout.row#container__list--one": {
+  "flex-layout.row#mobile__container__list--one": {
    "children": [
-      "flex-layout.col#list__one--item-1",
-      "flex-layout.col#list__one--item-2",
-      "flex-layout.col#list__one--item-3"
-      // "flex-layout.col#list__one--item-4",
-      // "flex-layout.col#list__one--item-5",
-      // "flex-layout.col#list__one--item-6"
+      "flex-layout.col#mobile__list__one--item-1",
+      "flex-layout.col#mobile__list__one--item-2",
+      "flex-layout.col#mobile__list__one--item-3"
+      // "flex-layout.col#mobile__list__one--item-4",
+      // "flex-layout.col#mobile__list__one--item-5",
+      // "flex-layout.col#mobile__list__one--item-6"
     ],
     "props": {
       "blockClass": "home__seccion--mobile--categorias",
       "preserveLayoutOnMobile": "true"
     }
   },
-  "flex-layout.row#container__list--one-two": {
+  "flex-layout.row#mobile__container__list--one-two": {
    "children": [
-      // "flex-layout.col#list__one--item-1",
-      // "flex-layout.col#list__one--item-2",
-      // "flex-layout.col#list__one--item-3",
-      "flex-layout.col#list__one--item-4",
-      "flex-layout.col#list__one--item-5",
-      "flex-layout.col#list__one--item-6"
+      // "flex-layout.col#mobile__list__one--item-1",
+      // "flex-layout.col#mobile__list__one--item-2",
+      // "flex-layout.col#mobile__list__one--item-3",
+      "flex-layout.col#mobile__list__one--item-4",
+      "flex-layout.col#mobile__list__one--item-5",
+      "flex-layout.col#mobile__list__one--item-6"
     ],
     "props": {
       "blockClass": "home__seccion--mobile--categorias",
       "preserveLayoutOnMobile": "true"
     }
   },
-  "flex-layout.col#list__one--item-1": {
+  "flex-layout.col#mobile__list__one--item-1": {
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__1--image", "rich-text#item__1--title"]
+    "children": ["image#mobile__item__1--image", "rich-text#mobile--item__1--title"]
   },
-  "image#item__1--image": {
+  "image#mobile__item__1--image": {
     "title": "item__1--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-1.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__1--title": {
+  "rich-text#mobile--item__1--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Navidad"
     }
   },
-  "flex-layout.col#list__one--item-2": {
+  "flex-layout.col#mobile__list__one--item-2": {
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__2--image", "rich-text#item__2--title"]
+    "children": ["image#mobile__item__2--image", "rich-text#mobile--item__2--title"]
   },
-  "image#item__2--image": {
+  "image#mobile__item__2--image": {
     "title": "item__2--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-2.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__2--title": {
+  "rich-text#mobile--item__2--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Mercado"
     }
   },
-  "flex-layout.col#list__one--item-3": {
+  "flex-layout.col#mobile__list__one--item-3": {
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__3--image", "rich-text#item__3--title"]
+    "children": ["image#mobile__item__3--image", "rich-text#mobile--item__3--title"]
   },
-  "image#item__3--image": {
+  "image#mobile__item__3--image": {
     "title": "item__3--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-3.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__3--title": {
+  "rich-text#mobile--item__3--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Moda"
     }
   },
-  "flex-layout.col#list__one--item-4": {
+  "flex-layout.col#mobile__list__one--item-4": {
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__4--image", "rich-text#item__4--title"]
+    "children": ["image#mobile__item__4--image", "rich-text#mobile--item__4--title"]
   },
-  "image#item__4--image": {
+  "image#mobile__item__4--image": {
     "title": "item__4--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-4.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__4--title": {
+  "rich-text#mobile--item__4--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Celulares"
     }
   },
-  "flex-layout.col#list__one--item-5": {
+  "flex-layout.col#mobile__list__one--item-5": {
     "title": "list item--image",
     "props": {
       "blockClass": "list__one--item",
@@ -164,79 +164,79 @@
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__5--image", "rich-text#item__5--title"]
+    "children": ["image#mobile__item__5--image", "rich-text#mobile--item__5--title"]
   },
-  "image#item__5--image": {
+  "image#mobile__item__5--image": {
     "title": "item__5--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-5.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__5--title": {
+  "rich-text#mobile--item__5--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Televisores"
     }
   },
-  "flex-layout.col#list__one--item-6": {
+  "flex-layout.col#mobile__list__one--item-6": {
     "props": {
       "blockClass": "list__one--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__6--image", "rich-text#item__6--title"]
+    "children": ["image#mobile__item__6--image", "rich-text#mobile--item__6--title"]
   },
-  "image#item__6--image": {
+  "image#mobile__item__6--image": {
     "title": "item__6--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-6.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__6--title": {
+  "rich-text#mobile--item__6--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Computadores"
     }
   },
-  "flex-layout.row#container__list--two": {
+  "flex-layout.row#mobile__container__list--two": {
     "props": {
       "blockClass": "container__list--two",
       "preserveLayoutOnMobile": "true"
     },
     "children": [
-      "flex-layout.col#list__two--item-7",
-      "flex-layout.col#list__two--item-8",
-      "flex-layout.col#list__two--item-9"
-      // "flex-layout.col#list__two--item-10",
-      // "flex-layout.col#list__two--item-11",
-      // "flex-layout.col#list__two--item-12"
+      "flex-layout.col#mobile__list__two--item-7",
+      "flex-layout.col#mobile__list__two--item-8",
+      "flex-layout.col#mobile__list__two--item-9"
+      // "flex-layout.col#mobile__list__two--item-10",
+      // "flex-layout.col#mobile__list__two--item-11",
+      // "flex-layout.col#mobile__list__two--item-12"
     ]
   },
-  "flex-layout.row#container__list--two-two": {
+  "flex-layout.row#mobile__container__list--two-two": {
     "title": "List item--categories two-two",
     "props": {
       "blockClass": "container__list--two",
       "preserveLayoutOnMobile": "true"
     },
     "children": [
-      // "flex-layout.col#list__two--item-7",
-      // "flex-layout.col#list__two--item-8",
-      // "flex-layout.col#list__two--item-9"
-      "flex-layout.col#list__two--item-10",
-      "flex-layout.col#list__two--item-11",
-      "flex-layout.col#list__two--item-12"
+      // "flex-layout.col#mobile__list__two--item-7",
+      // "flex-layout.col#mobile__list__two--item-8",
+      // "flex-layout.col#mobile__list__two--item-9"
+      "flex-layout.col#mobile__list__two--item-10",
+      "flex-layout.col#mobile__list__two--item-11",
+      "flex-layout.col#mobile__list__two--item-12"
     ]
   },
-  "flex-layout.col#list__two--item-7": {
+  "flex-layout.col#mobile__list__two--item-7": {
     "title": "List item--image",
     "props": {
       "blockClass": "list__two--item",
@@ -244,25 +244,25 @@
       "textPosition": "center",
       "font": "t-heading-7"
     },
-    "children": ["image#item__7--image", "rich-text#item__7--title"]
+    "children": ["image#mobile__item__7--image", "rich-text#mobile--item__7--title"]
   },
-  "image#item__7--image": {
+  "image#mobile__item__7--image": {
     "title": "item__7--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-7.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__7--title": {
+  "rich-text#mobile--item__7--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Electrodomésticos"
     }
   },
-  "flex-layout.col#list__two--item-8": {
+  "flex-layout.col#mobile__list__two--item-8": {
     "title": "List item--image two",
     "props": {
       "blockClass": "list__two--item",
@@ -270,121 +270,121 @@
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__8--image", "rich-text#item__8--title"]
+    "children": ["image#mobile__item__8--image", "rich-text#mobile--item__8--title"]
   },
-  "image#item__8--image": {
+  "image#mobile__item__8--image": {
     "title": "item__8--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-8.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__8--title": {
+  "rich-text#mobile--item__8--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Mundo cocina"
     }
   },
-  "flex-layout.col#list__two--item-9": {
+  "flex-layout.col#mobile__list__two--item-9": {
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__9--image", "rich-text#item__9--title"]
+    "children": ["image#mobile__item__9--image", "rich-text#mobile--item__9--title"]
   },
-  "image#item__9--image": {
+  "image#mobile__item__9--image": {
     "title": "item__9--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-9.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__9--title": {
+  "rich-text#mobile--item__9--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Colchones"
     }
   },
-  "flex-layout.col#list__two--item-10": {
+  "flex-layout.col#mobile__list__two--item-10": {
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__10--image", "rich-text#item__10--title"]
+    "children": ["image#mobile__item__10--image", "rich-text#mobile--item__10--title"]
   },
-  "image#item__10--image": {
+  "image#mobile__item__10--image": {
     "title": "item__10--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-10.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__10--title": {
+  "rich-text#mobile--item__10--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Deportes"
     }
   },
-  "flex-layout.col#list__two--item-11": {
+  "flex-layout.col#mobile__list__two--item-11": {
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__11--image", "rich-text#item__11--title"]
+    "children": ["image#mobile__item__11--image", "rich-text#mobile--item__11--title"]
   },
-  "image#item__11--image": {
+  "image#mobile__item__11--image": {
     "title": "item__11--image",
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-11.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   },
-  "rich-text#item__11--title": {
+  "rich-text#mobile--item__11--title": {
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Juguetería"
     }
   },
-  "flex-layout.col#list__two--item-12": {
+  "flex-layout.col#mobile__list__two--item-12": {
     "props": {
       "blockClass": "list__two--item",
       "textAlignment": "center",
       "textPosition": "center",
       "font": "t-heading-1"
     },
-    "children": ["image#item__12--image", "rich-text#item__12--title"]
+    "children": ["image#mobile__item__12--image", "rich-text#mobile--item__12--title"]
   },
-  "rich-text#item__12--title": {
+  "rich-text#mobile--item__12--title": {
     "title": "item__12--image",
     "props": {
       "blockClass": "mobile--categorias__container--text",
       "text": "Expovinos"
     }
   },
-  "image#item__12--image": {
+  "image#mobile__item__12--image": {
     "props": {
       "blockClass": "list--item-categories",
       "src": "assets/img/categoria-item-12.webp",
       "link": {
-        "url": "/construccion"
+        "url": "https://nilsonmax--itgloberspartnercl.myvtex.com/cemento?map=ft"
       }
     }
   }
