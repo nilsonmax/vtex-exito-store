@@ -2,7 +2,8 @@
   "flex-layout.row#todo-para-tu-familia--row-dos-desktop": {
     "title": "Home - Sección - row - Todo para tu familia - imágenes",
     "children": [
-      "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-uno"
+      "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-uno",
+      "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-dos"
     ],
     "props": {
       "blockClass": "home__section--anuncio-images",
@@ -13,13 +14,24 @@
     "title": "Home - Sección - row - Todo para tu familia - imágenes uno",
     "children": [
       "image#row__todo-para-tu-familia-dos--uno-row-image",
-      "image#row__todo-para-tu-familia-dos--dos-row-image",
+      "image#row__todo-para-tu-familia-dos--dos-row-image"
+    ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "width": "grow",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#seccion__todo-para-tu-familia-dos--row-desktop-dos": {
+    "title": "Home - Sección - row - Todo para tu familia - imágenes uno",
+    "children": [
       "image#row__todo-para-tu-familia-dos--tres-row-image",
       "image#row__todo-para-tu-familia-dos--cuatro-row-image"
     ],
     "props": {
       "blockClass": "home__section--anuncio-images",
-      "width": "grow"
+      "width": "grow",
+      "preserveLayoutOnMobile": true
     }
   },
   "image#row__todo-para-tu-familia-dos--uno-row-image": {

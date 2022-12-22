@@ -12,7 +12,9 @@
     ],
     "props": {
       "blockClass": "home__section--images",
-      "marginLeft": 2
+      "marginLeft": 4,
+      "marginRight": 2,
+      "preserveLayoutOnMobile": true
     }
   }
 }

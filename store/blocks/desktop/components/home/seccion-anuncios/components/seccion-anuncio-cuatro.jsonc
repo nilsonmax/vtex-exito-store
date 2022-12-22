@@ -18,7 +18,8 @@
     ],
     "props": {
       "blockClass": "home__section--anuncio-images",
-      "width": "grow"
+      "width": "grow",
+      "preserveLayoutOnMobile": true
     }
   },
   "image#row__anuncios__tres--uno-row-cuatro-image": {

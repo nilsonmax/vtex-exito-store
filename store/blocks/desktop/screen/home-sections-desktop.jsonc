@@ -1,7 +1,10 @@
 {
   "flex-layout.row#home__sections#desktop": {
     "title": "Screen Home - row - Home desktop",
-    "children": ["flex-layout.col#home__sections-menu#desktop"]
+    "children": ["flex-layout.col#home__sections-menu#desktop"],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.col#home__sections-menu#desktop": {
     "title": "Screen Home - col - Home desktop",

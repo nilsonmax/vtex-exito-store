@@ -6,7 +6,8 @@
       "flex-layout.col#lo-mejor-en-tecnologia--text__dos"
     ],
     "props": {
-      "blockClass": "flexRowContent--home__section--tecnologia"
+      "blockClass": "flexRowContent--home__section--tecnologia",
+      "preserveLayoutOnMobile": true
     }
   }
 }
