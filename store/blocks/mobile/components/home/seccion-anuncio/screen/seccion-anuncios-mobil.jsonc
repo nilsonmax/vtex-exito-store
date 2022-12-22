@@ -8,28 +8,12 @@
       "flex-layout.row#home__section__mobile--ver-mas",
       "flex-layout.row#seccion__anuncios--row-uno-desktop",
       "flex-layout.row#seccion__anuncios--row-dos-desktop",
-      "flex-layout.row#seccion__anuncios--row-tres-mobil"
-      // "flex-layout.row#seccion__anuncios--row-cuatro-desktop",
-      // "flex-layout.row#seccion__anuncios--row-cinco-desktop",
-      // "flex-layout.row#seccion__anuncios--row-seis-desktop"
+      "flex-layout.row#seccion__anuncios--row-tres-mobil",
+      "flex-layout.row#seccion__anuncios--row-cuatro-desktop",
+      "flex-layout.row#seccion__anuncios--row-cinco-desktop",
+      "flex-layout.row#seccion__anuncios--row-seis-desktop"
     ],
     "props": {
-      // "blockClass": "home__section--images",
-      "marginLeft": 2
-    }
-  },
-  "flex-layout.row#seccion__anuncios-dos--mobil": {
-    "title": "Home Seccion anuncios imagenes",
-    "children": [
-      // "flex-layout.row#seccion__anuncios--row-uno-desktop",
-      // "flex-layout.row#seccion__anuncios--row-dos-desktop",
-      // "flex-layout.row#seccion__anuncios--row-tres-desktop",
-      // "flex-layout.row#seccion__anuncios--row-cuatro-desktop",
-      // "flex-layout.row#seccion__anuncios--row-cinco-desktop",
-      // "flex-layout.row#seccion__anuncios--row-seis-desktop"
-    ],
-    "props": {
-      // "blockClass": "home__section--images",
       "marginLeft": 2
     }
   }

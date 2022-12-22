@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#las-mejores-ofertas-mobile": {
+    "title": " Screen Las mejores ofertas - row principal",
+    "children": ["flex-layout.col#las-mejores-ofertas-mobile"]
+  },
+  "flex-layout.col#las-mejores-ofertas-mobile": {
+    "title": "Las mejores ofertas desktop",
+    "children": [
+      "flex-layout.row#las-mejores-ofertas",
+      "flex-layout.row#seccion__las-mejores-ofertas-uno--row-desktop",
+      "flex-layout.row#seccion__las-mejores-ofertas-dos--row-mobile"
+    ],
+    "props": {
+      "blockClass": "flexRowContent--home__section--tecnologia"
+    }
+  }
+}

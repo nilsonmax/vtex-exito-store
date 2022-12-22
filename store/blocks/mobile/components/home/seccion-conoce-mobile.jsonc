@@ -11,7 +11,6 @@
     "children": ["slider-layout#home__slider--list-info1"],
     "props": {
       "preload": true,
-      // "height": 100,
       "images": [
         {
           "image": "assets/img/home-seccion-conoce-1.webp",
@@ -43,11 +42,10 @@
       "infinite": true,
       "blockClass": "home__slider--mobile",
       "fullWidth": false,
-      "navigationStep":1,
-      "stopOnHover":true,
+      "navigationStep": 1,
+      "stopOnHover": true,
       "autoplay": {
         "timeout": 3000
-        // "stopOnHover": true
       }
     }
   }

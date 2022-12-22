@@ -2,7 +2,8 @@
   "flex-layout.row#electrodomesticos-para-tu-hogar--row-dos-desktop": {
     "title": "Home Sección row - imágenes electrodomésticos para tu hogar ",
     "children": [
-      "flex-layout.row#seccion__electrodomesticos-para-tu-hogar-dos--row-desktop-uno"
+      "flex-layout.row#seccion__electrodomesticos-para-tu-hogar-dos--row-desktop-uno",
+      "flex-layout.row#seccion__electrodomesticos-para-tu-hogar-dos--row-desktop-dos"
     ],
     "props": {
       "blockClass": "home__section--anuncio-images",
@@ -13,13 +14,24 @@
     "title": "Home Sección col - imágenes electrodomésticos para tu hogar ",
     "children": [
       "image#row__electrodomesticos-para-tu-hogar-dos--uno-row-image",
-      "image#row__electrodomesticos-para-tu-hogar-dos--dos-row-image",
+      "image#row__electrodomesticos-para-tu-hogar-dos--dos-row-image"
+      ],
+    "props": {
+      "blockClass": "home__section--anuncio-images",
+      "width": "grow",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#seccion__electrodomesticos-para-tu-hogar-dos--row-desktop-dos": {
+    "title": "Home Sección col - imágenes electrodomésticos para tu hogar ",
+    "children": [
       "image#row__electrodomesticos-para-tu-hogar-dos--tres-row-image",
       "image#row__electrodomesticos-para-tu-hogar-dos--cuatro-row-image"
     ],
     "props": {
       "blockClass": "home__section--anuncio-images",
-      "width": "grow"
+      "width": "grow",
+      "preserveLayoutOnMobile": true
     }
   },
   "image#row__electrodomesticos-para-tu-hogar-dos--uno-row-image": {

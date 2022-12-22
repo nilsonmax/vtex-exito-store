@@ -6,7 +6,8 @@
     ],
     "props": {
       "blockClass": "home__section--tecnologia-images",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "width": "grow"
     }
   },
   "flex-layout.row#seccion__las-mejores-ofertas-uno--row-desktop-uno": {
@@ -14,7 +15,12 @@
     "children": [
       "image#row__las-mejores-ofertas-uno--uno-row-image",
       "image#row__las-mejores-ofertas-uno--dos-row-image"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--tecnologia-images",
+      "horizontalAlign": "center",
+      "width": "grow"
+    }
   },
   "image#row__las-mejores-ofertas-uno--uno-row-image": {
     "title": "Home - Sección image - las mejores ofertas uno - imagen uno",

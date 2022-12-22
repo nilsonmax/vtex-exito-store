@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#seccion__las-mejores-ofertas-dos--row-mobile": {
+    "title": "Home - Sección - row las mejores ofertas dos - imágenes",
+    "children": [
+      "flex-layout.row#seccion__las-mejores-ofertas-dos--row-mobile-uno",
+      "flex-layout.row#seccion__las-mejores-ofertas-dos--row-mobile-dos"
+    ],
+    "props": {
+      "blockClass": "home__section--tecnologia-images",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#seccion__las-mejores-ofertas-dos--row-mobile-uno": {
+    "title": "Home - Sección - row tres - las mejores ofertas dos - imágenes",
+    "children": [
+      "image#row__las-mejores-ofertas-dos--uno-row-image",
+      "image#row__las-mejores-ofertas-dos--dos-row-image"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#seccion__las-mejores-ofertas-dos--row-mobile-dos": {
+    "title": "Home - Sección - row cuatro - las mejores ofertas dos - imágenes",
+    "children": [
+      "image#row__las-mejores-ofertas-dos--tres-row-image",
+      "image#row__las-mejores-ofertas-dos--cuatro-row-image"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  }
+}

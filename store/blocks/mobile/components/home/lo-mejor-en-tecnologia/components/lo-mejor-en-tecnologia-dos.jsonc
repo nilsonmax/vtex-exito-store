@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#seccion__lo-mejor-en-tecnologia-dos--row-mobile": {
+    "title": "Home Sección - row - Lo mejor en tecnología dos - imágenes",
+    "children": [
+      "flex-layout.row#seccion__lo-mejor-en-tecnologia-dos--row-mobile-uno",
+      "flex-layout.row#seccion__lo-mejor-en-tecnologia-dos--row-mobile-dos"
+    ],
+    "props": {
+      "blockClass": "home__section--tecnologia-images",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#seccion__lo-mejor-en-tecnologia-dos--row-mobile-uno": {
+    "title": "Home Sección - row - Lo mejor en tecnologia dos - imágenes",
+    "children": [
+      "image#row__lo-mejor-en-tecnologia-dos__tres--uno-row-image",
+      "image#row__lo-mejor-en-tecnologia-dos__tres--dos-row-image"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home__section--tecnologia-images",
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#seccion__lo-mejor-en-tecnologia-dos--row-mobile-dos": {
+    "title": "Home Sección - row - Lo mejor en tecnologia dos - imágenes",
+    "children": ["image#row__lo-mejor-en-tecnologia-dos__tres--tres-row-image"],
+    "props": {
+      "blockClass": "home__section--tecnologia-images",
+      "width": "grow"
+    }
+  }
+ }

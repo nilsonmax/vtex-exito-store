@@ -34,6 +34,13 @@
   padding: 0;
 }
 
+.imageElementLink--home__tecnologia--image {
+  max-width: 1280px;
+  /* max-width: 90%; */
+  margin: 0;
+  padding: 0;
+}
+
 .imageElement--home__tecnologia--image-1 {
   width: 728px;
 }
@@ -48,19 +55,6 @@
 
 .imageElement--home__tecnologia--image-2-2 {
   width: 631px;
-}
-.imageElement--home__moda-y-accesorios--image-2-1 {
-  width: 560px;
-}
-.imageElement--home__moda-y-accesorios--image-2-2 {
-  width: 336px;
-  margin-left: 15px;
-}
-
-.imageElement--home__moda-y-accesorios--image-2-3 {
-  width: 336px;
-  margin-left: 15px;
-  margin-top: 10px;
 }
 
 .logoContainer {
