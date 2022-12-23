@@ -1,0 +1,65 @@
+/************ product ***********/
+.wrapper--go__checkout {
+    width: 100%;
+}
+
+.paragraph--go__checkout {
+    border          : 1px solid var(--primary-color-button) !important;
+    background-color: #fff4c3 !important;
+    border-radius   : 16px;
+    margin          : 0;
+    margin-top      : 15px;
+    height          : 45px;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    cursor          : pointer;
+}
+
+.paragraph--go__checkout:hover {
+    background-color: #fcdf5f !important;
+    border          : 1px solid #f78523 !important;
+    color           : white !important;
+}
+
+.link--go__checkout {
+    text-decoration: none;
+    color          : #f78523;
+    font-size      : 14px;
+    font-weight    : 400;
+}
+
+.paragraph--vendido-por {
+    color      : #373737;
+    font-size  : 14px;
+    line-height: normal;
+}
+
+.paragraph--llevalos_con__puntos-colombia {
+    font-size  : 14px;
+    color      : #222;
+    font-weight: 600;
+}
+
+.paragraph--vendido-por-mobile {
+    font-size : 10px;
+    text-align: center;
+    color     : #414141;
+}
+
+.container--vendido-por-mobile {
+    display        : flex;
+    justify-content: center;
+}
+
+.container--sub-container--titles__product {
+    margin-left: 50px;
+}
+
+.paragraph--title__descripcion-producto {
+    color         : #222;
+    font-size     : 18px;
+    font-weight   : 500;
+    padding-left  : 30px;
+    vertical-align: -webkit-baseline-middle;
+}

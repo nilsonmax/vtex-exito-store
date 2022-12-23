@@ -123,13 +123,13 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
 
 ## Custom Apps (Componentes custom que deben instalarse con la tienda)
 
-1. "itgloberspartnercl.whatsapp-button"
-2. "itgloberspartnercl.bullets-diagramation"
-3. "itgloberspartnercl.add-to-cart-info"
-4. "itgloberspartnercl.custom-department-search"
-4. "itgloberspartnercl.pdf-reader"
-5. "itgloberspartnercl.quick-order"
-6. "itgloberspartnercl.special-diagramation"
+1. ["itgloberspartnercl.whatsapp-button"](https://github.com/nilsonmax/itgloberspartnercl-whatsapp-button)
+2. ["itgloberspartnercl.bullets-diagramation"](https://github.com/nilsonmax/itgloberspartnercl-categories-diagramation)
+3. ["itgloberspartnercl.add-to-cart-info"](https://github.com/nilsonmax/itgloberspartnercl-add-to-cart-info)
+4. ["itgloberspartnercl.custom-department-search"](https://github.com/nilsonmax/itgloberspartnercl-custom-deparment-search)
+4. ["itgloberspartnercl.pdf-reader"](https://github.com/nilsonmax/itgloberspartnercl-html-pdf)
+5. ["itgloberspartnercl.quick-order"](https://github.com/nilsonmax/itgloberspartnercl-quick-order)
+6. ["itgloberspartnercl.special-diagramation"](https://github.com/nilsonmax/itgloberspartnercl-custom-diagramation-template)
 
 ## Contributors
 

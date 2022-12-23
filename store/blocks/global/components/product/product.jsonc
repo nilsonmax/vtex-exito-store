@@ -5,7 +5,6 @@
       "flex-layout.row#product__breadcrumb",
       "vtex.store-components:product-name",
       "flex-layout.row#product-identifier",
-      "flex-layout.row#product-rating-inline",
       "flex-layout.row#product__info",
       "shelf.relatedProducts#tambien-te-puede-interesar",
       "shelf.relatedProducts#ultimos-productos-navegados"
@@ -13,9 +12,12 @@
   },
   "shelf.relatedProducts#tambien-te-puede-interesar": {
     "title": " Product - También te puede interesar",
-    "blocks": ["product-summary.shelf#slider--tambien-te-puede-interesar"],
+    "blocks": [
+      "product-summary.shelf#slider--tambien-te-puede-interesar"
+    ],
     "props": {
       "recommendation": "similars",
+      "blockClass": "shelf--tambien-te-puede-interesar",
       "productList": {
         "titleText": "También te puede interesar",
         "itemsPerPage": 3
@@ -24,32 +26,32 @@
   },
   "shelf.relatedProducts#ultimos-productos-navegados": {
     "title": "Product - Últimos productos navegado",
-    "blocks": ["product-summary.shelf#slider--ultimos-productos-navegados"],
+    "blocks": [
+      "product-summary.shelf#slider--ultimos-productos-navegados"
+    ],
     "props": {
       "recommendation": "view", //similars, suggestions, accessories (these first three depend on the product's data given in the admin's catalog) and view, buy, viewandBought
+      "blockClass": "shelf--ultimos-productos-navegados",
       "productList": {
         "titleText": "Últimos productos navegados",
         "itemsPerPage": 3
       }
     }
   },
-  "flex-layout.row#product-rating-inline": {
-    "title": "Row - Product PDP - product rating inline",
-    "children": ["product-rating-summary"],
-    "props": {
-      "blockClass": "product__name"
-    }
-  },
   "flex-layout.row#product__breadcrumb": {
     "title": "Row - Product PDP - product breadcrumb",
-    "children": ["flex-layout.col#product__breadcrumb"],
+    "children": [
+      "flex-layout.col#product__breadcrumb"
+    ],
     "props": {
       "blockClass": "product__breadcrumb"
     }
   },
   "flex-layout.col#product__breadcrumb": {
     "title": "Col - Product PDP - product breadcrumb",
-    "children": ["breadcrumb"],
+    "children": [
+      "breadcrumb"
+    ],
     "props": {
       "blockClass": "product__breadcrumb"
     }
@@ -62,7 +64,9 @@
   },
   "flex-layout.row#product-identifier": {
     "title": "Product PDP - product identifier",
-    "children": ["product-identifier.product"],
+    "children": [
+      "product-identifier.product"
+    ],
     "props": {
       "blockClass": "product__name"
     }
@@ -89,7 +93,9 @@
   },
   "flex-layout.row#disclosure__product-info": {
     "title": "disclosure - product details",
-    "children": ["flex-layout.col#disclosure__product-info"],
+    "children": [
+      "flex-layout.col#disclosure__product-info"
+    ],
     "props": {
       "blockClass": "disclosure__product-info"
     }
@@ -115,27 +121,96 @@
     "title": "Col - Product PDP - product info data",
     "children": [
       "product-price",
-      "product-separator",
+      "flex-layout.row#llevalos_con__puntos-colombia",
+      "sku-selector",
       "product-quantity",
       "add-to-cart-button",
       "flex-layout.row#checkout__button",
       "modal-trigger#add__to--card-info",
-      "flex-layout.row#seccion-vendios-por",
-      "share"
+      "flex-layout.row#seccion-vendidos-por",
+      "flex-layout.row#product__share"
     ],
     "props": {
       "blockClass": "product__info--data"
     }
   },
+  /////////////////// puntos colombia
+  "flex-layout.row#llevalos_con__puntos-colombia": {
+    "title": "Row - container - vendidos por",
+    "children": [
+      "rich-text#llevalos_con__puntos-colombia",
+      "flex-layout.row#llevalos_con__puntos-colombia__logo"
+    ],
+    "props": {
+      "blockClass": "llevalos_con__puntos-colombia",
+      "colSizing": "auto",
+      "fullWidth": false
+    }
+  },
+  "flex-layout.row#llevalos_con__puntos-colombia__logo": {
+    "title": "Row - container - vendidos por",
+    "children": [
+      "logo#llevalos_con__puntos-colombia",
+      "logo#ayuda-llevalos_con__puntos-colombia"
+    ],
+    "props": {
+      "blockClass": "llevalos_con__puntos-colombia__logo",
+      "colSizing": "auto",
+      "fullWidth": false
+    }
+  },
+  "logo#llevalos_con__puntos-colombia": {
+    "title": "Logo - llevalos con puntos colombia",
+    "props": {
+      "blockClass": "llevalos_con__puntos-colombia__logo",
+      "url": "assets/img/llevalos_con__puntos-colombia__logo.png"
+    }
+  },
+  "rich-text#llevalos_con__puntos-colombia": {
+    "title": "Text - llevalos con puntos colombia",
+    "props": {
+      "blockClass": "llevalos_con__puntos-colombia",
+      "text": "Llévalo con 29.999 Puntos Colombia"
+    }
+  },
+  "logo#ayuda-llevalos_con__puntos-colombia": {
+    "title": "Logo - ayuda llevalos con puntos colombia",
+    "props": {
+      "blockClass": "llevalos_con__puntos-colombia__logo",
+      "url": "assets/img/ayuda.svg"
+    }
+  },
+  //////////////////////////////////////////
   "flex-layout.row#checkout__button": {
     "title": "Row - Product PDP - product checkout button",
-    "children": ["rich-text#go__checkout"]
+    "children": [
+      "link#checkout__btn-comprar__ahora"
+    ]
   },
-  "rich-text#go__checkout": {
-    "title": "Row - Product PDP - product text Comprar ahora",
+  "flex-layout.row#product__share": {
+    "title": "Row - Product PDP - product checkout button",
+    "children": [
+      "flex-layout.col#product__share"
+    ],
     "props": {
-      "blockClass": "go__checkout",
-      "text": "[Comprar ahora](/checkout)"
+      "blockClass": "product__share"
+    }
+  },
+  "flex-layout.col#product__share": {
+    "title": "Row - Product PDP - product checkout button",
+    "children": [
+      "share"
+    ],
+    "props": {
+      "blockClass": "product__share"
+    }
+  },
+  "link#checkout__btn-comprar__ahora": {
+    "title": "texto compra",
+    "props": {
+      "blockClass": "checkout__btn-comprar__ahora",
+      "displayMode": "button",
+      "label": " Comprar ahora"
     }
   },
   "share": {
@@ -153,7 +228,9 @@
   },
   "modal-trigger#add__to--card-info": {
     "title": "modal-trigger - add to card info",
-    "children": ["modal-layout#add__to--card-info"],
+    "children": [
+      "modal-layout#add__to--card-info"
+    ],
     "props": {
       "customPixelEventName": "addToCart"
     }

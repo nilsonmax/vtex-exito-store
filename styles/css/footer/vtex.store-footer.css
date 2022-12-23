@@ -1,4 +1,4 @@
 .socialNetworksContainer--networks__icons {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
 }

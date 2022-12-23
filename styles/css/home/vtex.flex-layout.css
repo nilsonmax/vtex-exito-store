@@ -5,56 +5,41 @@
 .flexRowContent--home__seccion--categorias,
 .flexRowContent--home__categories {
   max-width: 1280px;
-  margin: 0 auto;
+  margin   : 0 auto;
 }
 
 @media screen and (max-width: 768px) {
+
   .flexRowContent--container__list--two,
   .flexRowContent--home__seccion--categorias {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
   }
 }
 
-/* .flexRow--sub-container--titles__product :global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
-  width: 42% !important; */
-  /* align-items: center; */
-/* } */
-
 .flexRowContent--home__section--anuncio-images {
-  margin: 0 auto;
-  max-width: 1280px;
-  margin-top: 10px;
+  margin       : 0 auto;
+  max-width    : 1280px;
+  margin-top   : 10px;
   margin-bottom: 10px;
 }
-.flexRow--unit-price-cart :global(.vtex-product-list-0-x-unitPriceMeasurementUnit),
-.flexRow--unit-price-cart :global(.vtex-product-list-0-x-currencyCode),
-.flexRow--unit-price-cart :global(.vtex-product-list-0-x-currencyInteger){
-  color: #dc0b13;
-  font-weight: 400;
-}
-.flexRow--price-cart :global(.vtex-product-list-0-x-price){
-  color: #222;
-  font-size: 15px;
-  font-weight: 600;
-  white-space: nowrap;
-}
+
 
 
 .flexRowContent--home__section--moda-y-accesorios-images {
-  margin: 0 auto;
-  max-width: 1280px;
+  margin       : 0 auto;
+  max-width    : 1280px;
   margin-bottom: 10px;
 }
 
 .flexRowContent--home__section--tecnologia-images {
-  margin: 0 auto;
-  max-width: 1280px;
+  margin       : 0 auto;
+  max-width    : 1280px;
   margin-bottom: 10px;
 }
 
 .flexCol--section__one-image {
-  margin: 0;
+  margin     : 0;
   margin-left: 2px;
 }
 
@@ -64,126 +49,46 @@
 .flexColChild--home__section--todo-para-tu-familia--text__ver-todo,
 .flexColChild--home__section--electrodomesticos-para-tu-hogar--text__ver-todo,
 .flexColChild--home__section--lo-mejor-en-tecnologia--text__ver-todo {
-  display: flex;
+  display        : flex;
   justify-content: end;
-  align-items: center;
+  align-items    : center;
+  margin-right   : 13px;
 }
 
 .flexColChild--list__one--item,
 .flexColChild--list__two--item {
-  display: flex;
-  align-items: center;
+  display        : flex;
+  align-items    : center;
   justify-content: center;
-  cursor: pointer;
+  cursor         : pointer;
 }
 
-.flexColChild--product__info--data {
-  height: auto !important;
-  width: 97%;
-}
-
-.flexColChild--product__info--data :global(.vtex-button) {
-  border-radius: 15px;
-}
-
-.flexRow--home__slider--celumania-parte-dos{
-  display:flex;
+.flexRow--home__slider--celumania-parte-dos {
+  display        : flex;
   justify-content: center;
-  align-items:flex-end;
-  margin-left: 3px;
+  align-items    : flex-end;
+  margin-left    : 3px;
 }
+
 .flexRow--home__slider--celumania-parte-dos :global(.vtex-button) {
-  position: relative;
-  height: 47px;
-  outline: none;
+  position     : relative;
+  height       : 47px;
+  outline      : none;
   border-radius: 12px;
-  width: 160px;
+  width        : 160px;
 }
+
 @media screen and (max-width: 768px) {
   .flexRow--home__slider--celumania-parte-dos :global(.vtex-button) {
-    position: relative;
-    height: 47px;
-    outline: none;
+    position     : relative;
+    height       : 47px;
+    outline      : none;
     border-radius: 12px;
-    width: 136px;
-    margin-left: 5px;
+    width        : 136px;
+    margin-left  : 5px;
   }
 }
-/*tambien-te-puede-interesar-images*/
 
-.flexRow--home__slider--ultimos-productos-navegados-parte-dos,
-.flexRow--home__slider--tambien-te-puede-interesar-parte-dos{
-  display:flex;
-  justify-content: center;
-  align-items:flex-end;
-  margin-left: 3px;
-}
-.flexRow--home__slider--ultimos-productos-navegados-parte-dos :global(.vtex-button),
-.flexRow--home__slider--tambien-te-puede-interesar-parte-dos :global(.vtex-button) {
-  position: relative;
-  height: 47px;
-  outline: none;
-  border-radius: 12px;
-  width: 160px;
-}
-@media screen and (max-width: 768px) {
-  .flexRow--home__slider--ultimos-productos-navegados-parte-dos :global(.vtex-button),
-  .flexRow--home__slider--tambien-te-puede-interesar-parte-dos :global(.vtex-button) {
-    position: relative;
-    height: 47px;
-    outline: none;
-    border-radius: 12px;
-    width: 136px;
-    margin-left: 5px;
-  }
-}
 .flexRow--background--prueba {
   background-color: #eaebed;
-}
-
-.flexCol--product__name {
-  overflow: hidden;
-  font-size: 13px;
-  color: var(--primary-text-color);
-  font-weight: 600;
-  margin-bottom: 0;
-  text-decoration: none;
-  padding-left: 10px;
-}
-
-.flexCol--product__name {
-  padding: 0;
-}
-
-.flexCol--disclosure__product-info
-  :global(.vtex-disclosure-layout-1-x-trigger) {
-  border: none;
-  outline: none;
-  background: none;
-  border-bottom: 1px solid #e3e4e6;
-}
-
-.flexColChild--disclosure__product-info
-  :global(.vtex-disclosure-layout-1-x-trigger) {
-  width: 100%;
-}
-.flexColChild--disclosure__product-info
-  :global(.vtex-disclosure-layout-1-x-trigger):hover {
-  width: 100%;
-  background: #ececec;
-}
-
-.flexColChild--disclosure__product-info
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  align-items: center;
-}
-.flexColChild--features__content:global(
-    .vtex-flex-layout-0-x-stretchChildrenWidth
-  ) {
-  align-items: center;
-}
-
-.flexColChild--disclosure__product-info
-  :global(.vtex-disclosure-layout-1-x-content) {
-  padding: 10px 30px;
 }

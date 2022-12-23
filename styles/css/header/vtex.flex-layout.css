@@ -1,11 +1,11 @@
 .flexRowContent--header__desktop :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--header__desktop--order :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: auto !important;
+  width : auto !important;
   height: auto !important;
 }
 
 .flexRowContent--header__desktop,
 .flexRowContent--header__desktop--order {
-  display: flex;
+  display    : flex;
   align-items: center;
 }

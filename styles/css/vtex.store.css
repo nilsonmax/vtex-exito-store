@@ -1,0 +1,25 @@
+:global(.vtex-store__template) {
+    --primary-color-button: #ff572d;
+    --primary-text-color  : #222;
+    --primary-color-focus : #0096c7;
+    --hover-button-color  : #f30;
+    --success-color       : #009e4e;
+    --valid-color         : #a1c10c;
+    --error-color         : #d7263d;
+    --tooltip-color       : #fb8500;
+    --alert-color         : #ffb703;
+    --gray-color          : #777;
+    --dark-gray-color     : #5e5e5e;
+    --light-grey-color    : #cacaca;
+    --white-color         : #fff;
+    --text-regular        : 400;
+    --text-medium         : 500;
+    --text-semi-bold      : 600;
+    --text-light          : lighter;
+    --text-bold           : bold;
+    --footer-text-color   : #8e8e8e;
+}
+
+:global(.vtex-store__template) {
+    overflow-x: hidden;
+}

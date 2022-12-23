@@ -3,14 +3,11 @@
 .logoImage--compras__seguras,
 .logoImage--acumula__puntos,
 .logoImage--pago__linea {
-    width: 55px;
+    width : 55px;
     height: 33px;
 }
-/************ product ***********/
-.logoImage--vendido-por {
-    width: 21px;
-    height: 21px;
-}
+
+
 /***********************************/
 
 .logoContainer--retail__ecommerce,
@@ -18,20 +15,13 @@
 .logoContainer--compras__seguras,
 .logoContainer--acumula__puntos,
 .logoContainer--pago__linea {
-    padding: 0;
-    max-width: 55px;
-    min-width: 55px;
+    padding   : 0;
+    max-width : 55px;
+    min-width : 55px;
     max-height: 33px;
-    margin: auto;
+    margin    : auto;
 }
-/************ product ***********/
-.logoContainer--vendido-por {
-    /* padding-right: 5px; */
-    max-width: 21px;
-    min-width: 21px;
-    max-height: 21px;
-    margin: auto;
-}
+
 /***********************************/
 .container--newsletter,
 .inputGroup--newsletter,
@@ -45,9 +35,9 @@
 
 .imageElement--exclamation {
     aspect-ratio: 41/41;
-    height: 41px;
+    height      : 41px;
     padding-left: 22px;
-    width: 41px;
+    width       : 41px;
 }
 
 /*////////////// mobile //////////////////*/
@@ -56,33 +46,25 @@
 .logoContainer--compras__seguras-mobile,
 .logoContainer--pago__linea-mobile,
 .logoContainer--acumula__puntos-mobile {
-    padding: 0;
-    display: flex;
-    align-items: center;
+    padding        : 0;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
 }
-/************ product ***********/
-.logoContainer--vendido-por-mobile {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 /**************************************/
 .logoImage--retail__ecommerce-mobile,
 .logoImage--400__productos-mobile,
 .logoImage--compras__seguras-mobile,
 .logoImage--pago__linea-mobile,
 .logoImage--acumula__puntos-mobile {
-    width: 40px;
+    width : 40px;
     height: 23px;
 }
 
-/************ product ***********/
-.logoImage--vendido-por-mobile {
-    width: 21px;
-    height: 21px;
-}
+
+
 /*****************************************/
 
 .logoContainer--retail__ecommerce-mobile,
@@ -92,10 +74,7 @@
 .logoContainer--pago__linea-mobile {
     margin: auto;
 }
-/************ product ***********/
-.logoContainer--vendido-por-mobile {
-    margin: auto;
-}
+
 /**************************************/
 
 .logoImage--carulla,
@@ -109,9 +88,9 @@
 .logoContainer--viva,
 .logoContainer--superinter,
 .logoContainer--surtimax {
-    padding: 0;
-    max-width: 50px;
-    min-width: 50px;
+    padding   : 0;
+    max-width : 50px;
+    min-width : 50px;
     max-height: 30px;
-    margin: auto;
+    margin    : auto;
 }

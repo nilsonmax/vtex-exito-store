@@ -1,0 +1,158 @@
+/******** product **************/
+.flexColChild--product__share :global(.vtex-store-components-3-x-shareButtons) {
+    display        : flex;
+    justify-content: space-between;
+    width          : 15%;
+}
+
+.flexColChild--product__share :global(.vtex-store-components-3-x-shareLabel) {
+    display    : flex;
+    align-items: center;
+    width      : 12%;
+    height     : 34.39px;
+}
+
+.flexColChild--product__share :global(.vtex-store-components-3-x-shareContainer) {
+    display: flex;
+}
+
+.flexColChild--product__share :global(.vtex-store-components-3-x-shareContainer) {
+    margin-left: 28px;
+}
+
+.flexRow--product-rating-inline {
+    display        : flex;
+    justify-content: start;
+    align-items    : center;
+    margin-left    : 5px;
+}
+
+.flexRow--product-rating-inline :global(.vtex-reviews-and-ratings-3-x-star--filled) {
+    color: #222222;
+}
+
+.flexRow--product-rating-inline :global(.vtex-reviews-and-ratings-3-x-star--empty) {
+    color: #222222;
+}
+
+.flexRowContent--vendido-por {
+    display        : flex;
+    justify-content: start;
+}
+
+.flexRowContent--llevalos_con__puntos-colombia {
+    display        : flex;
+    justify-content: start;
+}
+
+.flexRowContent--llevalos_con__puntos-colombia__logo :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 28px !important;
+}
+
+.flexRow--unit-price-cart :global(.vtex-product-list-0-x-unitPriceMeasurementUnit),
+.flexRow--unit-price-cart :global(.vtex-product-list-0-x-currencyCode),
+.flexRow--unit-price-cart :global(.vtex-product-list-0-x-currencyInteger) {
+    color      : #dc0b13;
+    font-weight: 400;
+}
+
+.flexRow--price-cart :global(.vtex-product-list-0-x-price) {
+    color      : #222;
+    font-size  : 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.flexColChild--product__info--data :global(.vtex-product-quantity-1-x-quantitySelectorTitle),
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-skuSelectorName) {
+    font-weight   : 600;
+    font-size     : 13px;
+    letter-spacing: 0;
+    color         : #222 !important;
+    opacity       : 1;
+    margin-bottom : 15px !important;
+}
+
+.flexColChild--product__info--data {
+    height     : auto !important;
+    width      : 97%;
+    margin-left: 20px;
+}
+
+.flexColChild--product__info--data :global(.vtex-button) {
+    border-radius: 15px;
+}
+
+/*tambien-te-puede-interesar-images*/
+
+.flexRow--home__slider--ultimos-productos-navegados-parte-dos,
+.flexRow--home__slider--tambien-te-puede-interesar-parte-dos {
+    display        : flex;
+    justify-content: center;
+    align-items    : flex-end;
+    margin-left    : 3px;
+}
+
+.flexRow--home__slider--ultimos-productos-navegados-parte-dos :global(.vtex-button),
+.flexRow--home__slider--tambien-te-puede-interesar-parte-dos :global(.vtex-button) {
+    position     : relative;
+    height       : 47px;
+    outline      : none;
+    border-radius: 12px;
+    width        : 160px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .flexRow--home__slider--ultimos-productos-navegados-parte-dos :global(.vtex-button),
+    .flexRow--home__slider--tambien-te-puede-interesar-parte-dos :global(.vtex-button) {
+        position     : relative;
+        height       : 47px;
+        outline      : none;
+        border-radius: 12px;
+        width        : 136px;
+        margin-left  : 5px;
+    }
+}
+
+.flexCol--product__name {
+    overflow       : hidden;
+    font-size      : 13px;
+    color          : var(--primary-text-color);
+    font-weight    : 600;
+    margin-bottom  : 0;
+    text-decoration: none;
+    padding-left   : 10px;
+}
+
+.flexCol--product__name {
+    padding: 0;
+}
+
+.flexCol--disclosure__product-info :global(.vtex-disclosure-layout-1-x-trigger) {
+    border       : none;
+    outline      : none;
+    background   : none;
+    border-bottom: 1px solid #e3e4e6;
+}
+
+.flexColChild--disclosure__product-info :global(.vtex-disclosure-layout-1-x-trigger) {
+    width: 100%;
+}
+
+.flexColChild--disclosure__product-info :global(.vtex-disclosure-layout-1-x-trigger):hover {
+    width     : 100%;
+    background: #ececec;
+}
+
+.flexColChild--disclosure__product-info :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    align-items: center;
+}
+
+.flexColChild--features__content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    align-items: center;
+}
+
+.flexColChild--disclosure__product-info :global(.vtex-disclosure-layout-1-x-content) {
+    padding: 10px 30px;
+}

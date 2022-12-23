@@ -1,9 +1,7 @@
 .content--product-reviews :global(.vtex-reviews-and-ratings-3-x-star--filled) {
   color: #222222;
 }
+
 .content--product-reviews :global(.vtex-reviews-and-ratings-3-x-star--empty) {
   color: #222222;
 }
-/* .content--disclosure-content {
-  margin-top: 10px;
-} */

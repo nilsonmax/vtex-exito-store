@@ -3,71 +3,80 @@
 .paragraph--pago__linea,
 .paragraph--400__productos,
 .paragraph--retail__ecommerce {
-  color: #373737;
-  font-size: 14px;
-  line-height: normal;
-}
-/************ product ***********/
-.paragraph--vendido-por {
-  color: #373737;
-  font-size: 14px;
+  color      : #373737;
+  font-size  : 14px;
   line-height: normal;
 }
 
- /****************************************/
+
+
+/****************************************/
 .paragraph--ventas__telefonicas--numero,
 .paragraph--ventas__whatsapp--numero,
 .paragraph--servicio__whatsapp--numero,
 .paragraph--linea__nacional--numero,
 .paragraph--medellin__numero,
 .paragraph--1-col__6--2-text {
-    font-size: 13px;
-    font-weight: 600;
-    margin-left: 5px;
-    text-decoration: underline !important;
+  color          : #414141;
+  font-size      : 13px;
+  font-weight    : 600;
+  margin-left    : 5px;
+  text-decoration: underline !important;
 }
+
 .paragraph--ventas__telefonicas,
 .paragraph--ventas__whatsapp,
 .paragraph--servicio__whatsapp,
 .paragraph--linea__nacional,
 .paragraph--medellin {
-    color: #414141;
-    font-size: 13px;
-    font-weight: 500;
-    height: 15px;
+  color      : #414141;
+  font-size  : 13px;
+  font-weight: 500;
+  height     : 15px;
 }
 
 .paragraph--nuestro__newsletter {
-  color: #222;
+  color    : var(--primary-text-color);
   font-size: 15px;
-  height: 17px;
+  height   : 17px;
 }
+
 .wrapper--nuestro__newsletter {
   width: 100% !important;
 }
+
 .paragraph--ofertas__newsletter {
-  color: #222;
+  color    : var(--primary-text-color);
   font-size: 13px;
-  height: 15px;
+  height   : 15px;
 }
 
 .wrapper--checkbox {
-  color: #8e8e8e;
-  cursor: pointer;
-  font-size: 10px;
-  font-weight: 400;
+  color         : #8e8e8e;
+  cursor        : pointer;
+  font-size     : 12px;
+  font-weight   : 400;
   letter-spacing: .00938em;
-  line-height: 1.5;
-  margin: 0;
-  position: relative;
+  line-height   : 2.0;
+  margin        : 0;
+  position      : relative;
 }
+
 .wrapper--checkbox :global(.vtex-rich-text-0-x-link) {
-  color: #222 !important;
+  color          : var(--primary-text-color) !important;
+  font-weight    : 700;
   text-decoration: underline;
 }
+
 @media screen and (max-width: 1025px) {
   .paragraph--checkbox {
-      width: 50%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph--checkbox {
+    width: 100%;
   }
 }
 
@@ -76,24 +85,24 @@
 }
 
 .paragraph--app {
-  border-left: 2px solid #d3d3d3;
-  color: #222;
-  font-size: 23px;
-  font-weight: 700;
-  margin: 0 0 0 15px;
+  border-left : 2px solid #d3d3d3;
+  color       : var(--primary-text-color);
+  font-size   : 23px;
+  font-weight : 700;
+  margin      : 0 0 0 15px;
   padding-left: 15px;
-  text-align: center;
+  text-align  : center;
 }
 
 /*//////////////// mobile ///////////////////*/
 .paragraph--app__mobile {
-  border-right: 2px solid #d3d3d3;
-  color: #222;
-  font-size: 23px;
-  font-weight: 700;
-  margin: 0 0 0 15px;
+  border-right : 2px solid #d3d3d3;
+  color        : var(--primary-text-color);
+  font-size    : 23px;
+  font-weight  : 700;
+  margin       : 0 0 0 15px;
   padding-right: 15px;
-  text-align: center;
+  text-align   : center;
 }
 
 .paragraph--retail__ecommerce-mobile,
@@ -101,38 +110,32 @@
 .paragraph--compras__seguras-mobile,
 .paragraph--acumula__puntos-mobile,
 .paragraph--pago__linea-mobile {
-    font-size: 10px;
-    text-align: center;
-    color: #414141;
+  font-size : 10px;
+  text-align: center;
+  color     : #414141;
 }
-/************ product ***********/
-.paragraph--vendido-por-mobile {
-    font-size: 10px;
-    text-align: center;
-    color: #414141;
-}
+
+
 /*****************************/
 .container--retail__ecommerce-mobile,
 .container--400__productos-mobile,
 .container--compras__seguras-mobile,
 .container--acumula__puntos-mobile,
 .container--pago__linea-mobile {
-    display: flex;
-    justify-content: center;
+  display        : flex;
+  justify-content: center;
 }
-/************ product ***********/
-.container--vendido-por-mobile {
-    display: flex;
-    justify-content: center;
-}
+
+
 /******************************/
 .wrapper--mas__informacion {
   max-width: 375px;
-  /* width: 200px; */
+  /* width : 200px; */
 }
+
 .paragraph--mas__informacion {
-  font-size: 13px;
-  font-weight: 600;
+  font-size   : 13px;
+  font-weight : 600;
   margin-right: 15px;
 }
 
@@ -141,18 +144,18 @@
 .paragraph--trigger__exito--com,
 .paragraph--trigger__comunidad,
 .paragraph--trigger__informacion--legal {
-    margin-right: 15px;
-    line-height: 15px !important;
-    color: #222;
-    font-weight: 700;
-    font-size: 13px;
+  margin-right: 15px;
+  line-height : 15px !important;
+  color       : var(--primary-text-color);
+  font-weight : 700;
+  font-size   : 13px;
 }
 
 .paragraph--visita,
 .paragraph--derechos {
-    color: var(--dark-gray-color);
-    font-size: 12px;
-    margin: 0;
+  color    : var(--dark-gray-color);
+  font-size: 12px;
+  margin   : 0;
 }
 
 .paragraph--derechos {
@@ -160,7 +163,7 @@
 }
 
 .paragraph--visita__mobile {
-  color: var(--dark-gray-color);
+  color    : var(--dark-gray-color);
   font-size: 12px;
-  margin: 0;
+  margin   : 0;
 }

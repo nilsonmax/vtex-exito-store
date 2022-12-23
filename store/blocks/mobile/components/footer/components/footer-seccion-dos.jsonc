@@ -31,19 +31,13 @@
     "children": [
       "flex-layout.row#contactanos__mobile",
       "flex-layout.row#contactos__content-mobile"
-    ],
-    "props": {
-      "blockClass": "contactanos__contactos-mobile"
-    }
+    ]
   },
   "flex-layout.row#contactanos__mobile": {
     "title": "Column Contactanos",
     "children": [
       "rich-text#contactanos"
-    ],
-    "props": {
-      "blockClass": "contactanos__mobile"
-    }
+    ]
   },
   "flex-layout.row#contactos__content-mobile": {
     "title": "Row Contactos content",
@@ -72,20 +66,14 @@
     "title": "Section Newsletter",
     "children": [
       "flex-layout.col#newsletter__mobile"
-    ],
-    "props": {
-      "blockClass": "newsletter__mobile"
-    }
+    ]
   },
   "flex-layout.col#newsletter__mobile": {
     "title": "Container Newsletter",
     "children": [
       "flex-layout.row#suscribete",
       "flex-layout.row#newsletter__container"
-    ],
-    "props": {
-      "blockClass": "newsletter__mobile"
-    }
+    ]
   },
   "flex-layout.row#qr__networks-mobile": {
     "children": [

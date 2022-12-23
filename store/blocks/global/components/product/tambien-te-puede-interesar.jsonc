@@ -23,60 +23,52 @@
       "product-summary-price",
       "add-to-cart-button"
     ]
-  },
-  "list-context.product-list#slider--tambien-te-puede-interesar": {
-    "title": "list context - tambien te puede interesar",
-    "blocks": ["product-summary.shelf#slider--tambien-te-puede-interesar"],
-    "children": [
-      "responsive-layout.desktop#tambien-te-puede-interesar--desktop",
-      "responsive-layout.mobile#tambien-te-puede-interesar--mobile"
-    ]
-  },
-  ///////////////////////////// desktop
-  "responsive-layout.desktop#tambien-te-puede-interesar--desktop": {
-    "title": "Component desktop - tambien te puede interesar",
-    "children": ["slider-layout#desktop-tambien-te-puede-interesar"],
-    "props": {
-      "blockClass": "home__responsive"
-    }
-  },
-  ///////////////////////////// desktop
-  "responsive-layout.mobile#tambien-te-puede-interesar--mobile": {
-    "title": "Component mobile - tambien te puede interesar",
-    "children": ["slider-layout#mobile-tambien-te-puede-interesar"],
-    "props": {
-      "blockClass": "home__responsive"
-    }
-  },
-  "slider-layout#desktop-tambien-te-puede-interesar": {
-    "title": "slider - desktop - tambien te puede interesar",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 2,
-        "phone": 2
-      },
-      "infinite": false,
-      "showPaginationDots": "never",
-      "navigationStep": 1,
-      "stopOnHover": true,
-      "blockClass": "home__slider--tambien-te-puede-interesar"
-    }
-  },
-  "slider-layout#mobile-tambien-te-puede-interesar": {
-    "title": "slider - mobile - tambien te puede interesar",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 2,
-        "phone": 2
-      },
-      "infinite": false,
-      "showPaginationDots": "never",
-      "navigationStep": 1,
-      "stopOnHover": true,
-      "showNavigationArrows": "never",
-      "blockClass": "home__slider--tambien-te-puede-interesar-mobile"
-    }
   }
+  // ///////////////////////////// desktop
+  // "responsive-layout.desktop#tambien-te-puede-interesar--desktop": {
+  //   "title": "Component desktop - tambien te puede interesar",
+  //   "children": ["slider-layout#desktop-tambien-te-puede-interesar"],
+  //   "props": {
+  //     "blockClass": "home__responsive"
+  //   }
+  // },
+  // ///////////////////////////// desktop
+  // "responsive-layout.mobile#tambien-te-puede-interesar--mobile": {
+  //   "title": "Component mobile - tambien te puede interesar",
+  //   "children": ["slider-layout#mobile-tambien-te-puede-interesar"],
+  //   "props": {
+  //     "blockClass": "home__responsive"
+  //   }
+  // },
+  // "slider-layout#desktop-tambien-te-puede-interesar": {
+  //   "title": "slider - desktop - tambien te puede interesar",
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 3,
+  //       "tablet": 2,
+  //       "phone": 2
+  //     },
+  //     "infinite": false,
+  //     "showPaginationDots": "never",
+  //     "navigationStep": 1,
+  //     "stopOnHover": true,
+  //     "blockClass": "home__slider--tambien-te-puede-interesar"
+  //   }
+  // },
+  // "slider-layout#mobile-tambien-te-puede-interesar": {
+  //   "title": "slider - mobile - tambien te puede interesar",
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 3,
+  //       "tablet": 2,
+  //       "phone": 2
+  //     },
+  //     "infinite": false,
+  //     "showPaginationDots": "never",
+  //     "navigationStep": 1,
+  //     "stopOnHover": true,
+  //     "showNavigationArrows": "never",
+  //     "blockClass": "home__slider--tambien-te-puede-interesar-mobile"
+  //   }
+  // }
 }

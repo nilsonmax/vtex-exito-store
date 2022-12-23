@@ -9,13 +9,15 @@
   "icon-caret#down": {
     "title": "icon up disclousure footer",
     "props": {
-      "orientation": "up"
+      "orientation": "up",
+      "size": 6
     }
   },
   "icon-caret#up": {
     "title": "icon down disclousure footer",
     "props": {
-      "orientation": "down"
+      "orientation": "down",
+      "size": 6
     }
   },
   "flex-layout.row#footer__desktop--seccion-tres": {

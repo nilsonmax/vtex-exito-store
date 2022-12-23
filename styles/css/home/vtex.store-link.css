@@ -4,10 +4,10 @@
 .link--home__section--todo-para-tu-familia--text__ver-todo,
 .link--home__section--electrodomesticos-para-tu-hogar--text__ver-todo,
 .link--home__section--lo-mejor-en-tecnologia--text__ver-todo {
-  color: rgb(26, 148, 190);
-  border-bottom: 2px solid;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0;
+  color          : rgb(26, 148, 190);
+  border-bottom  : 2px solid;
+  font-size      : 14px;
+  font-weight    : 500;
+  letter-spacing : 0;
   text-decoration: none;
 }

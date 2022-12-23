@@ -2,18 +2,14 @@
   /////////////////////////////////////////////////////// Footer sección 3 - Contiene disclosure
   "flex-layout.row#footer__mobile--section-three": {
     "title": "Footer Section 3",
-    "children": [
-      "flex-layout.col#footer__mobile--section-three"
-    ],
+    "children": ["flex-layout.col#footer__mobile--section-three"],
     "props": {
       "blockClass": "footer__mobile--section-three"
     }
   },
   "flex-layout.col#footer__mobile--section-three": {
     "title": "Column Disclosure layout",
-    "children": [
-      "disclosure-layout#disclosure__mobile"
-    ],
+    "children": ["disclosure-layout#disclosure__mobile"],
     "props": {
       "blockClass": "footer__mobile--section-three"
     }
@@ -32,17 +28,15 @@
       "disclosure-content#comunidad-mobile",
       "disclosure-trigger#informacion__legal-mobile",
       "disclosure-content#informacion__legal-mobile"
-    ],
-    "props": {
-      "blockClass": "disclosure__mobile"
-    }
+    ]
+    // "props": {
+    //   "blockClass": "disclosure__mobile"
+    // }
   },
   ////////////////////////////////////////////////////// Centro de ayuda
   "disclosure-trigger#centro__ayuda-mobile": {
     "title": "Trigger Centro de ayuda",
-    "children": [
-      "flex-layout.row#centro__ayuda-mobile"
-    ],
+    "children": ["flex-layout.row#centro__ayuda-mobile"],
     "props": {
       "blockClass": "centro__ayuda-mobile"
     }
@@ -60,9 +54,7 @@
 
   "disclosure-content#centro__ayuda-mobile": {
     "title": "Content Centro de ayuda",
-    "children": [
-      "flex-layout.col#centro__ayuda-mobile"
-    ],
+    "children": ["flex-layout.col#centro__ayuda-mobile"],
     "props": {
       "blockClass": "centro__ayuda-mobile"
     }
@@ -87,19 +79,14 @@
   ////////////////////////////////////////////////////// exito.com
   "disclosure-trigger#exito__com-mobile": {
     "title": "Trigger exito.com",
-    "children": [
-      "flex-layout.row#exito__com-mobile"
-    ],
+    "children": ["flex-layout.row#exito__com-mobile"],
     "props": {
       "blockClass": "exito__com-mobile"
     }
   },
   "flex-layout.row#exito__com-mobile": {
     "title": "Row exito.com",
-    "children": [
-      "rich-text#trigger__exito--com",
-      "disclosure-state-indicator"
-    ],
+    "children": ["rich-text#trigger__exito--com", "disclosure-state-indicator"],
     "props": {
       "blockClass": "exito__com-mobile"
     }
@@ -107,9 +94,7 @@
 
   "disclosure-content#exito__com-mobile": {
     "title": "Content exito.com",
-    "children": [
-      "flex-layout.col#exito__com-mobile"
-    ],
+    "children": ["flex-layout.col#exito__com-mobile"],
     "props": {
       "blockClass": "exito__com-mobile"
     }
@@ -132,9 +117,7 @@
   ////////////////////////////////////////////////////// Nuestra compañía
   "disclosure-trigger#nuestra__compania-mobile": {
     "title": "Trigger Nuestra compañía",
-    "children": [
-      "flex-layout.row#nuestra__compania-mobile"
-    ],
+    "children": ["flex-layout.row#nuestra__compania-mobile"],
     "props": {
       "blockClass": "nuestra__compania-mobile"
     }
@@ -152,9 +135,7 @@
 
   "disclosure-content#nuestra__compania-mobile": {
     "title": "Content Nuestra compañía",
-    "children": [
-      "flex-layout.col#nuestra__compania-mobile"
-    ],
+    "children": ["flex-layout.col#nuestra__compania-mobile"],
     "props": {
       "blockClass": "nuestra__compania-mobile"
     }
@@ -176,18 +157,14 @@
   ////////////////////////////////////////////////////// Comunidad
   "disclosure-trigger#comunidad-mobile": {
     "title": "Trigger Comunidad",
-    "children": [
-      "flex-layout.row#comunidad-mobile"
-    ],
+    "children": ["flex-layout.row#comunidad-mobile"],
     "props": {
       "blockClass": "comunidad-mobile"
     }
-  },"flex-layout.row#comunidad-mobile": {
+  },
+  "flex-layout.row#comunidad-mobile": {
     "title": "Row Comunidad",
-    "children": [
-      "rich-text#trigger__comunidad",
-      "disclosure-state-indicator"
-    ],
+    "children": ["rich-text#trigger__comunidad", "disclosure-state-indicator"],
     "props": {
       "blockClass": "comunidad-mobile"
     }
@@ -195,19 +172,14 @@
 
   "disclosure-content#comunidad-mobile": {
     "title": "Content Comunidad",
-    "children": [
-      "flex-layout.col#comunidad-mobile"
-    ],
+    "children": ["flex-layout.col#comunidad-mobile"],
     "props": {
       "blockClass": "comunidad-mobile"
     }
   },
   "flex-layout.col#comunidad-mobile": {
     "title": "Content Comunidad",
-    "children": [
-      "link#vivevinos",
-      "link#exploradores__exito"
-    ],
+    "children": ["link#vivevinos", "link#exploradores__exito"],
     "props": {
       "blockClass": "comunidad-mobile"
     }
@@ -215,9 +187,7 @@
   ////////////////////////////////////////////////////// Información legal
   "disclosure-trigger#informacion__legal-mobile": {
     "title": "Trigger Información legal",
-    "children": [
-      "flex-layout.row#informacion__legal-mobile"
-    ],
+    "children": ["flex-layout.row#informacion__legal-mobile"],
     "props": {
       "blockClass": "informacion__legal-mobile"
     }
@@ -235,9 +205,7 @@
 
   "disclosure-content#informacion__legal-mobile": {
     "title": "Content Información legal",
-    "children": [
-      "flex-layout.col#informacion__legal-mobile"
-    ],
+    "children": ["flex-layout.col#informacion__legal-mobile"],
     "props": {
       "blockClass": "informacion__legal-mobile"
     }

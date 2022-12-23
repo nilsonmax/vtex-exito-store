@@ -1,10 +1,10 @@
 .trigger--disclosure__desktop--hidden,
 .trigger--disclosure__desktop--visible {
-  background: transparent;
+  background  : transparent;
   border-color: transparent;
-  padding: 0;
-  border: 0;
-  width: 2px;
+  padding     : 0;
+  border      : 0;
+  width       : 2px;
 }
 
 .trigger--nuestra__compania-mobile--hidden,
@@ -17,14 +17,15 @@
 .trigger--nuestra__compania-mobile--visible,
 .trigger--comunidad-mobile--visible,
 .trigger--informacion__legal-mobile--visible {
-  background: transparent;
-  border-color: transparent;
-  padding: 0;
-  border: 0;
+  background   : transparent;
+  border-color : transparent;
+  padding      : 0;
+  border       : 0;
   border-bottom: 1px solid #dadada;
-  align-items: center;
-  font-weight: 700;
-  font-size: 13px;
+  align-items  : center;
+  font-weight  : 700;
+  font-size    : 13px;
   margin-bottom: 5px;
-  width: 100%;
+  width        : 100%;
+  color        : var(--primary-text-color);
 }
