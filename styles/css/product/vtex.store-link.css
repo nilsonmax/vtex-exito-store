@@ -1,0 +1,26 @@
+.label--checkout__btn-comprar__ahora {
+   /* color          : #f78523 !important; */
+    font-size: 14px;
+    font-weight: 400;
+    text-transform:initial;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+  }
+  .buttonLink--checkout__btn-comprar__ahora {
+    border          : 1px solid var(--primary-color-button) !important;
+    background-color: #fff4c3 !important;
+    border-radius   : 16px;
+    margin          : 0;
+    margin-top      : 15px;
+    height          : 45px;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    cursor          : pointer;
+    color          : #f78523 !important;
+  }
+  .buttonLink--checkout__btn-comprar__ahora:hover {
+    background-color: #fcdf5f !important;
+    border          : 1px solid #f78523 !important;
+    color             : white !important;
+  }

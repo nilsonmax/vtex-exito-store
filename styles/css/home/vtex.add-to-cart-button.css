@@ -1,16 +1,15 @@
 .buttonText::after {
-  content: url(https://nilsonmax--itgloberspartnercl.myvtex.com/arquivos/carrito-blanco.png) !important;
+  content    : url(https://nilsonmax--itgloberspartnercl.myvtex.com/arquivos/carrito-blanco.png) !important;
   margin-left: 5px;
 }
+
 .buttonText {
-  align-items: center;
-  display: flex;
-  font-size: 14px;
-  font-weight: 400;
+  align-items    : center;
+  display        : flex;
+  font-size      : 14px;
+  font-weight    : 400;
   justify-content: center;
-  text-transform: initial;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
-  font-family: Poppins,Helvetica,sans-serif!important;
-  font: normal normal 600 15px/23px Poppins!important;
+  text-transform : initial;
+  letter-spacing : var(--unnamed-character-spacing-0);
+  text-align     : left;
 }

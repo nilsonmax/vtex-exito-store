@@ -1,0 +1,55 @@
+/************ product ***********/
+.logoImage--vendido-por {
+    width : 21px;
+    height: 21px;
+}
+
+.logoImage--llevalos_con__puntos-colombia__logo {
+    width : 21px;
+    height: 21px;
+}
+
+.logoContainer--vendido-por {
+    max-width : 21px;
+    min-width : 21px;
+    max-height: 21px;
+    /* margin    : auto; */
+}
+
+.logoContainer--llevalos_con__puntos-colombia__logo {
+    width     : 21px;
+    height    : 21px;
+    max-width : 21px;
+    min-width : 21px;
+    max-height: 21px;
+    min-height: 21px;
+    /* margin    : auto; */
+}
+
+.logoContainer--vendido-por-mobile {
+    padding        : 0;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.logoImage--vendido-por-mobile {
+    width : 21px;
+    height: 21px;
+}
+
+.logoContainer--vendido-por-mobile {
+    margin: auto;
+}
+
+.productNameContainer--product__name,
+.productBrandContainer--product__brand {
+    margin        : auto;
+    max-width     : 97%;
+    text-transform: capitalize;
+}
+
+.flexCol--product__breadcrumb {
+    margin   : auto;
+    max-width: 97%;
+}

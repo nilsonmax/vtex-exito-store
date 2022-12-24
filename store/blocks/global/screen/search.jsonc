@@ -1,6 +1,8 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"],
+    "blocks": [
+      "search-result-layout"
+    ],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -8,9 +10,10 @@
       }
     }
   },
-
   "store.search#department": {
-    "blocks": ["search-result-layout#department"],
+    "blocks": [
+      "search-result-layout#department"
+    ],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -18,9 +21,10 @@
       }
     }
   },
-
   "store.search#category": {
-    "blocks": ["search-result-layout#category"],
+    "blocks": [
+      "search-result-layout#category"
+    ],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -28,9 +32,10 @@
       }
     }
   },
-
   "store.search#subcategory": {
-    "blocks": ["search-result-layout#subcategory"],
+    "blocks": [
+      "search-result-layout#subcategory"
+    ],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -38,9 +43,10 @@
       }
     }
   },
-
   "store.search#brand": {
-    "blocks": ["search-result-layout#brand"],
+    "blocks": [
+      "search-result-layout#brand"
+    ],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -48,10 +54,10 @@
       }
     }
   },
-
   "filter-navigator.v3#desktop__search-result--filter-navigator": {
     "title": "Filters",
     "props": {
+      "initiallyCollapsed": true,
       "facetOrdering": [
         {
           "key": "brand",
@@ -62,7 +68,6 @@
       "blockClass": "desktop__search-result--filter-navigator"
     }
   },
-
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop#department",
@@ -70,13 +75,11 @@
       "search-not-found-layout"
     ]
   },
-
   "search-not-found-layout": {
     "children": [
       "rich-text#not-found"
     ]
   },
-
   "rich-text#not-found": {
     "props": {
       "text": "Página no encontrada"

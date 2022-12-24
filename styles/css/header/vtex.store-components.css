@@ -1,38 +1,38 @@
 .logoContainer--header__desktop--logo {
-    display: flex;
-    align-items: center;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
-    min-width: 80px;
-    min-height: 35px;
-    padding: 0 1rem;
+    min-width      : 80px;
+    min-height     : 35px;
+    padding        : 0 1rem;
 }
 
 .searchBarContainer,
 .searchBarInnerContainer--header__desktop--search,
 .autoCompleteOuterContainer--header__desktop--search {
-    height: 36px;
+    height : 36px;
     padding: 0;
 }
 
 .autoCompleteOuterContainer--header__desktop :global(.vtex-input-prefix__group) {
-    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
-    height: 36px;
+    box-shadow   : 0 2px 6px rgb(0 0 0 / 16%);
+    height       : 36px;
     border-radius: 10px;
-    border: none;
-    box-sizing: border-box;
+    border       : none;
+    box-sizing   : border-box;
 }
 
 .autoCompleteOuterContainer--header__desktop :global(.vtex-styleguide-9-x-input) {
-    height: 36px;
-    font-size: 14px;
+    height     : 36px;
+    font-size  : 14px;
     font-weight: 500;
-    color:grey;
+    color      : grey;
 }
 
 .autoCompleteOuterContainer--header__desktop :global(.vtex-input__suffix) {
-    height: 36px;
-    padding: 0px 3px 0px 8px;
-    background-color:rgb(103,103,103);
+    height          : 36px;
+    padding         : 0px 3px 0px 8px;
+    background-color: rgb(103, 103, 103);
 }
 
 .autoCompleteOuterContainer--header__desktop :global(.vtex-input-prefix__group) {
@@ -43,6 +43,6 @@
     color: white;
 }
 
-.logoImage--header__menu{
+.logoImage--header__menu {
     margin-top: 12px;
 }

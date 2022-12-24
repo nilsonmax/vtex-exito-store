@@ -176,16 +176,6 @@
       "blockClass":"product-reviews"
     }
   },
-  "disclosure-content#product-info__care-instructions": {
-    "title": "disclosure content",
-    "children": ["rich-text#care-instructions__info"]
-  },
-  "rich-text#care-instructions__info": {
-    "title": "care instruction",
-    "props": {
-      "text": "Las marcas en el cuero son únicas, le dan carácter y personalidad a cada pieza. Para su limpieza, usar un paño suave humedecido con agua y jabón de tocador, frotar suavemente y remover con cuidado. Evitar el contacto con superficies abrasivas. Se recomienda guardar el producto en una bolsa de tela para evitar humedad o acumulación de polvo. No aplicar perfume directamente sobre los productos de cuero para evitar manchas irreversibles y daños en el acabado"
-    }
-  },
   "disclosure-state-indicator#product-info": {
     "props": {
       "Show": "icon#angle--up",

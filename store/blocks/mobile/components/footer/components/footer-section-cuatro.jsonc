@@ -4,10 +4,7 @@
     "title": "Footer Section 4",
     "children": [
       "flex-layout.col#visita__derechos"
-    ],
-    "props": {
-      "blockClass": "footer__mobile--section-fourth"
-    }
+    ]
   },
   "flex-layout.col#visita__derechos": {
     "title": "Section Visita - Derechos",

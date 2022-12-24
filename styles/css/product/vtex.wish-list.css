@@ -1,0 +1,4 @@
+:global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    display        : flex;
+    justify-content: end;
+}

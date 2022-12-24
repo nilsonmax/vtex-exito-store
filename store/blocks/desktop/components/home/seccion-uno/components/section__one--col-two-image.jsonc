@@ -5,8 +5,7 @@
     "children": ["image#col__two--image"],
     "props": {
       "horizontalAlign": "center",
-      "width": "30%",
-      "marginLeft": 2
+      "preserveLayoutOnMobile": true
     }
   },
   "image#col__two--image": {

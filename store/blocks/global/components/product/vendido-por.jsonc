@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#seccion-vendios-por": {
+  "flex-layout.row#seccion-vendidos-por": {
     "title": "Footer Section 1",
     "children": ["flex-layout.col#seccion-vendidos-por"]
   },
@@ -15,7 +15,7 @@
   /////////////////// vendido por
   "flex-layout.row#vendidos-por": {
     "title": "Row - container - vendidos por",
-    "children": ["logo#vendidos-por", "rich-text#vendidos-por"],
+    "children": ["logo#vendidos-por", "rich-text#vendidos-por", "flex-layout.row#product-rating-inline"],
     "props": {
       "blockClass": "vendido-por",
       "colSizing": "auto"
@@ -33,6 +33,15 @@
     "props": {
       "blockClass": "vendido-por",
       "text": "Vendidos por: Exito"
+    }
+  },
+  "flex-layout.row#product-rating-inline": {
+    "title": "Row - Product PDP - product rating inline",
+    "children": [
+      "product-rating-inline"
+    ],
+    "props": {
+        "blockClass": "product-rating-inline"
     }
   },
   /////////// envio
