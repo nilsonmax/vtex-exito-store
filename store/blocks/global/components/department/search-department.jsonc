@@ -193,7 +193,7 @@
     }
   },
   "product-summary-sku-selector": {
-    "title": " sku selectro - card product",
+    "title": " sku selector - card product",
     "props": {
       "hideImpossibleCombinations": false
     }

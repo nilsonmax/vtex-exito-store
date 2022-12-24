@@ -156,3 +156,15 @@
 .flexColChild--disclosure__product-info :global(.vtex-disclosure-layout-1-x-content) {
     padding: 10px 30px;
 }
+
+.flexColChild--card :global(.vtex-button) {
+    position       : relative;
+    height         : 47px;
+    outline        : none;
+    border-radius  : 12px;
+    display        : -webkit-box;
+    display        : -ms-flexbox;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
